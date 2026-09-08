@@ -1,0 +1,73 @@
+{
+  "jobs": [
+    [
+      "coverage",
+      0
+    ],
+    [
+      "cascade",
+      0
+    ],
+    [
+      "network",
+      0
+    ],
+    [
+      "truss",
+      0
+    ],
+    [
+      "coverage",
+      1
+    ],
+    [
+      "cascade",
+      1
+    ],
+    [
+      "network",
+      1
+    ],
+    [
+      "truss",
+      1
+    ],
+    [
+      "coverage",
+      2
+    ],
+    [
+      "cascade",
+      2
+    ],
+    [
+      "network",
+      2
+    ],
+    [
+      "truss",
+      2
+    ],
+    [
+      "network",
+      3
+    ],
+    [
+      "truss",
+      3
+    ],
+    [
+      "network",
+      4
+    ],
+    [
+      "truss",
+      4
+    ]
+  ],
+  "workers": 4,
+  "expected_searches": 6272,
+  "expected_online_evaluations": 1216512,
+  "new_offline_evaluations": 0,
+  "created": 1788890223.2303476
+}

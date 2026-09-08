@@ -1,0 +1,116 @@
+{
+  "smoke": {
+    "passed": true,
+    "blocks": {
+      "coverage/0": {
+        "passed": true,
+        "searches": 4,
+        "independent_endpoints": 4,
+        "fresh_endpoint_checks": 0,
+        "input_source_hashes_verified": true,
+        "matched_initial_populations": true,
+        "validation_only_selection_verified": true,
+        "selected_model_hashes": {
+          "listmle_17.joblib": "8f10cce91605c625ed29c7de39db27538e31f6c38b2a39fa9f27a5f3665a935a",
+          "huber_17.joblib": "51cec61e0005ba4cdbdbdb8b61d2394f5f8583c5409c681fb3a4b4a113d21f69",
+          "rf_17.joblib": "bf4b17e85b1ad3bb35d99913d96f9cdddfbfad13e6577673405217820f5b859e",
+          "rff_gp_17.joblib": "dec9112915211d98832c25e591458150ae472b06656961f583344a585d850482"
+        },
+        "smoke": true
+      },
+      "cascade/0": {
+        "passed": true,
+        "searches": 4,
+        "independent_endpoints": 4,
+        "fresh_endpoint_checks": 0,
+        "input_source_hashes_verified": true,
+        "matched_initial_populations": true,
+        "validation_only_selection_verified": true,
+        "selected_model_hashes": {
+          "listmle_17.joblib": "eff20f39f8a67da535c92648441e0e9487ba4804f0a1102c6aec3422a5fbc0b2",
+          "huber_17.joblib": "e347fd3a10c39fb36711e755b671303b050694d05d5dfc577ff280ea92378444",
+          "rf_17.joblib": "c91a1d856f055b7404e04fbdc32b3e139b41a42831f1efc215bb846aa05b9cce",
+          "rff_gp_17.joblib": "b7ca448215663a1805e2e0dce52173485e9db0dab23a129749d9fb0a204ef9fd"
+        },
+        "smoke": true
+      },
+      "network/0": {
+        "passed": true,
+        "searches": 4,
+        "independent_endpoints": 8,
+        "fresh_endpoint_checks": 8,
+        "input_source_hashes_verified": true,
+        "matched_initial_populations": true,
+        "validation_only_selection_verified": true,
+        "selected_model_hashes": {
+          "listmle_17.joblib": "cc7ee75e2bac313bec493c90050a654adfd2214181c9efb9e92ab4fff729c86e",
+          "huber_17.joblib": "673a1adeec777093ff843af842ddf113aa5c14c34d25cbc98c07aa60fde11ca3",
+          "rf_17.joblib": "6710c718260fa6c976a20a87a312a0f98b3491d42ada3e84485db461aeb76da5",
+          "rff_gp_17.joblib": "9d00f3312027414adbd65078273ad078b827251ff967d9ef64ec38551ad4a048"
+        },
+        "smoke": true
+      },
+      "truss/0": {
+        "passed": true,
+        "searches": 4,
+        "independent_endpoints": 4,
+        "fresh_endpoint_checks": 0,
+        "input_source_hashes_verified": true,
+        "matched_initial_populations": true,
+        "validation_only_selection_verified": true,
+        "selected_model_hashes": {
+          "listmle_17.joblib": "bbb8325e4c6b30ff32b09a581015ee27279d7c96cd17bd7bcd1f868b88b2e5c5",
+          "huber_17.joblib": "4785904c368759132931656320106ccbb3f426af267de12942cd50bd7af125e0",
+          "rf_17.joblib": "12da7d543e00a86c9efdd0078f84369c968378e8faab119ec760c977922756cf",
+          "rff_gp_17.joblib": "11e1c355ec8c73b35371500a57996ae31d96a0de23f7574c4ef3ba1da428e4c0"
+        },
+        "smoke": true
+      }
+    },
+    "searches": 16,
+    "endpoints": 20
+  },
+  "ranknet_replay": {
+    "truss": {
+      "passed": true,
+      "benchmark": "truss",
+      "block": 0,
+      "model_seed": 17,
+      "search_seed": 1001,
+      "objective": 757.069862332656,
+      "evaluations": 256,
+      "note": "Exact archived RankNet endpoint replay; technical validation, excluded from scientific sample."
+    },
+    "network": {
+      "passed": true,
+      "benchmark": "network",
+      "block": 0,
+      "model_seed": 17,
+      "search_seed": 101,
+      "objective": 0.3491,
+      "evaluations": 192,
+      "note": "Exact archived RankNet endpoint replay; technical validation, excluded from scientific sample."
+    },
+    "coverage": {
+      "passed": true,
+      "benchmark": "coverage",
+      "block": 0,
+      "model_seed": 17,
+      "search_seed": 101,
+      "objective": 0.7126785962532038,
+      "evaluations": 96,
+      "note": "Exact archived RankNet endpoint replay; technical validation, excluded from scientific sample."
+    },
+    "cascade": {
+      "passed": true,
+      "benchmark": "cascade",
+      "block": 0,
+      "model_seed": 17,
+      "search_seed": 101,
+      "objective": 0.75,
+      "evaluations": 96,
+      "note": "Exact archived RankNet endpoint replay; technical validation, excluded from scientific sample."
+    }
+  },
+  "note": "Technical checks only; no completed main-series scientific result is claimed."
+}
