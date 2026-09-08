@@ -1,0 +1,37 @@
+{
+  "posthoc": true,
+  "reason": "Check whether the ranking gain depends on per-task target standardization. Added after completed coverage outcomes were seen; no change to primary protocol.",
+  "primary_run": "coverage_20260908_v1",
+  "losses": [
+    "global_mse",
+    "global_log_mse"
+  ],
+  "config": {
+    "block_seeds": [
+      26090871,
+      26090872,
+      26090873
+    ],
+    "train_tasks": 12,
+    "validation_tasks": 4,
+    "test_tasks": 12,
+    "designs_per_task": 128,
+    "epochs": 80,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "hidden": 32,
+    "layers": 3,
+    "model_seeds": [
+      17,
+      23
+    ],
+    "search_seeds": [
+      101,
+      202
+    ],
+    "budget": 96,
+    "training_heartbeat": true
+  },
+  "source_sha256": "762f4c0636f5f8e4987edbbfd94c765bb87b5a9f031c5a7d251184007bf6ebb7",
+  "inference": "Descriptive robustness checks, not additional confirmatory tests. Select among all four regressors by validation alone."
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "cascade_isomorphic_source_duplicates": [],
+  "coverage": {
+    "endpoint_designs_independently_verified": 648,
+    "offline_labels": 6144,
+    "independent_oracle_checks": 888,
+    "source_tasks": 84,
+    "parameters": [
+      8513
+    ],
+    "source_hashes_passed": true
+  },
+  "cascade": {
+    "endpoint_designs_independently_verified": 648,
+    "offline_labels": 6144,
+    "independent_oracle_checks": 888,
+    "source_tasks": 84,
+    "parameters": [
+      8417
+    ],
+    "source_hashes_passed": true
+  },
+  "completed_unix": 1788863777.0297608
+}

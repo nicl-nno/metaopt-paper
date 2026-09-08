@@ -1,5 +1,5 @@
 {
-  "captured_utc": "2026-09-08T09:39:42.795871+00:00",
+  "captured_utc": "2026-09-08T10:46:36.643422+00:00",
   "upstream_url": "https://github.com/ITMO-NSS-team/GAMLET",
   "upstream_commit": "237fa706b9218009d766c368facc7f44074bfb4a",
   "source_files": [
@@ -2036,6 +2036,84 @@
       "sha256": "466d683ea256092ab01fb13ea07330987b304368b02a84b788499a0835e04667",
       "bytes": 4298,
       "origin": "local diagnostic helper"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress/problems.py",
+      "sha256": "15fd4ad292e368535f73f1b8721f6d31f1ab716bf19fe358b1cee14f47727e0d",
+      "bytes": 5746,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress/PROTOCOL.md",
+      "sha256": "3bee7037eae55419f6cfd7539ff2e678811d10cc0167f3e1e38b7b9fd371c570",
+      "bytes": 4005,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress/run.py",
+      "sha256": "f153629a190b8b03b8b14d22c21b97c28c4dd10953e5e25b2fcc4a765cf9cbca",
+      "bytes": 9516,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress/test_problems.py",
+      "sha256": "ddd21e843c4d8357d4cf7f2c301b401774be1f3e50ee9e08d1c8d5e33404831c",
+      "bytes": 1420,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress/__init__.py",
+      "sha256": "ca3465ce115241a52ad7ffa1f34b09d344ddfd70b56dd3030f1c5c52d0f61c84",
+      "bytes": 57,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress_analysis/analyze.py",
+      "sha256": "d477963afff6270045870a688618e576986f3ba0e77f681be27005cca540814a",
+      "bytes": 6365,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress_analysis/analyze_addendum.py",
+      "sha256": "07485dc49d1824c65c81bb0dfadeda19865f2f8fb765fccd50b2733c4f253ad1",
+      "bytes": 5421,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress_analysis/audit.py",
+      "sha256": "c7e614bb73429e99e3d25512ece926c4c4e354c45bb3130ebf071a5c612bbcd3",
+      "bytes": 5872,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress_analysis/coverage_example.py",
+      "sha256": "7c83ef71bc92d509bed7e084cb162bb35f66e52b01c96efaa7f8f7c501d97274",
+      "bytes": 2672,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress_analysis/README.md",
+      "sha256": "5a3f501332401e2508c0721c284c82bb284e0febb7afd0dd4e7c22a54804c56d",
+      "bytes": 1347,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress_analysis/regression_addendum.py",
+      "sha256": "762f4c0636f5f8e4987edbbfd94c765bb87b5a9f031c5a7d251184007bf6ebb7",
+      "bytes": 4465,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress_analysis/REPRODUCIBILITY.md",
+      "sha256": "05488a32cc7b9e408da83e447b0f39f4cb2a1547dcd4750d256a16cb81f334f8",
+      "bytes": 3218,
+      "origin": "exploratory stress benchmark additions"
+    },
+    {
+      "path": "code/GAMLET/experiments/ranking_stress_analysis/test_analysis.py",
+      "sha256": "fe79870becb70665508668771426d5e56b92b8afe9c530f5f75e1bc7ab4d6410",
+      "bytes": 2489,
+      "origin": "exploratory stress benchmark additions"
     }
   ],
   "excluded_legacy_assets": [

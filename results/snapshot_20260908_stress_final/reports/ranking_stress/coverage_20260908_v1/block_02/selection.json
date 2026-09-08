@@ -1,0 +1,65 @@
+{
+  "selected_regression": "mse",
+  "training": [
+    {
+      "loss": "mse",
+      "model_seed": 17,
+      "initial_weights_sha256": "c2ae8f7215e3fc26d9659a0166e5102225ebf12da5d68b80126f04a116e4c4e1",
+      "optimizer_steps": 3840,
+      "parameters": 8513,
+      "validation_log_regret": 0.06936547152446966,
+      "selected_epoch": 67,
+      "seconds": 62.45999289996689
+    },
+    {
+      "loss": "log_mse",
+      "model_seed": 17,
+      "initial_weights_sha256": "c2ae8f7215e3fc26d9659a0166e5102225ebf12da5d68b80126f04a116e4c4e1",
+      "optimizer_steps": 3840,
+      "parameters": 8513,
+      "validation_log_regret": 0.076376616105526,
+      "selected_epoch": 78,
+      "seconds": 62.16053340001963
+    },
+    {
+      "loss": "ranknet",
+      "model_seed": 17,
+      "initial_weights_sha256": "c2ae8f7215e3fc26d9659a0166e5102225ebf12da5d68b80126f04a116e4c4e1",
+      "optimizer_steps": 3840,
+      "parameters": 8513,
+      "validation_log_regret": 0.09041508455316453,
+      "selected_epoch": 65,
+      "seconds": 66.43561990000308
+    },
+    {
+      "loss": "mse",
+      "model_seed": 23,
+      "initial_weights_sha256": "b76922a936674745f560f3c7ae7c4df2c385839b92497b845f2e42adeb4feba2",
+      "optimizer_steps": 3840,
+      "parameters": 8513,
+      "validation_log_regret": 0.11012452273743836,
+      "selected_epoch": 39,
+      "seconds": 65.50206440000329
+    },
+    {
+      "loss": "log_mse",
+      "model_seed": 23,
+      "initial_weights_sha256": "b76922a936674745f560f3c7ae7c4df2c385839b92497b845f2e42adeb4feba2",
+      "optimizer_steps": 3840,
+      "parameters": 8513,
+      "validation_log_regret": 0.1171356673184947,
+      "selected_epoch": 65,
+      "seconds": 65.23964340001112
+    },
+    {
+      "loss": "ranknet",
+      "model_seed": 23,
+      "initial_weights_sha256": "b76922a936674745f560f3c7ae7c4df2c385839b92497b845f2e42adeb4feba2",
+      "optimizer_steps": 3840,
+      "parameters": 8513,
+      "validation_log_regret": 0.08801674268727218,
+      "selected_epoch": 53,
+      "seconds": 66.47044420003658
+    }
+  ]
+}

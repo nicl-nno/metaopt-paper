@@ -65,3 +65,7 @@ python experiments/network_statistics/analyze.py --campaign experiments/network_
 ## Лицензия и происхождение
 
 Исходный GAMLET распространяется по BSD 3-Clause; полный текст и уведомление об авторских правах сохранены в [GAMLET/LICENSE](GAMLET/LICENSE). Диагностический `assumption_checks.py` в исторических результатах взят из навыка statistical-analysis (K-Dense Inc.; в метаданных навыка указана MIT license). Атрибуция исследовательского содействия сохранена в протоколах. Это не означает, что сторонние результаты или программный код написаны авторами статьи.
+
+## Покрытие и каскадные отказы
+
+Полные команды двух новых серий, статистики и отдельной проверки нормализации: [REPRODUCIBILITY.md](GAMLET/experiments/ranking_stress_analysis/REPRODUCIBILITY.md). Постановки и фиксированный бюджет описаны в [PROTOCOL.md](GAMLET/experiments/ranking_stress/PROTOCOL.md). Анализ отделён от замороженного кода основных работников.

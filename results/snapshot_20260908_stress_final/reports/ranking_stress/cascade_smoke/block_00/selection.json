@@ -1,0 +1,35 @@
+{
+  "selected_regression": "mse",
+  "training": [
+    {
+      "loss": "mse",
+      "model_seed": 17,
+      "initial_weights_sha256": "0f863cedb929503933ba1e66fe291820b1e584e2c97eb3984fbd21cb1d46e8fa",
+      "optimizer_steps": 4,
+      "parameters": 8417,
+      "validation_log_regret": 0.07410797215372183,
+      "selected_epoch": 1,
+      "seconds": 0.06140100001357496
+    },
+    {
+      "loss": "log_mse",
+      "model_seed": 17,
+      "initial_weights_sha256": "0f863cedb929503933ba1e66fe291820b1e584e2c97eb3984fbd21cb1d46e8fa",
+      "optimizer_steps": 4,
+      "parameters": 8417,
+      "validation_log_regret": 0.07410797215372183,
+      "selected_epoch": 1,
+      "seconds": 0.04421550000552088
+    },
+    {
+      "loss": "ranknet",
+      "model_seed": 17,
+      "initial_weights_sha256": "0f863cedb929503933ba1e66fe291820b1e584e2c97eb3984fbd21cb1d46e8fa",
+      "optimizer_steps": 4,
+      "parameters": 8417,
+      "validation_log_regret": 0.24116205681688804,
+      "selected_epoch": 1,
+      "seconds": 0.04268239997327328
+    }
+  ]
+}

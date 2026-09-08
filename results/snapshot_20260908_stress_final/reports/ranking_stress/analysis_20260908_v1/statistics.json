@@ -1,0 +1,2981 @@
+{
+  "exploratory": true,
+  "results": {
+    "coverage": {
+      "counts": {
+        "searches": 648,
+        "online_evaluations": 62208,
+        "offline_evaluations": 6144
+      },
+      "selections": {
+        "0": "mse",
+        "1": "mse",
+        "2": "mse"
+      },
+      "comparisons": {
+        "selected_regression": {
+          "gain_percent": 5.690967403649491,
+          "mean_absolute_difference": 0.0357931865582987,
+          "rank_mean": 0.6780897409298615,
+          "baseline_mean": 0.6422965543715629,
+          "conditional_ci95_percent": [
+            4.33969217879199,
+            7.104854594059501
+          ],
+          "conditional_sign_test": {
+            "wins": 33,
+            "losses": 3,
+            "ties": 0,
+            "p_two_sided": 2.2721360437572002e-07,
+            "p_holm_8": 1.8177088350057602e-06
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            5.562368623148659,
+            6.747859922787764,
+            4.77201965566311
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": 0.07663243390412189,
+              "absolute_difference": 0.05051065313435357
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": 0.05005076770135213,
+              "absolute_difference": 0.03331474677860624
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.07120269615887213,
+              "absolute_difference": 0.04834511506229938
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.08616709577496033,
+              "absolute_difference": 0.060606780292628115
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": 0.014469560021891358,
+              "absolute_difference": 0.009297122380574424
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": 0.02279495918766733,
+              "absolute_difference": 0.012960890575251932
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.10071406475707256,
+              "absolute_difference": 0.06255826051566965
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.047146788039488005,
+              "absolute_difference": 0.030863012870297635
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": 0.09096087846013273,
+              "absolute_difference": 0.05848256805020538
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": -0.0002126931036609877,
+              "absolute_difference": 0.00011981823090467802
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.053078708824544296,
+              "absolute_difference": 0.03693639332113283
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": 0.03657590873230078,
+              "absolute_difference": 0.025152993041983984
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": 0.027407482642884357,
+              "absolute_difference": 0.018518129921977683
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": 0.0345334071953899,
+              "absolute_difference": 0.02334226500717146
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": 0.03578319636643415,
+              "absolute_difference": 0.02287948447156879
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": 0.07389246361742108,
+              "absolute_difference": 0.04395873344003848
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": 0.05328796668793586,
+              "absolute_difference": 0.03556817771098231
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": 0.08879544471859538,
+              "absolute_difference": 0.058661166343558446
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.03146096479201965,
+              "absolute_difference": 0.01852339820070731
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.06115717383554117,
+              "absolute_difference": 0.04244777287735618
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": 0.07580002453338655,
+              "absolute_difference": 0.05274736570037919
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.1098713454374079,
+              "absolute_difference": 0.07872672550838064
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": 0.05264350867569374,
+              "absolute_difference": 0.03397737296134018
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": 0.13896004179305463,
+              "absolute_difference": 0.0895372029937348
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": 0.06373925754625302,
+              "absolute_difference": 0.042519158871781926
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": 0.06730663075903254,
+              "absolute_difference": 0.04211792328435873
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": -0.018477154268636768,
+              "absolute_difference": -0.01345137478321376
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": 0.03039053995115193,
+              "absolute_difference": 0.020912841499805795
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": -0.02260838904283878,
+              "absolute_difference": -0.01573774051059923
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": 0.009384932011817174,
+              "absolute_difference": 0.006030205014076723
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": 0.012416500505694863,
+              "absolute_difference": 0.008688366297512407
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": 0.02927881632947752,
+              "absolute_difference": 0.020065798296555415
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.13766032817237078,
+              "absolute_difference": 0.07997501297480947
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.13459641790567456,
+              "absolute_difference": 0.07956739175279545
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": 0.10521656153596635,
+              "absolute_difference": 0.062098442168753015
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": 0.01049430538670694,
+              "absolute_difference": 0.007732541841014018
+            }
+          ]
+        },
+        "mse": {
+          "gain_percent": 5.690967403649491,
+          "mean_absolute_difference": 0.0357931865582987,
+          "rank_mean": 0.6780897409298615,
+          "baseline_mean": 0.6422965543715629,
+          "conditional_ci95_percent": [
+            4.33969217879199,
+            7.104854594059501
+          ],
+          "conditional_sign_test": {
+            "wins": 33,
+            "losses": 3,
+            "ties": 0,
+            "p_two_sided": 2.2721360437572002e-07
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            5.562368623148659,
+            6.747859922787764,
+            4.77201965566311
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": 0.07663243390412189,
+              "absolute_difference": 0.05051065313435357
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": 0.05005076770135213,
+              "absolute_difference": 0.03331474677860624
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.07120269615887213,
+              "absolute_difference": 0.04834511506229938
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.08616709577496033,
+              "absolute_difference": 0.060606780292628115
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": 0.014469560021891358,
+              "absolute_difference": 0.009297122380574424
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": 0.02279495918766733,
+              "absolute_difference": 0.012960890575251932
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.10071406475707256,
+              "absolute_difference": 0.06255826051566965
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.047146788039488005,
+              "absolute_difference": 0.030863012870297635
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": 0.09096087846013273,
+              "absolute_difference": 0.05848256805020538
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": -0.0002126931036609877,
+              "absolute_difference": 0.00011981823090467802
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.053078708824544296,
+              "absolute_difference": 0.03693639332113283
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": 0.03657590873230078,
+              "absolute_difference": 0.025152993041983984
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": 0.027407482642884357,
+              "absolute_difference": 0.018518129921977683
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": 0.0345334071953899,
+              "absolute_difference": 0.02334226500717146
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": 0.03578319636643415,
+              "absolute_difference": 0.02287948447156879
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": 0.07389246361742108,
+              "absolute_difference": 0.04395873344003848
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": 0.05328796668793586,
+              "absolute_difference": 0.03556817771098231
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": 0.08879544471859538,
+              "absolute_difference": 0.058661166343558446
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.03146096479201965,
+              "absolute_difference": 0.01852339820070731
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.06115717383554117,
+              "absolute_difference": 0.04244777287735618
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": 0.07580002453338655,
+              "absolute_difference": 0.05274736570037919
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.1098713454374079,
+              "absolute_difference": 0.07872672550838064
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": 0.05264350867569374,
+              "absolute_difference": 0.03397737296134018
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": 0.13896004179305463,
+              "absolute_difference": 0.0895372029937348
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": 0.06373925754625302,
+              "absolute_difference": 0.042519158871781926
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": 0.06730663075903254,
+              "absolute_difference": 0.04211792328435873
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": -0.018477154268636768,
+              "absolute_difference": -0.01345137478321376
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": 0.03039053995115193,
+              "absolute_difference": 0.020912841499805795
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": -0.02260838904283878,
+              "absolute_difference": -0.01573774051059923
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": 0.009384932011817174,
+              "absolute_difference": 0.006030205014076723
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": 0.012416500505694863,
+              "absolute_difference": 0.008688366297512407
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": 0.02927881632947752,
+              "absolute_difference": 0.020065798296555415
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.13766032817237078,
+              "absolute_difference": 0.07997501297480947
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.13459641790567456,
+              "absolute_difference": 0.07956739175279545
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": 0.10521656153596635,
+              "absolute_difference": 0.062098442168753015
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": 0.01049430538670694,
+              "absolute_difference": 0.007732541841014018
+            }
+          ]
+        },
+        "log_mse": {
+          "gain_percent": 4.120987114103541,
+          "mean_absolute_difference": 0.02637089519711142,
+          "rank_mean": 0.6780897409298615,
+          "baseline_mean": 0.6517188457327501,
+          "conditional_ci95_percent": [
+            2.9030604432015807,
+            5.385088772234432
+          ],
+          "conditional_sign_test": {
+            "wins": 30,
+            "losses": 6,
+            "ties": 0,
+            "p_two_sided": 6.960169412195683e-05
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            4.494058171951342,
+            5.326585693294647,
+            2.5617041015913466
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": 0.0644480072815831,
+              "absolute_difference": 0.04269933325571457
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": -0.03744316202169337,
+              "absolute_difference": -0.025951205504364833
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.06314210268644824,
+              "absolute_difference": 0.04337752853578089
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.09222727252743397,
+              "absolute_difference": 0.06578878335332858
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": 0.09304985837456506,
+              "absolute_difference": 0.05966193952113244
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": 0.01557325385609749,
+              "absolute_difference": 0.009036530264002474
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.1209683886438009,
+              "absolute_difference": 0.07443727371424386
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.029625207925238893,
+              "absolute_difference": 0.02036952787131291
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": 0.03061556227977784,
+              "absolute_difference": 0.02031283670544723
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": 0.040160483243220135,
+              "absolute_difference": 0.02782331608060168
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.020044254144268643,
+              "absolute_difference": 0.01429960307567904
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": -0.004890938520889114,
+              "absolute_difference": -0.0023986918949362446
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": 0.0139848349653041,
+              "absolute_difference": 0.010019282836414067
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": 0.01781616520202075,
+              "absolute_difference": 0.012055296870195631
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": 0.029764115569357378,
+              "absolute_difference": 0.019441629983764946
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": 0.06324380379246405,
+              "absolute_difference": 0.03805078822597083
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": 0.0575795552520202,
+              "absolute_difference": 0.03684913940713344
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": 0.02954162856818783,
+              "absolute_difference": 0.020406406216873757
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.0904475126213411,
+              "absolute_difference": 0.05235904093982033
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.018633470107205855,
+              "absolute_difference": 0.013028550132686278
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": 0.06273197874746413,
+              "absolute_difference": 0.04355780259175865
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.10702003228808712,
+              "absolute_difference": 0.076798043214551
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": 0.06262809923903527,
+              "absolute_difference": 0.03978991674803434
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": 0.06935692770756868,
+              "absolute_difference": 0.046888149235679355
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": 0.026407800032943005,
+              "absolute_difference": 0.01804764478082735
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": 0.03835678602218102,
+              "absolute_difference": 0.02374602510243015
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": 0.030820831276265802,
+              "absolute_difference": 0.021184726871314813
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": -0.011396406965644635,
+              "absolute_difference": -0.008204957266007673
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": -0.02265523493624329,
+              "absolute_difference": -0.016718852090547437
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": 0.007478841495680819,
+              "absolute_difference": 0.004938914306797354
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": -0.009238873107881676,
+              "absolute_difference": -0.004726161531344336
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": -0.012541242461567766,
+              "absolute_difference": -0.008731235632369327
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.08672730885563945,
+              "absolute_difference": 0.051933933424584244
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.08833810318558706,
+              "absolute_difference": 0.05422180008665298
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": 0.04475425886776821,
+              "absolute_difference": 0.02796840320843555
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": 0.03648090015173489,
+              "absolute_difference": 0.026991164454412242
+            }
+          ]
+        },
+        "ea": {
+          "gain_percent": 2.8867500341792454,
+          "mean_absolute_difference": 0.019409221388301458,
+          "rank_mean": 0.6780897409298615,
+          "baseline_mean": 0.65868051954156,
+          "conditional_ci95_percent": [
+            1.5008860929535752,
+            4.249452633799574
+          ],
+          "conditional_sign_test": {
+            "wins": 25,
+            "losses": 11,
+            "ties": 0,
+            "p_two_sided": 0.028816719655878845,
+            "p_holm_8": 0.14408359827939424
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            3.599052021483139,
+            2.556963131920976,
+            2.5079181429510786
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": 0.07127574237556428,
+              "absolute_difference": 0.04707557903201867
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": 0.04283529740615688,
+              "absolute_difference": 0.027846292022200847
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.0837759814280654,
+              "absolute_difference": 0.05758465537310903
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.0660437304841393,
+              "absolute_difference": 0.04738528224844704
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": 0.06632241237768684,
+              "absolute_difference": 0.042425457572657255
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": -0.07762517500823057,
+              "absolute_difference": -0.044692206657860944
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.04243733351737574,
+              "absolute_difference": 0.028117093338800886
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.05226327028911065,
+              "absolute_difference": 0.03547878495842799
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": 0.033815101056829736,
+              "absolute_difference": 0.02280111337212995
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": -0.007464356600449769,
+              "absolute_difference": -0.0054894454698656
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.0595921846532777,
+              "absolute_difference": 0.04094137061052697
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": -0.008975600895821854,
+              "absolute_difference": -0.004484083567724867
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": -0.020157676001330976,
+              "absolute_difference": -0.013799568553338748
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": 0.0022842140615890495,
+              "absolute_difference": 0.0016873252229471225
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": 0.027518496583030495,
+              "absolute_difference": 0.018374469040978086
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": -0.03510957171740942,
+              "absolute_difference": -0.022553558993510747
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": 0.011871615779661017,
+              "absolute_difference": 0.008489268370147213
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": -0.008942234445890969,
+              "absolute_difference": -0.0057568129151036596
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.09791935595832578,
+              "absolute_difference": 0.05792768446665694
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.025013722478001408,
+              "absolute_difference": 0.017749950801307923
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": 0.10767904099761792,
+              "absolute_difference": 0.07379450200917695
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.052281998427512535,
+              "absolute_difference": 0.038615772084661854
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": -0.0183259871750919,
+              "absolute_difference": -0.011068657735311349
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": 0.060945378226003856,
+              "absolute_difference": 0.04143523433582488
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": 0.04839012875093057,
+              "absolute_difference": 0.032007952013644675
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": 0.027247436166217096,
+              "absolute_difference": 0.017492126741929098
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": -0.02222000878282259,
+              "absolute_difference": -0.016565959694149895
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": 0.041795667616338815,
+              "absolute_difference": 0.028736313785167333
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": 0.06952933468520744,
+              "absolute_difference": 0.048254559528594226
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": -0.005430707428955151,
+              "absolute_difference": -0.003300665593551494
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": -0.013988243167960978,
+              "absolute_difference": -0.007054568367080016
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": 0.034141494419107764,
+              "absolute_difference": 0.023364232639893318
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.018786013830617683,
+              "absolute_difference": 0.011778086429081264
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.09640085079592925,
+              "absolute_difference": 0.06030967693812017
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": -0.011279111979860963,
+              "absolute_difference": -0.006349539102644741
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": 0.013865462477605317,
+              "absolute_difference": 0.010174253692544794
+            }
+          ]
+        },
+        "pool_random": {
+          "gain_percent": 3.310828215777862,
+          "mean_absolute_difference": 0.021569131961497196,
+          "rank_mean": 0.6780897409298615,
+          "baseline_mean": 0.6565206089683642,
+          "conditional_ci95_percent": [
+            1.8385298950223143,
+            4.836284629138948
+          ],
+          "conditional_sign_test": {
+            "wins": 26,
+            "losses": 10,
+            "ties": 0,
+            "p_two_sided": 0.011330984183587134,
+            "p_holm_8": 0.0679859051015228
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            3.583102647709554,
+            3.057154270952607,
+            3.292899395221987
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": 0.034384048020393874,
+              "absolute_difference": 0.01949392280776277
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": 0.07302518106656622,
+              "absolute_difference": 0.048438935871052136
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.07162940898920023,
+              "absolute_difference": 0.049378987838874455
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.0459849515443907,
+              "absolute_difference": 0.031686159594796176
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": -0.0026656702271311734,
+              "absolute_difference": -0.0023435169396980315
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": -0.022244190935592774,
+              "absolute_difference": -0.012017219438010318
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.05497164176071459,
+              "absolute_difference": 0.03496760889126968
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.013667546397140936,
+              "absolute_difference": 0.009768711051500178
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": 0.05162359598183066,
+              "absolute_difference": 0.033127816613110234
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": 0.05064479518962539,
+              "absolute_difference": 0.03475887750085685
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.0732671597263309,
+              "absolute_difference": 0.04805584686510031
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": -0.02184012336964866,
+              "absolute_difference": -0.012751299198379334
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": -0.029239766081240605,
+              "absolute_difference": -0.02026517772149722
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": -0.02545944116418919,
+              "absolute_difference": -0.017958155568141843
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": -0.01763001826516833,
+              "absolute_difference": -0.011583030268249778
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": -0.040075440879790966,
+              "absolute_difference": -0.025764426296309595
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": 0.03441427599678003,
+              "absolute_difference": 0.023055722825589403
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": 0.10231413397131646,
+              "absolute_difference": 0.06672726821537606
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.147253009215402,
+              "absolute_difference": 0.08444425117086765
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.05609674221500616,
+              "absolute_difference": 0.0391284698183359
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": 0.045303813116090344,
+              "absolute_difference": 0.032122728100997394
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.07030973777069163,
+              "absolute_difference": 0.05144869779563241
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": -0.030712514816782128,
+              "absolute_difference": -0.019338578318590205
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": 0.048787999061136816,
+              "absolute_difference": 0.03340166986297735
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": 0.032065152949255424,
+              "absolute_difference": 0.02167165094061982
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": 0.03604140158817095,
+              "absolute_difference": 0.02319061804336739
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": 0.06253661639154208,
+              "absolute_difference": 0.04358976307639037
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": 0.03616154736661834,
+              "absolute_difference": 0.024542889043784988
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": -0.013401665185287088,
+              "absolute_difference": -0.010005874424539124
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": 0.0049822819751338945,
+              "absolute_difference": 0.0033222147368469346
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": -0.0593125864873892,
+              "absolute_difference": -0.035981984361283414
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": 0.04014615830200245,
+              "absolute_difference": 0.02735684551955378
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.08638882243543752,
+              "absolute_difference": 0.051824452988322195
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.0802462323225969,
+              "absolute_difference": 0.050831252441981556
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": 0.030680520665532087,
+              "absolute_difference": 0.01959816062647529
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": 0.052246918533123236,
+              "absolute_difference": 0.03856449090715694
+            }
+          ]
+        },
+        "random": {
+          "gain_percent": 7.498309302395614,
+          "mean_absolute_difference": 0.04751749876750465,
+          "rank_mean": 0.6780897409298615,
+          "baseline_mean": 0.6305722421623569,
+          "conditional_ci95_percent": [
+            5.976352971067375,
+            9.050823981436313
+          ],
+          "conditional_sign_test": {
+            "wins": 33,
+            "losses": 3,
+            "ties": 0,
+            "p_two_sided": 2.2721360437572002e-07,
+            "p_holm_8": 1.8177088350057602e-06
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            8.874070659000058,
+            5.988605580176896,
+            7.6517916524122045
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": 0.09717775857855135,
+              "absolute_difference": 0.06323708955150634
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": 0.12595926880928077,
+              "absolute_difference": 0.08123384061381733
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.12171974105725261,
+              "absolute_difference": 0.08202474004730598
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.1013359659122316,
+              "absolute_difference": 0.07200794338203939
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": 0.04531401958939118,
+              "absolute_difference": 0.0300726230456293
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": -0.02517424753125928,
+              "absolute_difference": -0.014323012235431865
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.11056595440517704,
+              "absolute_difference": 0.07041072727394085
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.09123146810744646,
+              "absolute_difference": 0.060380275037038855
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": 0.1180332043205177,
+              "absolute_difference": 0.07472416837290338
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": 0.03236215925198376,
+              "absolute_difference": 0.02260096855595853
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.11191344604287227,
+              "absolute_difference": 0.07593916919459001
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": 0.08982182099779015,
+              "absolute_difference": 0.05887910359660273
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": 0.02130899286868541,
+              "absolute_difference": 0.015101772163478078
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": 0.0599047751944909,
+              "absolute_difference": 0.04008466879748879
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": -0.010764687246738437,
+              "absolute_difference": -0.006489201569959829
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": 0.04521085774082566,
+              "absolute_difference": 0.027759304552514352
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": 0.05262536822537031,
+              "absolute_difference": 0.0353844952520663
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": 0.014154223571762367,
+              "absolute_difference": 0.00827541151339034
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.07333885223624002,
+              "absolute_difference": 0.04418496572700528
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.0903121680304626,
+              "absolute_difference": 0.06161280356530968
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": 0.11385120191186429,
+              "absolute_difference": 0.07766359442766627
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.09457171200462194,
+              "absolute_difference": 0.06841138409567668
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": 0.02738084418486864,
+              "absolute_difference": 0.01836932786845158
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": 0.11604258511025044,
+              "absolute_difference": 0.07578626934565072
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": 0.15090473911020125,
+              "absolute_difference": 0.09631936883348699
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": 0.05632118233885951,
+              "absolute_difference": 0.03549110209558018
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": 0.06053286083267585,
+              "absolute_difference": 0.04220463647389913
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": 0.07435572158556011,
+              "absolute_difference": 0.05063661649960638
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": 0.05614555513462435,
+              "absolute_difference": 0.03702447790268329
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": 0.03155445418264847,
+              "absolute_difference": 0.018254945653639304
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": -0.000502781118522911,
+              "absolute_difference": 0.001293125353033775
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": 0.03843876275197048,
+              "absolute_difference": 0.02570179804864517
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.11331557778815611,
+              "absolute_difference": 0.06657259778442473
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.16898890167683206,
+              "absolute_difference": 0.09984671384600075
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": 0.03205125950120523,
+              "absolute_difference": 0.020354407510302708
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": 0.1026739381512881,
+              "absolute_difference": 0.07359773345422624
+            }
+          ]
+        }
+      }
+    },
+    "cascade": {
+      "counts": {
+        "searches": 648,
+        "online_evaluations": 62208,
+        "offline_evaluations": 6144
+      },
+      "selections": {
+        "0": "log_mse",
+        "1": "log_mse",
+        "2": "log_mse"
+      },
+      "comparisons": {
+        "selected_regression": {
+          "gain_percent": 4.377744101359719,
+          "mean_absolute_difference": 0.011357060185185182,
+          "rank_mean": 0.674045138888889,
+          "baseline_mean": 0.6626880787037037,
+          "conditional_ci95_percent": [
+            2.3798540828890236,
+            6.681174089939345
+          ],
+          "conditional_sign_test": {
+            "wins": 20,
+            "losses": 9,
+            "ties": 7,
+            "p_two_sided": 0.06142834573984146,
+            "p_holm_8": 0.20040983892977238
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            6.605417165363067,
+            1.4860005984626428,
+            5.108613404071679
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": -0.03782440271121299,
+              "absolute_difference": -0.03125
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": -0.0008347253163786816,
+              "absolute_difference": -1.3877787807814457e-17
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.021289452085076696,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.08359229660610855,
+              "absolute_difference": 0.0625
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": 5.204170427930421e-18,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": 0.013119664646284484,
+              "absolute_difference": 0.010416666666666685
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.16934970589795154,
+              "absolute_difference": 0.0390625
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.4184941083929179,
+              "absolute_difference": 0.06770833333333333
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.0414962843685653,
+              "absolute_difference": 0.0234375
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": 0.05888732169641481,
+              "absolute_difference": 0.036458333333333315
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": 0.01814267320870891,
+              "absolute_difference": 0.015625
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": -0.011236427926029297,
+              "absolute_difference": -0.010416666666666685
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": 0.025569712280104556,
+              "absolute_difference": 0.0078125
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": -0.020410997260127604,
+              "absolute_difference": -0.010416666666666685
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": 0.06689882847126091,
+              "absolute_difference": 0.046875
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": -0.0022758397969060637,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.047763809190677325,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.013516805317568922,
+              "absolute_difference": 0.010416666666666657
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": 0.0172482178717379,
+              "absolute_difference": 0.015625
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": -0.027767900267099146,
+              "absolute_difference": -0.0234375
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": 0.049559253024963494,
+              "absolute_difference": 0.036458333333333315
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": -0.022269907513422206,
+              "absolute_difference": -0.015625
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": 0.00025265287648083314,
+              "absolute_difference": -2.7755575615628914e-17
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": 0.11368403927873677,
+              "absolute_difference": 0.0390625
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": 0.1434031529661888,
+              "absolute_difference": 0.031249999999999986
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": 0.16878216876431676,
+              "absolute_difference": 0.0390625
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": -0.04616812405635236,
+              "absolute_difference": -0.036458333333333315
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.010753102610481732,
+              "absolute_difference": 0.01041666666666663
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": 0.300993201081484,
+              "absolute_difference": 0.0390625
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": -0.07154177115163907,
+              "absolute_difference": -0.026041666666666657
+            }
+          ]
+        },
+        "mse": {
+          "gain_percent": 3.868686571306696,
+          "mean_absolute_difference": 0.014539930555555549,
+          "rank_mean": 0.674045138888889,
+          "baseline_mean": 0.6595052083333334,
+          "conditional_ci95_percent": [
+            2.504898040380403,
+            5.285835664827143
+          ],
+          "conditional_sign_test": {
+            "wins": 24,
+            "losses": 4,
+            "ties": 8,
+            "p_two_sided": 0.00017999112606048584
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            4.14778155058206,
+            2.715354578371377,
+            4.7534962085923915
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": 0.0076592423654724545,
+              "absolute_difference": 0.0078125
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": 0.011362815725979275,
+              "absolute_difference": 0.005208333333333315
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.08486240941421325,
+              "absolute_difference": 0.0625
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": 0.016950775837840708,
+              "absolute_difference": 0.015625
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": 0.013119664646284515,
+              "absolute_difference": 0.010416666666666685
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.02550866967206107,
+              "absolute_difference": 0.0078125
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.24520731325293152,
+              "absolute_difference": 0.03645833333333333
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": 1.9081958235744878e-17,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.04080280264788396,
+              "absolute_difference": 0.0234375
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": 0.042214478071746726,
+              "absolute_difference": 0.02604166666666663
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": 0.02634012891445662,
+              "absolute_difference": 0.0234375
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": 1.0990218707026232e-05,
+              "absolute_difference": -5.551115123125783e-17
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": -0.03472080192411749,
+              "absolute_difference": -0.015625
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": -0.010639903604698978,
+              "absolute_difference": -0.005208333333333329
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": 0.05470128742890289,
+              "absolute_difference": 0.0390625
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": 0.10070885522865397,
+              "absolute_difference": 0.06770833333333331
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.09981828446506082,
+              "absolute_difference": 0.0625
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.021377186776273635,
+              "absolute_difference": 0.015624999999999972
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": 0.0005753742470698386,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": 0.038166336802766654,
+              "absolute_difference": 0.0234375
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": 0.02515940717534868,
+              "absolute_difference": 0.015625
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": -0.02274294455143169,
+              "absolute_difference": -0.015625
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": 0.00025265287648083314,
+              "absolute_difference": -2.7755575615628914e-17
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": 0.07961343277963365,
+              "absolute_difference": 0.0234375
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": 0.023827544951081185,
+              "absolute_difference": 0.005208333333333329
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": 0.2381901029138867,
+              "absolute_difference": 0.0625
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": -0.01244766612575387,
+              "absolute_difference": -0.010416666666666657
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.005376551305240866,
+              "absolute_difference": 0.005208333333333315
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": 0.24520731325293155,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": -1.3877787807814457e-17,
+              "absolute_difference": 0.0
+            }
+          ]
+        },
+        "log_mse": {
+          "gain_percent": 4.377744101359719,
+          "mean_absolute_difference": 0.011357060185185182,
+          "rank_mean": 0.674045138888889,
+          "baseline_mean": 0.6626880787037037,
+          "conditional_ci95_percent": [
+            2.3798540828890236,
+            6.681174089939345
+          ],
+          "conditional_sign_test": {
+            "wins": 20,
+            "losses": 9,
+            "ties": 7,
+            "p_two_sided": 0.06142834573984146
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            6.605417165363067,
+            1.4860005984626428,
+            5.108613404071679
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": -0.03782440271121299,
+              "absolute_difference": -0.03125
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": -0.0008347253163786816,
+              "absolute_difference": -1.3877787807814457e-17
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.021289452085076696,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.08359229660610855,
+              "absolute_difference": 0.0625
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": 5.204170427930421e-18,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": 0.013119664646284484,
+              "absolute_difference": 0.010416666666666685
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.16934970589795154,
+              "absolute_difference": 0.0390625
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.4184941083929179,
+              "absolute_difference": 0.06770833333333333
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.0414962843685653,
+              "absolute_difference": 0.0234375
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": 0.05888732169641481,
+              "absolute_difference": 0.036458333333333315
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": 0.01814267320870891,
+              "absolute_difference": 0.015625
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": -0.011236427926029297,
+              "absolute_difference": -0.010416666666666685
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": 0.025569712280104556,
+              "absolute_difference": 0.0078125
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": -0.020410997260127604,
+              "absolute_difference": -0.010416666666666685
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": 0.06689882847126091,
+              "absolute_difference": 0.046875
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": -0.0022758397969060637,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.047763809190677325,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.013516805317568922,
+              "absolute_difference": 0.010416666666666657
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": 0.0172482178717379,
+              "absolute_difference": 0.015625
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": -0.027767900267099146,
+              "absolute_difference": -0.0234375
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": 0.049559253024963494,
+              "absolute_difference": 0.036458333333333315
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": -0.022269907513422206,
+              "absolute_difference": -0.015625
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": 0.00025265287648083314,
+              "absolute_difference": -2.7755575615628914e-17
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": 0.11368403927873677,
+              "absolute_difference": 0.0390625
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": 0.1434031529661888,
+              "absolute_difference": 0.031249999999999986
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": 0.16878216876431676,
+              "absolute_difference": 0.0390625
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": -0.04616812405635236,
+              "absolute_difference": -0.036458333333333315
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.010753102610481732,
+              "absolute_difference": 0.01041666666666663
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": 0.300993201081484,
+              "absolute_difference": 0.0390625
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": -0.07154177115163907,
+              "absolute_difference": -0.026041666666666657
+            }
+          ]
+        },
+        "ea": {
+          "gain_percent": 5.4577964572664275,
+          "mean_absolute_difference": 0.01808449074074074,
+          "rank_mean": 0.674045138888889,
+          "baseline_mean": 0.6559606481481481,
+          "conditional_ci95_percent": [
+            2.7863850275166318,
+            8.420900632504292
+          ],
+          "conditional_sign_test": {
+            "wins": 21,
+            "losses": 10,
+            "ties": 5,
+            "p_two_sided": 0.07075554598122835,
+            "p_holm_8": 0.20040983892977238
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            5.517049048459569,
+            2.9706711471317426,
+            7.944345423723963
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": -0.021016099914271384,
+              "absolute_difference": -0.015625
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": -0.04752870210221242,
+              "absolute_difference": -0.020833333333333356
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.16823611831060648,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.12564131674087192,
+              "absolute_difference": 0.09375
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": -0.025723605790658195,
+              "absolute_difference": -0.0234375
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": -0.0005798224477727709,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.12565721414045308,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.06984581740927151,
+              "absolute_difference": 0.010416666666666671
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": -0.008475387918920335,
+              "absolute_difference": -0.0078125
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.15617369002530945,
+              "absolute_difference": 0.0859375
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": 0.10219773626943657,
+              "absolute_difference": 0.06249999999999997
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": 0.008197455705747743,
+              "absolute_difference": 0.0078125
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": -0.005376551305240876,
+              "absolute_difference": -0.005208333333333315
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": -0.018268509589360764,
+              "absolute_difference": -0.0078125
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": 0.030650580523083067,
+              "absolute_difference": 0.015624999999999986
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": 0.0430712835201797,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": 0.03125559677370278,
+              "absolute_difference": 0.02083333333333337
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.13967521869708635,
+              "absolute_difference": 0.0859375
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.04273289035239666,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": 0.0260210478245554,
+              "absolute_difference": 0.0234375
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": 0.004190442610372016,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": 0.04913873147921732,
+              "absolute_difference": 0.036458333333333315
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": -0.011112940642708452,
+              "absolute_difference": -0.0078125
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": 0.005618213963014644,
+              "absolute_difference": 0.005208333333333343
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": 0.02175284424740742,
+              "absolute_difference": 0.0078125
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": 0.40697227167820327,
+              "absolute_difference": 0.078125
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": 0.2444585123019156,
+              "absolute_difference": 0.0703125
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": -0.00702293371675375,
+              "absolute_difference": -0.005208333333333315
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.021506205220963463,
+              "absolute_difference": 0.02083333333333326
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": 0.37291371919442917,
+              "absolute_difference": 0.046875
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": -0.1377388342981212,
+              "absolute_difference": -0.05208333333333333
+            }
+          ]
+        },
+        "pool_random": {
+          "gain_percent": 4.140041187665059,
+          "mean_absolute_difference": 0.01128472222222222,
+          "rank_mean": 0.674045138888889,
+          "baseline_mean": 0.6627604166666666,
+          "conditional_ci95_percent": [
+            1.572377657741264,
+            6.897869242591617
+          ],
+          "conditional_sign_test": {
+            "wins": 16,
+            "losses": 14,
+            "ties": 6,
+            "p_two_sided": 0.8555355519056321,
+            "p_holm_8": 0.8555355519056321
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            2.950428593876724,
+            1.0240892694039256,
+            8.592575228415177
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": -0.021016099914271384,
+              "absolute_difference": -0.015625
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": -0.08532288076429045,
+              "absolute_difference": -0.04166666666666667
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.13463436492576292,
+              "absolute_difference": 0.09375000000000006
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": -0.025723605790658195,
+              "absolute_difference": -0.0234375
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": -0.04169887156625877,
+              "absolute_difference": -0.03125
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.1359668577418209,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.09310582522671784,
+              "absolute_difference": 0.02083333333333333
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": -0.008475387918920335,
+              "absolute_difference": -0.0078125
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.09728217219711773,
+              "absolute_difference": 0.0546875
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": 0.07017655310588894,
+              "absolute_difference": 0.04166666666666666
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": 0.008197455705747743,
+              "absolute_difference": 0.0078125
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": -0.005376551305240854,
+              "absolute_difference": -0.005208333333333315
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": -0.05532249566622176,
+              "absolute_difference": -0.0234375
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": -0.046424759390546105,
+              "absolute_difference": -0.0260416666666667
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": -0.019304568966058717,
+              "absolute_difference": -0.015625
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": 0.07606167611854642,
+              "absolute_difference": 0.05208333333333337
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.08560799742681058,
+              "absolute_difference": 0.0546875
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.042300177214182146,
+              "absolute_difference": 0.031249999999999944
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": -0.009070271986714677,
+              "absolute_difference": -0.0078125
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": -0.018035438675044875,
+              "absolute_difference": -0.015625
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": 0.06363249991584341,
+              "absolute_difference": 0.046874999999999944
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": 0.03550802272742447,
+              "absolute_difference": 0.0234375
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": -0.01660766732240229,
+              "absolute_difference": -0.015625000000000028
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": 0.0617741980841756,
+              "absolute_difference": 0.0234375
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": 0.340206575365942,
+              "absolute_difference": 0.06770833333333334
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": 0.32940803069961433,
+              "absolute_difference": 0.0859375
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": -0.0070229337167537365,
+              "absolute_difference": -0.005208333333333315
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.010753102610481732,
+              "absolute_difference": 0.01041666666666663
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": 0.37291371919442917,
+              "absolute_difference": 0.046875
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": -0.1377388342981212,
+              "absolute_difference": -0.05208333333333333
+            }
+          ]
+        },
+        "random": {
+          "gain_percent": 4.285569549619453,
+          "mean_absolute_difference": 0.012586805555555558,
+          "rank_mean": 0.674045138888889,
+          "baseline_mean": 0.6614583333333334,
+          "conditional_ci95_percent": [
+            2.0392683755387178,
+            6.742970525811656
+          ],
+          "conditional_sign_test": {
+            "wins": 22,
+            "losses": 10,
+            "ties": 4,
+            "p_two_sided": 0.050102459732443094,
+            "p_holm_8": 0.20040983892977238
+          },
+          "block_sign_test": {
+            "wins": 3,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 0.25
+          },
+          "block_gain_percent": [
+            3.1025683247074176,
+            3.4121760124347498,
+            6.373020534678673
+          ],
+          "task_effects": [
+            {
+              "block": 0,
+              "task_id": "test_00",
+              "log_ratio": -0.09247506389641634,
+              "absolute_difference": -0.078125
+            },
+            {
+              "block": 0,
+              "task_id": "test_01",
+              "log_ratio": -0.05851815546160005,
+              "absolute_difference": -0.031250000000000014
+            },
+            {
+              "block": 0,
+              "task_id": "test_02",
+              "log_ratio": 0.07707533991362918,
+              "absolute_difference": 0.015625
+            },
+            {
+              "block": 0,
+              "task_id": "test_03",
+              "log_ratio": 0.04211427440928883,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 0,
+              "task_id": "test_04",
+              "log_ratio": -0.008772829952817505,
+              "absolute_difference": -0.0078125
+            },
+            {
+              "block": 0,
+              "task_id": "test_05",
+              "log_ratio": -0.0009657738370636246,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_06",
+              "log_ratio": 0.1359668577418209,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 0,
+              "task_id": "test_07",
+              "log_ratio": 0.026340128914456556,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 0,
+              "task_id": "test_08",
+              "log_ratio": -0.008475387918920335,
+              "absolute_difference": -0.0078125
+            },
+            {
+              "block": 0,
+              "task_id": "test_09",
+              "log_ratio": -0.010753102610481752,
+              "absolute_difference": -0.01041666666666663
+            },
+            {
+              "block": 0,
+              "task_id": "test_10",
+              "log_ratio": 0.12586137911709203,
+              "absolute_difference": 0.0703125
+            },
+            {
+              "block": 0,
+              "task_id": "test_11",
+              "log_ratio": 0.13925172234629762,
+              "absolute_difference": 0.08333333333333334
+            },
+            {
+              "block": 1,
+              "task_id": "test_00",
+              "log_ratio": 0.008197455705747743,
+              "absolute_difference": 0.0078125
+            },
+            {
+              "block": 1,
+              "task_id": "test_01",
+              "log_ratio": -0.005376551305240876,
+              "absolute_difference": -0.005208333333333315
+            },
+            {
+              "block": 1,
+              "task_id": "test_02",
+              "log_ratio": 0.02175284424740742,
+              "absolute_difference": 0.0078125
+            },
+            {
+              "block": 1,
+              "task_id": "test_03",
+              "log_ratio": 0.09741627683534435,
+              "absolute_difference": 0.046874999999999986
+            },
+            {
+              "block": 1,
+              "task_id": "test_04",
+              "log_ratio": 0.0430712835201797,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 1,
+              "task_id": "test_05",
+              "log_ratio": 0.07606167611854636,
+              "absolute_difference": 0.05208333333333337
+            },
+            {
+              "block": 1,
+              "task_id": "test_06",
+              "log_ratio": 0.08699496086817318,
+              "absolute_difference": 0.0546875
+            },
+            {
+              "block": 1,
+              "task_id": "test_07",
+              "log_ratio": 0.02780640877755605,
+              "absolute_difference": 0.020833333333333315
+            },
+            {
+              "block": 1,
+              "task_id": "test_08",
+              "log_ratio": 0.04420486990999283,
+              "absolute_difference": 0.0390625
+            },
+            {
+              "block": 1,
+              "task_id": "test_09",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 1,
+              "task_id": "test_10",
+              "log_ratio": 0.06308196043856384,
+              "absolute_difference": 0.046875
+            },
+            {
+              "block": 1,
+              "task_id": "test_11",
+              "log_ratio": -0.06058087839601123,
+              "absolute_difference": -0.046875
+            },
+            {
+              "block": 2,
+              "task_id": "test_00",
+              "log_ratio": -0.03437294846015493,
+              "absolute_difference": -0.0234375
+            },
+            {
+              "block": 2,
+              "task_id": "test_01",
+              "log_ratio": 0.01711297307536394,
+              "absolute_difference": 0.015624999999999972
+            },
+            {
+              "block": 2,
+              "task_id": "test_02",
+              "log_ratio": 0.02175284424740742,
+              "absolute_difference": 0.0078125
+            },
+            {
+              "block": 2,
+              "task_id": "test_03",
+              "log_ratio": 0.3480807538500116,
+              "absolute_difference": 0.06770833333333331
+            },
+            {
+              "block": 2,
+              "task_id": "test_04",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_05",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_06",
+              "log_ratio": 0.2444585123019156,
+              "absolute_difference": 0.0703125
+            },
+            {
+              "block": 2,
+              "task_id": "test_07",
+              "log_ratio": -0.09634296423575638,
+              "absolute_difference": -0.07812499999999994
+            },
+            {
+              "block": 2,
+              "task_id": "test_08",
+              "log_ratio": 0.0,
+              "absolute_difference": 0.0
+            },
+            {
+              "block": 2,
+              "task_id": "test_09",
+              "log_ratio": 0.010753102610481732,
+              "absolute_difference": 0.01041666666666663
+            },
+            {
+              "block": 2,
+              "task_id": "test_10",
+              "log_ratio": 0.22907268296853878,
+              "absolute_difference": 0.03125
+            },
+            {
+              "block": 2,
+              "task_id": "test_11",
+              "log_ratio": 0.0008665519941216185,
+              "absolute_difference": 1.3877787807814457e-17
+            }
+          ]
+        }
+      }
+    }
+  }
+}

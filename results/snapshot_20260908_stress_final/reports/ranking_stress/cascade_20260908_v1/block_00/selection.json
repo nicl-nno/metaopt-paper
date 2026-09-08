@@ -1,0 +1,65 @@
+{
+  "selected_regression": "log_mse",
+  "training": [
+    {
+      "loss": "mse",
+      "model_seed": 17,
+      "initial_weights_sha256": "0f863cedb929503933ba1e66fe291820b1e584e2c97eb3984fbd21cb1d46e8fa",
+      "optimizer_steps": 3840,
+      "parameters": 8417,
+      "validation_log_regret": 0.4877873454531012,
+      "selected_epoch": 10,
+      "seconds": 45.244018400029745
+    },
+    {
+      "loss": "log_mse",
+      "model_seed": 17,
+      "initial_weights_sha256": "0f863cedb929503933ba1e66fe291820b1e584e2c97eb3984fbd21cb1d46e8fa",
+      "optimizer_steps": 3840,
+      "parameters": 8417,
+      "validation_log_regret": 0.2435701325041939,
+      "selected_epoch": 69,
+      "seconds": 44.93453040003078
+    },
+    {
+      "loss": "ranknet",
+      "model_seed": 17,
+      "initial_weights_sha256": "0f863cedb929503933ba1e66fe291820b1e584e2c97eb3984fbd21cb1d46e8fa",
+      "optimizer_steps": 3840,
+      "parameters": 8417,
+      "validation_log_regret": 0.14924657471882688,
+      "selected_epoch": 4,
+      "seconds": 50.75360130000627
+    },
+    {
+      "loss": "mse",
+      "model_seed": 23,
+      "initial_weights_sha256": "56ad39077459d3f242ab44ec0bb6159145517652e631658710f5b089112f7e79",
+      "optimizer_steps": 3840,
+      "parameters": 8417,
+      "validation_log_regret": 0.4771474418484023,
+      "selected_epoch": 6,
+      "seconds": 40.52189219999127
+    },
+    {
+      "loss": "log_mse",
+      "model_seed": 23,
+      "initial_weights_sha256": "56ad39077459d3f242ab44ec0bb6159145517652e631658710f5b089112f7e79",
+      "optimizer_steps": 3840,
+      "parameters": 8417,
+      "validation_log_regret": 0.6304235600700046,
+      "selected_epoch": 10,
+      "seconds": 39.173551200015936
+    },
+    {
+      "loss": "ranknet",
+      "model_seed": 23,
+      "initial_weights_sha256": "56ad39077459d3f242ab44ec0bb6159145517652e631658710f5b089112f7e79",
+      "optimizer_steps": 3840,
+      "parameters": 8417,
+      "validation_log_regret": 0.08641796764860037,
+      "selected_epoch": 3,
+      "seconds": 42.17011479998473
+    }
+  ]
+}
