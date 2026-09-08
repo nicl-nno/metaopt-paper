@@ -1,0 +1,41 @@
+{
+  "purpose": "Timing only; separate source graphs excluded from train, validation and test",
+  "measurements": [
+    {
+      "n": 50,
+      "family": "er",
+      "attack_scenarios": 4,
+      "median_evaluation_seconds": 0.00606720003997907
+    },
+    {
+      "n": 50,
+      "family": "ba",
+      "attack_scenarios": 4,
+      "median_evaluation_seconds": 0.00647309998748824
+    },
+    {
+      "n": 100,
+      "family": "er",
+      "attack_scenarios": 4,
+      "median_evaluation_seconds": 0.0179022999946028
+    },
+    {
+      "n": 100,
+      "family": "ba",
+      "attack_scenarios": 4,
+      "median_evaluation_seconds": 0.017818299995269626
+    },
+    {
+      "n": 200,
+      "family": "er",
+      "attack_scenarios": 4,
+      "median_evaluation_seconds": 0.06009260000428185
+    },
+    {
+      "n": 200,
+      "family": "ba",
+      "attack_scenarios": 4,
+      "median_evaluation_seconds": 0.06474209995940328
+    }
+  ]
+}

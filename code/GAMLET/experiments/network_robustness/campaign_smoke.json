@@ -1,0 +1,17 @@
+{
+  "name": "network_campaign_smoke",
+  "block_seeds": [931931, 931941],
+  "workers": 2,
+  "config": {
+    "sizes": [12], "tasks_per_cell": {"train": 1, "validation": 1, "test": 1},
+    "extrapolation_sizes": [20], "extrapolation_tasks_per_cell": 1,
+    "oracle": "union_find", "max_changed_fraction": 0.2,
+    "attack_scenarios": 2, "fresh_scenarios": 3, "designs_per_task": 16,
+    "epochs": 2, "batch_size": 8, "learning_rate": 0.001, "hidden": 16, "layers": 2,
+    "model_seeds": [17], "search_seeds": [101],
+    "losses": ["mse", "log_mse", "global_mse", "global_log_mse", "ranknet"],
+    "budget": 12, "primary_budget": 8, "evaluation_checkpoints": [8, 12],
+    "initial_evaluations": 4, "population": 4, "batch_evaluations": 4,
+    "proposal_pool": 8, "random_exploration": 1, "threads": 2, "training_heartbeat": true
+  }
+}

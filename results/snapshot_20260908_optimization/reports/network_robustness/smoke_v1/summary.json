@@ -1,0 +1,200 @@
+{
+  "primary_baseline": "mse",
+  "effects": {
+    "best_r": {
+      "mse": {
+        "gain_percent": -1.081112842090976,
+        "task_bootstrap_95_percent": [
+          -2.150537634408611,
+          0.0
+        ],
+        "task_count": 2,
+        "tasks_better": 0,
+        "task_log_ratios": {
+          "test_er_12_00": 0.0,
+          "test_ba_12_00": -0.02173998663640599
+        }
+      },
+      "log_mse": {
+        "gain_percent": -1.081112842090976,
+        "task_bootstrap_95_percent": [
+          -2.150537634408611,
+          0.0
+        ],
+        "task_count": 2,
+        "tasks_better": 0,
+        "task_log_ratios": {
+          "test_er_12_00": 0.0,
+          "test_ba_12_00": -0.02173998663640599
+        }
+      },
+      "ea": {
+        "gain_percent": -3.1421490070677285,
+        "task_bootstrap_95_percent": [
+          -6.18556701030929,
+          0.0
+        ],
+        "task_count": 2,
+        "tasks_better": 0,
+        "task_log_ratios": {
+          "test_er_12_00": 0.0,
+          "test_ba_12_00": -0.0638514719865329
+        }
+      },
+      "pool_random": {
+        "gain_percent": -1.081112842090976,
+        "task_bootstrap_95_percent": [
+          -2.150537634408611,
+          0.0
+        ],
+        "task_count": 2,
+        "tasks_better": 0,
+        "task_log_ratios": {
+          "test_er_12_00": 0.0,
+          "test_ba_12_00": -0.02173998663640599
+        }
+      },
+      "hillclimb": {
+        "gain_percent": 0.07404665953513227,
+        "task_bootstrap_95_percent": [
+          -0.952380952380949,
+          1.1111111111111074
+        ],
+        "task_count": 2,
+        "tasks_better": 1,
+        "task_log_ratios": {
+          "test_er_12_00": -0.009569451016150672,
+          "test_ba_12_00": 0.011049836186584935
+        }
+      },
+      "random": {
+        "gain_percent": -4.097555236768727,
+        "task_bootstrap_95_percent": [
+          -7.142857142857151,
+          -0.952380952380949
+        ],
+        "task_count": 2,
+        "tasks_better": 0,
+        "task_log_ratios": {
+          "test_er_12_00": -0.009569451016150672,
+          "test_ba_12_00": -0.07410797215372196
+        }
+      }
+    },
+    "fresh_r": {
+      "mse": {
+        "gain_percent": -0.35524090959727217,
+        "task_bootstrap_95_percent": [
+          -0.7092198581560294,
+          0.0
+        ],
+        "task_count": 2,
+        "tasks_better": 0,
+        "task_log_ratios": {
+          "test_er_12_00": 0.0,
+          "test_ba_12_00": -0.0071174677688639896
+        }
+      },
+      "log_mse": {
+        "gain_percent": -0.35524090959727217,
+        "task_bootstrap_95_percent": [
+          -0.7092198581560294,
+          0.0
+        ],
+        "task_count": 2,
+        "tasks_better": 0,
+        "task_log_ratios": {
+          "test_er_12_00": 0.0,
+          "test_ba_12_00": -0.0071174677688639896
+        }
+      },
+      "ea": {
+        "gain_percent": -1.3986702816730665,
+        "task_bootstrap_95_percent": [
+          -2.777777777777779,
+          0.0
+        ],
+        "task_count": 2,
+        "tasks_better": 0,
+        "task_log_ratios": {
+          "test_er_12_00": 0.0,
+          "test_ba_12_00": -0.028170876966696335
+        }
+      },
+      "pool_random": {
+        "gain_percent": -0.35524090959727217,
+        "task_bootstrap_95_percent": [
+          -0.7092198581560294,
+          0.0
+        ],
+        "task_count": 2,
+        "tasks_better": 0,
+        "task_log_ratios": {
+          "test_er_12_00": 0.0,
+          "test_ba_12_00": -0.0071174677688639896
+        }
+      },
+      "hillclimb": {
+        "gain_percent": 1.835015443463108,
+        "task_bootstrap_95_percent": [
+          0.0,
+          3.703703703703698
+        ],
+        "task_count": 2,
+        "tasks_better": 1,
+        "task_log_ratios": {
+          "test_er_12_00": 0.0,
+          "test_ba_12_00": 0.03636764417087479
+        }
+      },
+      "random": {
+        "gain_percent": -0.7645715941324839,
+        "task_bootstrap_95_percent": [
+          -2.777777777777779,
+          1.2903225806451646
+        ],
+        "task_count": 2,
+        "tasks_better": 1,
+        "task_log_ratios": {
+          "test_er_12_00": 0.012820688429061469,
+          "test_ba_12_00": -0.028170876966696335
+        }
+      }
+    }
+  },
+  "costs": {
+    "ranknet": {
+      "mean_online_seconds": 0.032702800002880394,
+      "mean_gain_over_initial_percent": 0.5555555555555536
+    },
+    "mse": {
+      "mean_online_seconds": 0.034422249998897314,
+      "mean_gain_over_initial_percent": 1.6666666666666718
+    },
+    "log_mse": {
+      "mean_online_seconds": 0.0322155500180088,
+      "mean_gain_over_initial_percent": 1.6666666666666718
+    },
+    "ea": {
+      "mean_online_seconds": 0.01892600001883693,
+      "mean_gain_over_initial_percent": 3.8888888888888973
+    },
+    "pool_random": {
+      "mean_online_seconds": 0.02451545000076294,
+      "mean_gain_over_initial_percent": 1.6666666666666718
+    },
+    "hillclimb": {
+      "mean_online_seconds": 0.013963949983008206,
+      "mean_gain_over_initial_percent": 0.48076923076922906
+    },
+    "random": {
+      "mean_online_seconds": 0.020301600015955046,
+      "mean_gain_over_initial_percent": 4.92521367521368
+    }
+  },
+  "exploratory": true,
+  "primary_budget": 12,
+  "primary_scenarios": 2,
+  "fresh_scenarios": 3,
+  "note": "Positive gains favor RankNet. CIs conditional on one offline training set."
+}

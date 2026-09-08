@@ -1,0 +1,37 @@
+{
+  "name": "pilot_repo_v2",
+  "purpose": "Exploratory pilot; not a confirmatory publication experiment",
+  "seed": 260906,
+  "nx": 4,
+  "ny": 3,
+  "volume": 0.03,
+  "young": 210000000000.0,
+  "train_tasks": 12,
+  "validation_tasks": 4,
+  "test_tasks": 6,
+  "train_designs_per_task": 256,
+  "validation_designs_per_task": 256,
+  "epochs": 40,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "hidden": 32,
+  "layers": 3,
+  "model_seeds": [
+    17,
+    23
+  ],
+  "search_seeds": [
+    101,
+    202,
+    303
+  ],
+  "budget": 96,
+  "initial_evaluations": 16,
+  "population": 16,
+  "batch_evaluations": 4,
+  "proposal_pool": 48,
+  "random_exploration": 1,
+  "threads": 2,
+  "architecture": "repo_gnn"
+}

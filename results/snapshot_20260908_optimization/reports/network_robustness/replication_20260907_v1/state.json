@@ -1,0 +1,51 @@
+{
+  "status": "running",
+  "updated_utc": "2026-09-08T08:56:15.398716+00:00",
+  "pid": 47304,
+  "active_blocks": [
+    4
+  ],
+  "pending_blocks": [],
+  "failed_blocks": [],
+  "blocks": {
+    "block_00": {
+      "status": "completed",
+      "updated_utc": "2026-09-08T04:36:32.550364+00:00",
+      "pid": 21672,
+      "searches_completed": 1680,
+      "searches_total": 1680
+    },
+    "block_01": {
+      "status": "completed",
+      "updated_utc": "2026-09-08T05:20:16.529510+00:00",
+      "pid": 44844,
+      "searches_completed": 1680,
+      "searches_total": 1680
+    },
+    "block_02": {
+      "status": "completed",
+      "updated_utc": "2026-09-08T03:50:53.566380+00:00",
+      "pid": 49816,
+      "searches_completed": 1680,
+      "searches_total": 1680
+    },
+    "block_03": {
+      "status": "completed",
+      "updated_utc": "2026-09-08T03:44:15.436050+00:00",
+      "pid": 50188,
+      "searches_completed": 1680,
+      "searches_total": 1680
+    },
+    "block_04": {
+      "status": "search",
+      "updated_utc": "2026-09-08T08:56:02.656997+00:00",
+      "pid": 48208,
+      "task": "test_ba_200_02",
+      "method": "mse",
+      "model_seed": 23,
+      "search_seed": 202,
+      "searches_completed": 1622,
+      "searches_total": 1680
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "status": "stopped_by_user",
+  "pid": 26620,
+  "started_utc": "2026-09-06T12:03:05.389028+00:00",
+  "deadline_utc": "2026-09-07T12:03:05.389028+00:00",
+  "maximum_hours": 24.0,
+  "finished_jobs": [],
+  "active_job": null,
+  "child_pid": null,
+  "threads": 2,
+  "stop_instructions": "Create the file D:\\agents\\gamlet\\GAMLET\\experiments\\gendesign_rank\\results\\overnight_20260906\\STOP to stop the queue and current child.",
+  "updated_utc": "2026-09-06T12:04:25.430968+00:00",
+  "elapsed_hours": 0.022231111111112922,
+  "ended_utc": "2026-09-06T12:04:25.432972+00:00"
+}

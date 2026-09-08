@@ -1,0 +1,91 @@
+{
+  "primary_baseline": "mse",
+  "effects": {
+    "mse": {
+      "baseline": "mse",
+      "delta_percent": -13.644232218141472,
+      "task_bootstrap_95_percent": [
+        -13.644232218141472,
+        -13.644232218141472
+      ],
+      "task_count": 1,
+      "paired_runs": 1,
+      "tasks_ranknet_better": 1,
+      "task_log_ratios": {
+        "test_000": -0.1466945882369036
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    },
+    "log_mse": {
+      "baseline": "log_mse",
+      "delta_percent": -13.644232218141472,
+      "task_bootstrap_95_percent": [
+        -13.644232218141472,
+        -13.644232218141472
+      ],
+      "task_count": 1,
+      "paired_runs": 1,
+      "tasks_ranknet_better": 1,
+      "task_log_ratios": {
+        "test_000": -0.1466945882369036
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    },
+    "ea": {
+      "baseline": "ea",
+      "delta_percent": -15.522947677042398,
+      "task_bootstrap_95_percent": [
+        -15.522947677042398,
+        -15.522947677042398
+      ],
+      "task_count": 1,
+      "paired_runs": 1,
+      "tasks_ranknet_better": 1,
+      "task_log_ratios": {
+        "test_000": -0.16869025864932544
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    },
+    "random": {
+      "baseline": "random",
+      "delta_percent": -13.297448235554388,
+      "task_bootstrap_95_percent": [
+        -13.297448235554388,
+        -13.297448235554388
+      ],
+      "task_count": 1,
+      "paired_runs": 1,
+      "tasks_ranknet_better": 1,
+      "task_log_ratios": {
+        "test_000": -0.14268687051884507
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    }
+  },
+  "methods": {
+    "ranknet": {
+      "mean_seconds": 0.017997999995714054,
+      "mean_improvement_percent": 22.625072475798913
+    },
+    "mse": {
+      "mean_seconds": 0.019519299996318296,
+      "mean_improvement_percent": 10.39981519282388
+    },
+    "log_mse": {
+      "mean_seconds": 0.01888150000013411,
+      "mean_improvement_percent": 10.39981519282388
+    },
+    "ea": {
+      "mean_seconds": 0.004361300001619384,
+      "mean_improvement_percent": 8.407164553522694
+    },
+    "random": {
+      "mean_seconds": 0.003808999987086281,
+      "mean_improvement_percent": 10.758188831149873
+    }
+  },
+  "test_tasks": 1,
+  "true_evaluations_per_search": 24,
+  "global_optimum_known": false,
+  "confirmatory": false
+}

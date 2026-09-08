@@ -1,0 +1,11 @@
+{
+  "status": "search",
+  "updated_utc": "2026-09-08T08:56:02.656997+00:00",
+  "pid": 48208,
+  "task": "test_ba_200_02",
+  "method": "mse",
+  "model_seed": 23,
+  "search_seed": 202,
+  "searches_completed": 1622,
+  "searches_total": 1680
+}

@@ -1,0 +1,6 @@
+{
+  "searches": 144,
+  "online_oracle_evaluations": 13824,
+  "test_tasks": 6,
+  "selected_regression": "mse"
+}

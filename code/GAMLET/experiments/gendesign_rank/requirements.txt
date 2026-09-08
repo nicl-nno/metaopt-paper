@@ -1,0 +1,6 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.2.6
+torch==2.8.0
+matplotlib==3.10.3
+torch-geometric==2.7.0
+einops==0.8.1

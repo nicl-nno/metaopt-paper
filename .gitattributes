@@ -7,3 +7,5 @@
 *.zip binary
 # Evidence hashes refer to exact captured bytes, including line endings.
 evidence/** -text
+code/** -text
+results/** -text

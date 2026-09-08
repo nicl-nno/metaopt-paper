@@ -1,0 +1,34 @@
+{
+  "name": "smoke_repo_v2",
+  "purpose": "Execution check only",
+  "seed": 260906,
+  "nx": 3,
+  "ny": 2,
+  "volume": 0.03,
+  "young": 210000000000.0,
+  "train_tasks": 2,
+  "validation_tasks": 1,
+  "test_tasks": 1,
+  "train_designs_per_task": 32,
+  "validation_designs_per_task": 32,
+  "epochs": 2,
+  "batch_size": 16,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "hidden": 16,
+  "layers": 2,
+  "model_seeds": [
+    17
+  ],
+  "search_seeds": [
+    101
+  ],
+  "budget": 24,
+  "initial_evaluations": 8,
+  "population": 8,
+  "batch_evaluations": 4,
+  "proposal_pool": 16,
+  "random_exploration": 1,
+  "threads": 2,
+  "architecture": "repo_gnn"
+}

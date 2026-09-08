@@ -1,0 +1,26 @@
+# constant versions (for direct, unstable & important dependencies)
+fedot @ https://github.com/nccr-itmo/FEDOT/archive/master.zip
+thegolem==0.4.0
+openml==0.14.1
+pymfe==0.4.2
+pyyaml==6.0.1
+fedot-ind @ git+https://github.com/aimclub/Fedot.Industrial@gamlet-compatible
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.2.0+cpu
+torch_geometric==2.3.0
+--find-links https://data.pyg.org/whl/torch-2.0.0+cpu.html
+torch_scatter
+pytorch-lightning==2.0.5
+giotto_tda==0.6.0
+ripser==0.6.4
+
+# variable versions
+einops
+numpy>=1.16.5
+pandas>=1.3.0
+pytest>=7.4.0
+scikit-learn>=1.0.0
+scipy>=1.7.3
+tqdm>=4.65.0
+loguru
+pecapiku @ git+https://github.com/MorrisNein/pecapiku

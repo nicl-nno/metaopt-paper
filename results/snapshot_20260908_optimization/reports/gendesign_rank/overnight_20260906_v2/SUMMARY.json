@@ -1,0 +1,100 @@
+{
+  "state": "completed",
+  "main_runs": [
+    "main_00",
+    "main_01",
+    "main_02",
+    "main_03",
+    "main_04"
+  ],
+  "effects": {
+    "primary": {
+      "delta_percent": -0.4161493032344531,
+      "training_data_replicates": 5,
+      "held_out_tasks": 120,
+      "replicate_delta_percent": [
+        -0.5385338131819293,
+        -0.3238100096751996,
+        -0.24128792584615227,
+        -0.7190660877510798,
+        -0.25718890721176263
+      ],
+      "exploratory_hierarchical_95_percent": [
+        -0.5922222715209402,
+        -0.25437145522599436
+      ]
+    },
+    "mse": {
+      "delta_percent": -0.6199024583733234,
+      "training_data_replicates": 5,
+      "held_out_tasks": 120,
+      "replicate_delta_percent": [
+        -0.5684512216949911,
+        -0.5543372608122616,
+        -0.24128792584615227,
+        -0.7190660877510798,
+        -1.014779380880046
+      ],
+      "exploratory_hierarchical_95_percent": [
+        -0.854061769831041,
+        -0.38741327230141975
+      ]
+    },
+    "log_mse": {
+      "delta_percent": -0.36647222416902986,
+      "training_data_replicates": 5,
+      "held_out_tasks": 120,
+      "replicate_delta_percent": [
+        -0.5385338131819293,
+        -0.3238100096751996,
+        -0.37627648945303316,
+        -0.3363290971254491,
+        -0.25718890721176263
+      ],
+      "exploratory_hierarchical_95_percent": [
+        -0.4756049131925272,
+        -0.26370550214557364
+      ]
+    },
+    "ea": {
+      "delta_percent": -12.7953609849826,
+      "training_data_replicates": 5,
+      "held_out_tasks": 120,
+      "replicate_delta_percent": [
+        -12.830962043488448,
+        -13.013059023236071,
+        -12.484260886136424,
+        -13.40681579354216,
+        -12.236940024173256
+      ],
+      "exploratory_hierarchical_95_percent": [
+        -13.25551392413346,
+        -12.332393329130126
+      ]
+    },
+    "random": {
+      "delta_percent": -24.8842373690132,
+      "training_data_replicates": 5,
+      "held_out_tasks": 120,
+      "replicate_delta_percent": [
+        -24.625430509304948,
+        -25.300756570997606,
+        -24.55652747666599,
+        -25.95822376909253,
+        -23.96459599306363
+      ],
+      "exploratory_hierarchical_95_percent": [
+        -25.60576035389403,
+        -24.138330802313142
+      ]
+    }
+  },
+  "mechanism_runs": [
+    "mechanism_00",
+    "mechanism_01",
+    "mechanism_02",
+    "mechanism_03",
+    "mechanism_04"
+  ],
+  "note": "Partial results if the queue is running/stopped. Seeds are not independent task replicates."
+}
