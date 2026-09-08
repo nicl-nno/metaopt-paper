@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "primary_comparison_endpoints_verified": 1536,
+  "max_absolute_discrepancy": 0,
+  "reference_attack_trajectories": 7680,
+  "production_recheck_attack_trajectories": 56832,
+  "scope": "RankNet and validation-selected regression, both budgets, all included ID tasks; other comparisons have structural/trajectory checks only"
+}

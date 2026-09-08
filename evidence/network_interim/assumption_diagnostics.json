@@ -1,0 +1,64 @@
+{
+  "0": {
+    "normality": {
+      "test": "Shapiro-Wilk",
+      "statistic": 0.9155128141187973,
+      "p_value": 0.0157384639005762,
+      "is_normal": false,
+      "interpretation": "Data do not appear normally distributed (W = 0.916, p = 0.016)",
+      "n": 32,
+      "recommendation": "Consider non-parametric alternative or transformation"
+    },
+    "iqr_outliers": {
+      "method": "iqr",
+      "threshold": 1.5,
+      "n_outliers": 1,
+      "pct_outliers": 3.125,
+      "outlier_indices": [
+        13
+      ],
+      "outlier_values": [
+        0.05314543409683573
+      ],
+      "lower_bound": -0.022676172361334086,
+      "upper_bound": 0.04739149780074904,
+      "interpretation": "Found 1 outliers (3.1% of data)",
+      "recommendation": "Investigate outliers for data entry errors. Consider: (1) removing if errors, (2) winsorizing, (3) keeping if legitimate, (4) using robust methods"
+    },
+    "skewness": 1.040316222262731,
+    "median_log_ratio": 0.00906587943773583,
+    "no_outliers_removed": true
+  },
+  "1": {
+    "normality": {
+      "test": "Shapiro-Wilk",
+      "statistic": 0.907222064758357,
+      "p_value": 0.009505333649436567,
+      "is_normal": false,
+      "interpretation": "Data do not appear normally distributed (W = 0.907, p = 0.010)",
+      "n": 32,
+      "recommendation": "Consider non-parametric alternative or transformation"
+    },
+    "iqr_outliers": {
+      "method": "iqr",
+      "threshold": 1.5,
+      "n_outliers": 2,
+      "pct_outliers": 6.25,
+      "outlier_indices": [
+        0,
+        12
+      ],
+      "outlier_values": [
+        0.029822672840527947,
+        0.045615372616729856
+      ],
+      "lower_bound": -0.01214781070222876,
+      "upper_bound": 0.027777238254375475,
+      "interpretation": "Found 2 outliers (6.2% of data)",
+      "recommendation": "Investigate outliers for data entry errors. Consider: (1) removing if errors, (2) winsorizing, (3) keeping if legitimate, (4) using robust methods"
+    },
+    "skewness": 1.2317095940872942,
+    "median_log_ratio": 0.006456806334982497,
+    "no_outliers_removed": true
+  }
+}

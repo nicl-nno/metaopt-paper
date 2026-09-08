@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "campaign_graphs": 420,
+  "graphs_including_pilot": 440,
+  "no_repeated_isomorphic_sources": true,
+  "test_graphs": 200,
+  "manifest_sha256": "48bbf85acd2849ded0b635b07c4796a7bbea3ea792153e0e6af0683354f96e00"
+}

@@ -1,0 +1,8 @@
+{
+  "selected_regression": "log_mse",
+  "validation_log_regret": {
+    "mse": 0.00896461494919317,
+    "log_mse": 0.008794262184492927
+  },
+  "test_labels_used": 0
+}

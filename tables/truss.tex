@@ -1,0 +1,13 @@
+\begin{table}[tb]
+\centering\small
+\caption{Completed truss experiment at 256 true evaluations: five offline-data blocks and 120 held-out tasks. Negative compliance changes favor RankNet. Intervals are exploratory hierarchical bootstrap intervals, not task-conditional network intervals.}
+\label{tab:truss}
+\begin{tabular}{lrr}\toprule
+Comparator & $\Delta_C$ (\%) & Exploratory 95\% interval (\%)\\\midrule
+Validation-selected GNN regression & $-0.416$ & $[-0.592, -0.254]$\\
+GNN MSE & $-0.620$ & $[-0.854, -0.387]$\\
+GNN log-MSE & $-0.366$ & $[-0.476, -0.264]$\\
+EA & $-12.795$ & $[-13.256, -12.332]$\\
+Random search & $-24.884$ & $[-25.606, -24.138]$\\
+\bottomrule\end{tabular}
+\end{table}

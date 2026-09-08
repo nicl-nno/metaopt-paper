@@ -1,0 +1,87 @@
+{
+  "source": "D:\\agents\\gamlet\\GAMLET\\experiments\\gendesign_rank\\results\\overnight_20260906_v2\\main_04",
+  "source_config": {
+    "name": "overnight_main_04",
+    "purpose": "Frozen extended experiment after repository-GNN pilot; fresh train/validation/test tasks",
+    "seed": 300907,
+    "nx": 4,
+    "ny": 3,
+    "volume": 0.03,
+    "young": 210000000000.0,
+    "train_tasks": 24,
+    "validation_tasks": 8,
+    "test_tasks": 24,
+    "train_designs_per_task": 512,
+    "validation_designs_per_task": 512,
+    "epochs": 80,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "hidden": 32,
+    "layers": 3,
+    "model_seeds": [
+      17,
+      23,
+      37,
+      53,
+      71
+    ],
+    "search_seeds": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010
+    ],
+    "budget": 256,
+    "initial_evaluations": 16,
+    "population": 16,
+    "batch_evaluations": 4,
+    "proposal_pool": 48,
+    "random_exploration": 1,
+    "threads": 2,
+    "architecture": "repo_gnn"
+  },
+  "model_seeds": [
+    17,
+    23,
+    37
+  ],
+  "search_seeds": [
+    901,
+    902,
+    903,
+    904,
+    905
+  ],
+  "quick": false,
+  "pools": [
+    4,
+    12,
+    48,
+    192
+  ],
+  "budget": 256,
+  "source_checkpoints": {
+    "log_mse_17.pt": "30264a6cde6daa70441e6947c611bf21fbda46d794d4535f146ba61d6ed2a52b",
+    "log_mse_23.pt": "1063b8863c65b6fd85fc14bd0fb977e689ff7420b0df83ac8deae55c9bbb0b3f",
+    "log_mse_37.pt": "a9c20447ffab250eb24a183eb35ec4d8ec2dee5ef219da70fa71e365cf36a776",
+    "log_mse_53.pt": "7a8c75c58c28461836e4c89aecfbd8609b162718d227940169ecf0baa56a2970",
+    "log_mse_71.pt": "9f5e360781ad9a80aef4dbf8ab9a6fc7421a8cd51dd128f005fae80c2103e58e",
+    "mse_17.pt": "51904d1e76b6307592e7a2bba88824b3c972efb8fb730e2c33609f5d4bb8a36c",
+    "mse_23.pt": "30c1b0f0499ead068fa9b8c930674bcf3258282391d3ca331cccb255b8961e69",
+    "mse_37.pt": "71c85ab50685c0ecfddfd35556fb696dbb1f2ee355eb3323f5200c9522a6b8f4",
+    "mse_53.pt": "d972b122e75170772d9f3d09fc877575bb1aa0e5aaa9036ddacfd043b965a1c3",
+    "mse_71.pt": "8d1a01d2e6f9f4c69caeda7eda491dd1ff5adb1131a9a3b64921cecf5ec87614",
+    "ranknet_17.pt": "0e6c7144d2e1ae9923586b22166069b61658e25cdf9136577e5e60697094de13",
+    "ranknet_23.pt": "8c4aa8e520c9286d91cc9d986bfda2c81343be21e88c760a38bce98cf1ef9fb8",
+    "ranknet_37.pt": "96c1e9d9222c9f4efef65edcd6e99cecdb5c1c450744432fcd82b4cc95408f86",
+    "ranknet_53.pt": "a124cc0b3b0234434bc27699afd1c051dbcef76c65a14b182752019d40edc666",
+    "ranknet_71.pt": "ce635efbff93ee825f22a2ae62fc11080d70d7723ae3cb7af6c357d3243cc21c"
+  }
+}

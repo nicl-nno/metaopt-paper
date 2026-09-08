@@ -1,0 +1,16 @@
+loss,model_seed,selected_epoch,validation_log_regret,training_seconds,initial_weights_sha256,optimizer_steps,trainable_parameters,selection
+mse,17,49,0.0020125040830712977,182.99066429998493,b95ea2dff3403e151b714b0a4e8e943aa198e4f80ef0541f4ba1c2ea690b46f1,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+log_mse,17,25,0.0010298850617058374,181.80284089996712,b95ea2dff3403e151b714b0a4e8e943aa198e4f80ef0541f4ba1c2ea690b46f1,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+ranknet,17,20,0.0037176080595295027,188.95006070000818,b95ea2dff3403e151b714b0a4e8e943aa198e4f80ef0541f4ba1c2ea690b46f1,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+mse,23,54,0.006715073297330565,181.86894680000842,96f0525f761999daf4a7b4ea75c890ee216665530f6dc5b4e4e803eb58478d32,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+log_mse,23,19,0.0010298850617058374,182.3967110000085,96f0525f761999daf4a7b4ea75c890ee216665530f6dc5b4e4e803eb58478d32,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+ranknet,23,71,0.008643064583276214,185.53056970000034,96f0525f761999daf4a7b4ea75c890ee216665530f6dc5b4e4e803eb58478d32,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+mse,37,76,0.0,178.77507530001458,156e1b5a0bc4f2c8c9baafb799083feebdb4603b97935bbce54efa9e9fea7d6a,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+log_mse,37,45,0.0,179.6794989000191,156e1b5a0bc4f2c8c9baafb799083feebdb4603b97935bbce54efa9e9fea7d6a,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+ranknet,37,32,0.0020437984783488903,187.14545890002046,156e1b5a0bc4f2c8c9baafb799083feebdb4603b97935bbce54efa9e9fea7d6a,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+mse,53,67,0.0037176080595295027,180.448451400036,b126835be174eaa8c4903f6450fcf8e51cb586304648c411de8707d56983719f,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+log_mse,53,42,0.010316874164456827,180.3099592999788,b126835be174eaa8c4903f6450fcf8e51cb586304648c411de8707d56983719f,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+ranknet,53,39,0.0020437984783488903,187.3534542999696,b126835be174eaa8c4903f6450fcf8e51cb586304648c411de8707d56983719f,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+mse,71,66,0.0037176080595295027,180.1892499999958,b9bb15f49d2f7da2bc52f53be546c0532f8d64d3782e6573df1964a696f07a56,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+log_mse,71,74,0.01028950072855147,180.51180769997882,b9bb15f49d2f7da2bc52f53be546c0532f8d64d3782e6573df1964a696f07a56,15360,8769,minimum validation task-mean log regret; earliest epoch on ties
+ranknet,71,58,0.0020437984783488903,188.62676070001908,b9bb15f49d2f7da2bc52f53be546c0532f8d64d3782e6573df1964a696f07a56,15360,8769,minimum validation task-mean log regret; earliest epoch on ties

@@ -1,0 +1,654 @@
+{
+  "snapshot_date": "2026-09-08",
+  "status": "working_draft",
+  "numerical_verification": "machine checks against named local outputs",
+  "human_verification": "pending",
+  "network_analysis": "two-block interim snapshot only; final five-block results TODO",
+  "legacy_archive_sha256": "f1cf63d507dd6a22698037b759b0ec9ca2da3658f1ff5a335fda0741d76ca03e",
+  "sources": [
+    {
+      "id": "E-TRUSS-SUMMARY.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/SUMMARY.json",
+      "snapshot": "evidence/truss/SUMMARY.json",
+      "sha256": "f4483594e008c3978378e325110292ca2f2547774a1973b81c9dbc9147e0171a",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-REPORT.md",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/REPORT.md",
+      "snapshot": "evidence/truss/REPORT.md",
+      "sha256": "66fdb016cd89049cac21df05d2c86213d5261746571a0c7397a0dcd1548e0ff1",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-NIGHT_PROTOCOL.md",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/NIGHT_PROTOCOL.md",
+      "snapshot": "evidence/truss/NIGHT_PROTOCOL.md",
+      "sha256": "54a7b8c45e0a17861786705a987e44f7212c794ccd3482ea981ca993a35b9710",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-requirements-repo-lock.txt",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/requirements-repo-lock.txt",
+      "snapshot": "evidence/truss/requirements-repo-lock.txt",
+      "sha256": "164654f226ef97a8e7fb4fbf914b1610342ca8425866e10c7afa49fa06d62b8e",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-source_manifest.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/source_manifest.json",
+      "snapshot": "evidence/truss/source_manifest.json",
+      "sha256": "343d42be4f2ea0c5f389c6365d4bcfb6f829cb44f3663b30ee44d4d22ce10eb4",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-0-config.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_00/config.json",
+      "snapshot": "evidence/truss/main_00/config.json",
+      "sha256": "9fab437be160254ed191eaae25dd4517cfd41d86736b37a11fa207c45149496b",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-0-baseline_selection.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_00/baseline_selection.json",
+      "snapshot": "evidence/truss/main_00/baseline_selection.json",
+      "sha256": "d1b7da70c47a3af45398d182878cd6a402c8194c89412a1558ff13b84e4e7fa7",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-0-verification.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_00/verification.json",
+      "snapshot": "evidence/truss/main_00/verification.json",
+      "sha256": "b01495f20f9df0583ade827e4eba58c151af3c54304aaf4dac920b6e9e608736",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-0-training_summary.csv",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_00/training_summary.csv",
+      "snapshot": "evidence/truss/main_00/training_summary.csv",
+      "sha256": "a0f3205c97154dcd217e219c6c64d8c5b11a0a2569b3dd2337452d03adb73148",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-0-COMPLETED.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_00/COMPLETED.json",
+      "snapshot": "evidence/truss/main_00/COMPLETED.json",
+      "sha256": "211d87d2d380fe6d451ebfa8bb9e9a9cedae44f1fe1425f11bb104c6990e5c56",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-0-mechanism_summary.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_00/mechanism_summary.json",
+      "snapshot": "evidence/truss/mechanism_00/mechanism_summary.json",
+      "sha256": "c1a84a5be95c308762ea25cfc762071d9fd28705b427dd0b49063e8cc3701a89",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-0-protocol.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_00/protocol.json",
+      "snapshot": "evidence/truss/mechanism_00/protocol.json",
+      "sha256": "717cba171e39e082c5d34dd836215b465be74b473285eec68839d7f2f477c361",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-0-verification.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_00/verification.json",
+      "snapshot": "evidence/truss/mechanism_00/verification.json",
+      "sha256": "4353ead0c92889c78d0f7f3e133ebce91d1931f213555b88a28bc2644bc11181",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-1-config.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_01/config.json",
+      "snapshot": "evidence/truss/main_01/config.json",
+      "sha256": "361fab8a7fa29605686246acb2d05148885ac67d5dec92646574c9135c1f0dc8",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-1-baseline_selection.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_01/baseline_selection.json",
+      "snapshot": "evidence/truss/main_01/baseline_selection.json",
+      "sha256": "6e7853b82af9f9c670dbb2c8b8c1ff27fe3eb740d9051185197d813558099800",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-1-verification.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_01/verification.json",
+      "snapshot": "evidence/truss/main_01/verification.json",
+      "sha256": "6ae8dae3ff5b3ae0bc79308b31d00ce172e9c9b6f0ba50827ce628de2dcfb1a1",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-1-training_summary.csv",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_01/training_summary.csv",
+      "snapshot": "evidence/truss/main_01/training_summary.csv",
+      "sha256": "4964d4ec1c8771b475fa795cc0027b24800233321822681d990bc81a7364862d",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-1-COMPLETED.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_01/COMPLETED.json",
+      "snapshot": "evidence/truss/main_01/COMPLETED.json",
+      "sha256": "211d87d2d380fe6d451ebfa8bb9e9a9cedae44f1fe1425f11bb104c6990e5c56",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-1-mechanism_summary.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_01/mechanism_summary.json",
+      "snapshot": "evidence/truss/mechanism_01/mechanism_summary.json",
+      "sha256": "1a6f668b6c4d60dd3dd4f3f42495c2b2c49d3147d01339948eb51c1025775e48",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-1-protocol.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_01/protocol.json",
+      "snapshot": "evidence/truss/mechanism_01/protocol.json",
+      "sha256": "713a006229c739fc9868b30431864758b705562148aaeeeda3857f19e5ea349b",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-1-verification.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_01/verification.json",
+      "snapshot": "evidence/truss/mechanism_01/verification.json",
+      "sha256": "ef90955e7e9f6fa73680203c5fd35471e9897bd32be7bc1657e167dda69113f6",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-2-config.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_02/config.json",
+      "snapshot": "evidence/truss/main_02/config.json",
+      "sha256": "939c9195792e481c0147cb8e0616f6b14d0bd148b18da8cd11764996193fcb98",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-2-baseline_selection.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_02/baseline_selection.json",
+      "snapshot": "evidence/truss/main_02/baseline_selection.json",
+      "sha256": "e2582ca0bfbe152aa9b28ea9c53f7f828198a590fe8af4b06e3ea62c64a96af9",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-2-verification.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_02/verification.json",
+      "snapshot": "evidence/truss/main_02/verification.json",
+      "sha256": "4e85af1122c80cca3b6cf130969991952d68cf098dc360858ebfaee4a13b79af",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-2-training_summary.csv",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_02/training_summary.csv",
+      "snapshot": "evidence/truss/main_02/training_summary.csv",
+      "sha256": "f42ec1751e4bb99819cd901d196b226fbef2318e79b9585bf272a2e1185c4ee3",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-2-COMPLETED.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_02/COMPLETED.json",
+      "snapshot": "evidence/truss/main_02/COMPLETED.json",
+      "sha256": "983e8d7ccaf25f451e25d39e110727547a4451e12384cd31ad4fbfd281530748",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-2-mechanism_summary.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_02/mechanism_summary.json",
+      "snapshot": "evidence/truss/mechanism_02/mechanism_summary.json",
+      "sha256": "c9037342b86d1a27fd8a1799e4442dd505e00042961bd4e26b7cc5628d862704",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-2-protocol.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_02/protocol.json",
+      "snapshot": "evidence/truss/mechanism_02/protocol.json",
+      "sha256": "2d8819e445a7c1fa297820c216acd6a9e3758da6ca525ee35d7708abc2a307ce",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-2-verification.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_02/verification.json",
+      "snapshot": "evidence/truss/mechanism_02/verification.json",
+      "sha256": "3cae32f920bf2e4895377c918e2a03b18db99116ad43e80aba84900a007e3d14",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-3-config.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_03/config.json",
+      "snapshot": "evidence/truss/main_03/config.json",
+      "sha256": "84ca1a337cf6a6ee3b38afe11b5bd62ebfcfd9b5f02f83a2295dba47fcf0df6e",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-3-baseline_selection.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_03/baseline_selection.json",
+      "snapshot": "evidence/truss/main_03/baseline_selection.json",
+      "sha256": "06fcc4333973777380f958d353663521c2aff6ee590ca28d2ce2f87eff40d314",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-3-verification.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_03/verification.json",
+      "snapshot": "evidence/truss/main_03/verification.json",
+      "sha256": "7dc4027c253e051c08575b05b786eda60dba9f338ef2b579998b42598a14d573",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-3-training_summary.csv",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_03/training_summary.csv",
+      "snapshot": "evidence/truss/main_03/training_summary.csv",
+      "sha256": "c54191f9c992f3f786951e9ddc4fe94f2544827cf077a55c3acf7c206f063eed",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-3-COMPLETED.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_03/COMPLETED.json",
+      "snapshot": "evidence/truss/main_03/COMPLETED.json",
+      "sha256": "983e8d7ccaf25f451e25d39e110727547a4451e12384cd31ad4fbfd281530748",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-3-mechanism_summary.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_03/mechanism_summary.json",
+      "snapshot": "evidence/truss/mechanism_03/mechanism_summary.json",
+      "sha256": "3a46c6068e25c26282f951cdd4e33a30517623187ea8f7e94240bb8e6017500d",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-3-protocol.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_03/protocol.json",
+      "snapshot": "evidence/truss/mechanism_03/protocol.json",
+      "sha256": "605161fec71c8fc54f45544eb940b12f47ae3b91547d2ab606044b7366a2bc6b",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-3-verification.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_03/verification.json",
+      "snapshot": "evidence/truss/mechanism_03/verification.json",
+      "sha256": "ba08ef73a8879cee2543cbef98e85cb119b94b4e0ec6e65f8903c8c35f6998ed",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-4-config.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_04/config.json",
+      "snapshot": "evidence/truss/main_04/config.json",
+      "sha256": "aa8cf7f82afaeb328b8ce44703435cd966f6e0a0faae923247296ccbf0e1cfce",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-4-baseline_selection.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_04/baseline_selection.json",
+      "snapshot": "evidence/truss/main_04/baseline_selection.json",
+      "sha256": "439fa00fa3754c840be8b2be49bf34ad1cb89b05b8806ec9061123793fc332fe",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-4-verification.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_04/verification.json",
+      "snapshot": "evidence/truss/main_04/verification.json",
+      "sha256": "7617dcff6c9f2ca6674126d7c68020a1d23fced2665e9321e8200e4a2dacf4d6",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-4-training_summary.csv",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_04/training_summary.csv",
+      "snapshot": "evidence/truss/main_04/training_summary.csv",
+      "sha256": "5da453ee8af4496cd88043a6e096679981bab6e6f23175fe828c653e22a0e30b",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-TRUSS-4-COMPLETED.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/main_04/COMPLETED.json",
+      "snapshot": "evidence/truss/main_04/COMPLETED.json",
+      "sha256": "211d87d2d380fe6d451ebfa8bb9e9a9cedae44f1fe1425f11bb104c6990e5c56",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-4-mechanism_summary.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_04/mechanism_summary.json",
+      "snapshot": "evidence/truss/mechanism_04/mechanism_summary.json",
+      "sha256": "d91332274971346c55f4034e4da5ca7e3a5a6e8c683554c20db861534646e5d2",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-4-protocol.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_04/protocol.json",
+      "snapshot": "evidence/truss/mechanism_04/protocol.json",
+      "sha256": "48a06a5e79ef400231464b5699cb9052df78aaedd56b327a02e8f4b73e5a9702",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-MECH-4-verification.json",
+      "source_path": "experiments/gendesign_rank/results/overnight_20260906_v2/mechanism_04/verification.json",
+      "snapshot": "evidence/truss/mechanism_04/verification.json",
+      "sha256": "4c87a2a35320216bedc3512a3f9587c3cac2fbdef68e4d96eac89019b68964c6",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-INTERIM-statistics.json",
+      "source_path": "experiments/network_statistics/results/interim_20260908_v1/statistics.json",
+      "snapshot": "evidence/network_interim/statistics.json",
+      "sha256": "fab3bf228abd98cd2bc60eee14034abffad9e1e16dbb3f41a6bba38c5e27ec9a",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-INTERIM-endpoint_snapshot.csv",
+      "source_path": "experiments/network_statistics/results/interim_20260908_v1/endpoint_snapshot.csv",
+      "snapshot": "evidence/network_interim/endpoint_snapshot.csv",
+      "sha256": "b20a40e5a790c080c168e4d27589fd7be3b92daabef9c14692fdb8b62bcf6686",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-INTERIM-task_effects.csv",
+      "source_path": "experiments/network_statistics/results/interim_20260908_v1/task_effects.csv",
+      "snapshot": "evidence/network_interim/task_effects.csv",
+      "sha256": "e416af388f77c9efd8d6452d4c43d2cee69c0f9120dd24396b18af41f23f2d9e",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-INTERIM-input_manifest.json",
+      "source_path": "experiments/network_statistics/results/interim_20260908_v1/input_manifest.json",
+      "snapshot": "evidence/network_interim/input_manifest.json",
+      "sha256": "08b0f0148b9e4bb93e8c7d9b4a4e5df710ee21d0625413c1364e26b1b0b0ca15",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-INTERIM-primary_comparison_audit.json",
+      "source_path": "experiments/network_statistics/results/interim_20260908_v1/primary_comparison_audit.json",
+      "snapshot": "evidence/network_interim/primary_comparison_audit.json",
+      "sha256": "c76440e98c73d563fdfed6abcfa09b5795ecb3d61b869f0b7e94ec157a9e81ad",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-INTERIM-assumption_diagnostics.json",
+      "source_path": "experiments/network_statistics/results/interim_20260908_v1/assumption_diagnostics.json",
+      "snapshot": "evidence/network_interim/assumption_diagnostics.json",
+      "sha256": "2f84930bf8c5dab978e53aa1cbe3c10422fb9e0be504c83ab4e3cbbf999f0189",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-INTERIM-PLAN.md",
+      "source_path": "experiments/network_statistics/results/interim_20260908_v1/PLAN.md",
+      "snapshot": "evidence/network_interim/PLAN.md",
+      "sha256": "80e405656bbe5e71e9b63c7fb34f14190f1d3fe58b9bf36c5e1dcbba70b1c4b7",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-INTERIM-COMPLETED.json",
+      "source_path": "experiments/network_statistics/results/interim_20260908_v1/COMPLETED.json",
+      "snapshot": "evidence/network_interim/COMPLETED.json",
+      "sha256": "cb9d201ee9d59456aa3275922c163e16f3ca9ed92f70dc5d6c04879fdb12a68a",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETWORK-campaign.json",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/campaign.json",
+      "snapshot": "evidence/network_protocol/campaign.json",
+      "sha256": "4d8ab8f25d062b8e23ace7f0d11867ee3e8839f50987ddff049646de81b7e6cc",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETWORK-PROTOCOL.md",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/PROTOCOL.md",
+      "snapshot": "evidence/network_protocol/PROTOCOL.md",
+      "sha256": "5496f90d32a5da8c6cfec81cdef2e3bb19a2087c853bdacce6c35725f9db26b2",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETWORK-requirements-lock.txt",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/requirements-lock.txt",
+      "snapshot": "evidence/network_protocol/requirements-lock.txt",
+      "sha256": "7b5d6dbeff49437532d0d4fe465bf85658b057b8e3c1b3271c182b519a20bd99",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETWORK-source_hashes.json",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_hashes.json",
+      "snapshot": "evidence/network_protocol/source_hashes.json",
+      "sha256": "81d45513418d20208f2ca45b01e68579d4c6ab1c201cad3b24a66ad758aa0304",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETWORK-source_graph_audit.json",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_graph_audit.json",
+      "snapshot": "evidence/network_protocol/source_graph_audit.json",
+      "sha256": "98b73a932f72cf3f1ab337def5f52442826141ef454293f756fa94876bf915e0",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-CODE-model.py",
+      "source_path": "experiments/gendesign_rank/model.py",
+      "snapshot": "evidence/code/experiments/gendesign_rank/model.py",
+      "sha256": "b6cf4e4546216d6428ac4ae8f15a9b59645dc15f4d3e13c61400a7b4826343b8",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-CODE-truss.py",
+      "source_path": "experiments/gendesign_rank/truss.py",
+      "snapshot": "evidence/code/experiments/gendesign_rank/truss.py",
+      "sha256": "6717e4cc6da94f4bce7f2bb5dec4bc3606d4198ca32af276d1026bdd4da4f44e",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-CODE-experiment.py",
+      "source_path": "experiments/gendesign_rank/experiment.py",
+      "snapshot": "evidence/code/experiments/gendesign_rank/experiment.py",
+      "sha256": "d484f32c9445a6c04b09a1deb71a89e7f5c7182e1e893190d2e722c19fc3e75c",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-CODE-mechanism.py",
+      "source_path": "experiments/gendesign_rank/mechanism.py",
+      "snapshot": "evidence/code/experiments/gendesign_rank/mechanism.py",
+      "sha256": "94c17c7b2f72c0cf557b29c96b4e637109becb17809802185d553b427bbb16e8",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-CODE-nightly.py",
+      "source_path": "experiments/gendesign_rank/nightly.py",
+      "snapshot": "evidence/code/experiments/gendesign_rank/nightly.py",
+      "sha256": "94830cbbf93f670cb052a71194a831211aef0c7e1a2237b880fd0113a6a6528a",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-CODE-analyze.py",
+      "source_path": "experiments/network_statistics/analyze.py",
+      "snapshot": "evidence/code/experiments/network_statistics/analyze.py",
+      "sha256": "65dcaf1b75938787ae089d2d938d20adf3fabb7891b541489ddd85e7217ad72a",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-CODE-simple_graph_encoder.py",
+      "source_path": "gamlet/surrogate/encoders/simple_graph_encoder.py",
+      "snapshot": "evidence/code/gamlet/surrogate/encoders/simple_graph_encoder.py",
+      "sha256": "61213edd8801be031793f858ba5ad577f3387556a71379d6e076a9544883d340",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-CODE-gnn_layers.py",
+      "source_path": "gamlet/surrogate/encoders/gnn_layers.py",
+      "snapshot": "evidence/code/gamlet/surrogate/encoders/gnn_layers.py",
+      "sha256": "d91fcb0678aa3641673140ef67f4cff68edde2e3c41e908df99e011c6490b0e1",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/__init__.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/__init__.py",
+      "snapshot": "evidence/code/network_frozen/experiments/__init__.py",
+      "sha256": "c172180315ed1be0339093df3d88d9e636fcb02e8a9dfa8ed5cfbe4b9b74afb5",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/gendesign_rank/__init__.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/gendesign_rank/__init__.py",
+      "snapshot": "evidence/code/network_frozen/experiments/gendesign_rank/__init__.py",
+      "sha256": "dc0df91470c68f15373eea09304aaa5678e2718fa6e716c5b56ef91d8f5bc9be",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/gendesign_rank/experiment.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/gendesign_rank/experiment.py",
+      "snapshot": "evidence/code/network_frozen/experiments/gendesign_rank/experiment.py",
+      "sha256": "d484f32c9445a6c04b09a1deb71a89e7f5c7182e1e893190d2e722c19fc3e75c",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/gendesign_rank/model.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/gendesign_rank/model.py",
+      "snapshot": "evidence/code/network_frozen/experiments/gendesign_rank/model.py",
+      "sha256": "b6cf4e4546216d6428ac4ae8f15a9b59645dc15f4d3e13c61400a7b4826343b8",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/gendesign_rank/truss.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/gendesign_rank/truss.py",
+      "snapshot": "evidence/code/network_frozen/experiments/gendesign_rank/truss.py",
+      "sha256": "6717e4cc6da94f4bce7f2bb5dec4bc3606d4198ca32af276d1026bdd4da4f44e",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/network_robustness/__init__.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/network_robustness/__init__.py",
+      "snapshot": "evidence/code/network_frozen/experiments/network_robustness/__init__.py",
+      "sha256": "d30a5449b4e665c4694880cf5eaef47f5bb838806fbe32f99436563de4f97e09",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/network_robustness/audit.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/network_robustness/audit.py",
+      "snapshot": "evidence/code/network_frozen/experiments/network_robustness/audit.py",
+      "sha256": "7f7c35d0eb576be50ad0d6e98b69e33074d5204145e8597bf0a04a57370780e9",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/network_robustness/campaign.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/network_robustness/campaign.py",
+      "snapshot": "evidence/code/network_frozen/experiments/network_robustness/campaign.py",
+      "sha256": "4e132b9a76b0de3ca77e6165acb25d87b8447f3351a4efd8d9ceea5c4c2b0ca0",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/network_robustness/campaign_report.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/network_robustness/campaign_report.py",
+      "snapshot": "evidence/code/network_frozen/experiments/network_robustness/campaign_report.py",
+      "sha256": "4a1c1d3dcedf97cd00109b26018b70f1b4ab31c6c4d8bd2a8212bb0cdc606c79",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/network_robustness/campaign_status.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/network_robustness/campaign_status.py",
+      "snapshot": "evidence/code/network_frozen/experiments/network_robustness/campaign_status.py",
+      "sha256": "755b4ff24ec930b83ff9d8c105a24f0033396f9193701e3428e9d9eecf7dae42",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/network_robustness/experiment.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/network_robustness/experiment.py",
+      "snapshot": "evidence/code/network_frozen/experiments/network_robustness/experiment.py",
+      "sha256": "faf24c4d73d40c192b3f376258fec870df42dc6093a2388aa40bf718d6609fc4",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/network_robustness/fast_oracle.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/network_robustness/fast_oracle.py",
+      "snapshot": "evidence/code/network_frozen/experiments/network_robustness/fast_oracle.py",
+      "sha256": "8329c658f458b2cf8fcb2f11a72c3c69facfe5c271f9be21c24c4fd860b065b0",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/network_robustness/problem.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/network_robustness/problem.py",
+      "snapshot": "evidence/code/network_frozen/experiments/network_robustness/problem.py",
+      "sha256": "f62d5cafd11eea96fe0781ba9a3ca426c13f03cab9bb01dcc446faa6540a1032",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/network_robustness/report.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/network_robustness/report.py",
+      "snapshot": "evidence/code/network_frozen/experiments/network_robustness/report.py",
+      "sha256": "07e3fb34bfc8063b892877a7f6ab015945823f584ce8c6e68f2edee105d660ad",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/network_robustness/tests/test_campaign.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/network_robustness/tests/test_campaign.py",
+      "snapshot": "evidence/code/network_frozen/experiments/network_robustness/tests/test_campaign.py",
+      "sha256": "cb16bfc0892a7d84e7a449acee80569f9b83baa9a72feb049170208a5234701b",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-experiments/network_robustness/tests/test_networks.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/experiments/network_robustness/tests/test_networks.py",
+      "snapshot": "evidence/code/network_frozen/experiments/network_robustness/tests/test_networks.py",
+      "sha256": "b5d848c54e37539491a0b32fb0d3bce9f9476b29c7afc3b4602a4d8591d8f763",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-gamlet/__init__.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/gamlet/__init__.py",
+      "snapshot": "evidence/code/network_frozen/gamlet/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-gamlet/surrogate/__init__.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/gamlet/surrogate/__init__.py",
+      "snapshot": "evidence/code/network_frozen/gamlet/surrogate/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-gamlet/surrogate/encoders/__init__.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/gamlet/surrogate/encoders/__init__.py",
+      "snapshot": "evidence/code/network_frozen/gamlet/surrogate/encoders/__init__.py",
+      "sha256": "cb11724d215fa306a4a99b7cf2d3f2dc2cfab49113601067b8762d4d70b4e76a",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-gamlet/surrogate/encoders/dataset_encoder.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/gamlet/surrogate/encoders/dataset_encoder.py",
+      "snapshot": "evidence/code/network_frozen/gamlet/surrogate/encoders/dataset_encoder.py",
+      "sha256": "d4ee82abdb668a4723ab7ee23d123a7515762474f67924e70207fbd68e7a7821",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-gamlet/surrogate/encoders/gnn_layers.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/gamlet/surrogate/encoders/gnn_layers.py",
+      "snapshot": "evidence/code/network_frozen/gamlet/surrogate/encoders/gnn_layers.py",
+      "sha256": "d91fcb0678aa3641673140ef67f4cff68edde2e3c41e908df99e011c6490b0e1",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-gamlet/surrogate/encoders/layers.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/gamlet/surrogate/encoders/layers.py",
+      "snapshot": "evidence/code/network_frozen/gamlet/surrogate/encoders/layers.py",
+      "sha256": "b5598d28a8686fc5157eeb2c2c6c0e8e15537ddce4bb5203f00532767289ecd2",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-gamlet/surrogate/encoders/models.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/gamlet/surrogate/encoders/models.py",
+      "snapshot": "evidence/code/network_frozen/gamlet/surrogate/encoders/models.py",
+      "sha256": "1779bbdf90a22f2f601ab00bed22b7127a461d848cbb44272ecc41ac0d17340d",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-gamlet/surrogate/encoders/position_encoding.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/gamlet/surrogate/encoders/position_encoding.py",
+      "snapshot": "evidence/code/network_frozen/gamlet/surrogate/encoders/position_encoding.py",
+      "sha256": "760eb25d270a1e930c764bc3703399a44b714789b12eb14392a1f5a044b0c41c",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-gamlet/surrogate/encoders/simple_graph_encoder.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/gamlet/surrogate/encoders/simple_graph_encoder.py",
+      "snapshot": "evidence/code/network_frozen/gamlet/surrogate/encoders/simple_graph_encoder.py",
+      "sha256": "61213edd8801be031793f858ba5ad577f3387556a71379d6e076a9544883d340",
+      "human_verification": "pending"
+    },
+    {
+      "id": "E-NETCODE-gamlet/surrogate/encoders/utils.py",
+      "source_path": "experiments/network_robustness/results/replication_20260907_v1/source_snapshot/gamlet/surrogate/encoders/utils.py",
+      "snapshot": "evidence/code/network_frozen/gamlet/surrogate/encoders/utils.py",
+      "sha256": "39f305100b5285a09ce2ba3a479d3d15ff47bdd86d6c3038ed2c5776eeac1463",
+      "human_verification": "pending"
+    }
+  ]
+}

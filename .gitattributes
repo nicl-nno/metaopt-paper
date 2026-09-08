@@ -1,0 +1,9 @@
+* text=auto
+*.tex text eol=lf
+*.bib text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.pdf binary
+*.zip binary
+# Evidence hashes refer to exact captured bytes, including line endings.
+evidence/** -text

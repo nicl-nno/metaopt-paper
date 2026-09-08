@@ -1,0 +1,12 @@
+\begin{table}[tb]
+\centering\small
+\caption{Exploratory two-block network snapshot: 64 in-distribution source graphs. RankNet versus validation-selected GNN regression. Positive robustness changes favor RankNet. Holm correction is across 36 task-conditional sign tests; the unadjusted offline-block sign-test $p$ is 0.5 in every row.}
+\label{tab:networkinterim}
+\begin{tabular}{rlrrr}\toprule
+$B$ & Scenario bank & $\Delta_R$ (\%) & Task wins & Holm $p$\\\midrule
+96 & Four search scenarios & $+1.167$ & 55/64 & $2.834\times10^{-8}$\\
+96 & 32 fresh scenarios & $+1.027$ & 50/64 & $1.414\times10^{-5}$\\
+192 & Four search scenarios & $+1.151$ & 54/64 & $9.982\times10^{-8}$\\
+192 & 32 fresh scenarios & $+0.982$ & 51/64 & $7.524\times10^{-6}$\\
+\bottomrule\end{tabular}
+\end{table}
