@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "pid": 7704,
+  "started_utc": "2026-09-06T12:05:13.424729+00:00",
+  "deadline_utc": "2026-09-07T12:05:13.424729+00:00",
+  "maximum_hours": 24.0,
+  "finished_jobs": [
+    "train_search_00",
+    "audit_00",
+    "mechanism_00",
+    "train_search_01",
+    "audit_01",
+    "mechanism_01",
+    "train_search_02",
+    "audit_02",
+    "mechanism_02",
+    "train_search_03",
+    "audit_03",
+    "mechanism_03",
+    "train_search_04",
+    "audit_04",
+    "mechanism_04"
+  ],
+  "active_job": null,
+  "child_pid": null,
+  "threads": 2,
+  "stop_instructions": "Create the file D:\\agents\\gamlet\\GAMLET\\experiments\\gendesign_rank\\results\\overnight_20260906_v2\\STOP to stop the queue and current child.",
+  "updated_utc": "2026-09-07T04:30:42.922795+00:00",
+  "elapsed_hours": 16.424383611111107,
+  "ended_utc": "2026-09-07T04:30:56.089114+00:00"
+}

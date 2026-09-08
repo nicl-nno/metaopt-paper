@@ -1,0 +1,15 @@
+{
+  "completed_utc": "2026-09-07T16:18:54.967403+00:00",
+  "passed": true,
+  "verified_searches": 36,
+  "verified_endpoints": 72,
+  "offline_evaluations": 64,
+  "online_evaluations": 432,
+  "fresh_attack_trajectories": 216,
+  "reference_attack_trajectories": 224,
+  "audit_production_attack_trajectories": 432,
+  "max_absolute_reference_discrepancy": 0,
+  "source_hashes_match": true,
+  "equal_initial_hashes": true,
+  "equal_evaluation_budgets": true
+}

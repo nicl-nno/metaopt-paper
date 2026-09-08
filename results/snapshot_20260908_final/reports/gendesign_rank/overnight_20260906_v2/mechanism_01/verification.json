@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "searches_verified": 3840,
+  "max_relative_compliance_discrepancy": 5.906386491005833e-14,
+  "search_oracle_evaluations": 1185188,
+  "separate_diagnostic_oracle_evaluations": 12288,
+  "independent_final_checks": 3840,
+  "shuffled_control_new_oracle_evaluations": 0
+}

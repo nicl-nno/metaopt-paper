@@ -1,0 +1,5488 @@
+{
+  "exploratory": true,
+  "comparisons": {
+    "96/best_r/selected_regression": {
+      "gain_percent": 1.1673423318609315,
+      "median_task_gain_percent": 0.8024562323775783,
+      "mean_absolute_r_difference": 0.0030624999999999993,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.2951385416666667,
+      "rank_r_task_sd": 0.039791641548234405,
+      "baseline_r_task_mean": 0.2920760416666667,
+      "baseline_r_task_sd": 0.04173616574224563,
+      "conditional_sign_test": {
+        "wins": 55,
+        "losses": 9,
+        "ties": 0,
+        "p_two_sided": 3.542223380175076e-09,
+        "win_fraction_non_tied": 0.859375,
+        "p_holm_36": 2.8337787041400608e-08
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 118.0,
+        "p_two_sided": 2.5710748634277802e-12,
+        "rank_biserial": 0.8865384615384615,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 5.61975891385797,
+          "df": 1,
+          "p_two_sided": 0.11210895838152032,
+          "gain_ci95_percent": [
+            -1.4528219245210905,
+            3.8571712997495964
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 29,
+            "losses": 3,
+            "ties": 0,
+            "p_two_sided": 2.5560148060321808e-06,
+            "win_fraction_non_tied": 0.90625
+          },
+          "signed_rank_sensitivity": {
+            "W": 21.0,
+            "p_two_sided": 2.0815059542655945e-07,
+            "rank_biserial": 0.9204545454545454,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.3764870054136027
+        },
+        "1": {
+          "sign_test": {
+            "wins": 26,
+            "losses": 6,
+            "ties": 0,
+            "p_two_sided": 0.0005350527353584766,
+            "win_fraction_non_tied": 0.8125
+          },
+          "signed_rank_sensitivity": {
+            "W": 38.0,
+            "p_two_sided": 3.061257302761078e-06,
+            "rank_biserial": 0.8560606060606061,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 0.9586291340455593
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/ba/100": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/er/50": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/er/100": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        0.9484607365213421,
+        1.390473882269536
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.8070397082894216,
+        1.5201887413314403
+      ]
+    },
+    "96/best_r/mse": {
+      "gain_percent": 1.4302329622974808,
+      "median_task_gain_percent": 1.0604620956461444,
+      "mean_absolute_r_difference": 0.0037962890625000004,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.2951385416666667,
+      "rank_r_task_sd": 0.039791641548234405,
+      "baseline_r_task_mean": 0.2913422526041667,
+      "baseline_r_task_sd": 0.04182568764494681,
+      "conditional_sign_test": {
+        "wins": 58,
+        "losses": 6,
+        "ties": 0,
+        "p_two_sided": 9.029018960445001e-12,
+        "win_fraction_non_tied": 0.90625,
+        "p_holm_36": 1.4446430336712002e-10
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 65.0,
+        "p_two_sided": 1.918430692082751e-14,
+        "rank_biserial": 0.9375,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 26.79328465306923,
+          "df": 1,
+          "p_two_sided": 0.02374939936281657,
+          "gain_ci95_percent": [
+            0.7494398312907607,
+            2.115626409573969
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 29,
+            "losses": 3,
+            "ties": 0,
+            "p_two_sided": 2.5560148060321808e-06,
+            "win_fraction_non_tied": 0.90625
+          },
+          "signed_rank_sensitivity": {
+            "W": 21.0,
+            "p_two_sided": 2.0815059542655945e-07,
+            "rank_biserial": 0.9204545454545454,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.3764870054136027
+        },
+        "1": {
+          "sign_test": {
+            "wins": 29,
+            "losses": 3,
+            "ties": 0,
+            "p_two_sided": 2.5560148060321808e-06,
+            "win_fraction_non_tied": 0.90625
+          },
+          "signed_rank_sensitivity": {
+            "W": 14.0,
+            "p_two_sided": 5.122274160385132e-08,
+            "rank_biserial": 0.946969696969697,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.484007413243115
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.2257271515553856,
+        1.633646705938178
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        1.2173231051380926,
+        1.6388191175785765
+      ]
+    },
+    "96/best_r/log_mse": {
+      "gain_percent": 1.341062767969275,
+      "median_task_gain_percent": 0.8764061847599844,
+      "mean_absolute_r_difference": 0.0035249348958333324,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.2951385416666667,
+      "rank_r_task_sd": 0.039791641548234405,
+      "baseline_r_task_mean": 0.2916136067708333,
+      "baseline_r_task_sd": 0.04191115506777357,
+      "conditional_sign_test": {
+        "wins": 56,
+        "losses": 8,
+        "ties": 0,
+        "p_two_sided": 5.562672242319724e-10,
+        "win_fraction_non_tied": 0.875,
+        "p_holm_36": 7.231473915015642e-09
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 88.0,
+        "p_two_sided": 1.9226081230533376e-13,
+        "rank_biserial": 0.9153846153846154,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 3.523398741977625,
+          "df": 1,
+          "p_two_sided": 0.17605373859695428,
+          "gain_ci95_percent": [
+            -3.412317753065814,
+            6.32837194172833
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 30,
+            "losses": 2,
+            "ties": 0,
+            "p_two_sided": 2.4633482098579407e-07,
+            "win_fraction_non_tied": 0.9375
+          },
+          "signed_rank_sensitivity": {
+            "W": 10.0,
+            "p_two_sided": 2.0023435354232788e-08,
+            "rank_biserial": 0.9621212121212122,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.7249450693878905
+        },
+        "1": {
+          "sign_test": {
+            "wins": 26,
+            "losses": 6,
+            "ties": 0,
+            "p_two_sided": 0.0005350527353584766,
+            "win_fraction_non_tied": 0.8125
+          },
+          "signed_rank_sensitivity": {
+            "W": 38.0,
+            "p_two_sided": 3.061257302761078e-06,
+            "rank_biserial": 0.8560606060606061,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 0.9586291340455593
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/ba/100": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/er/50": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/er/100": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.1354944326669316,
+        1.5611522389454833
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.8086151116315049,
+        1.8527377010394006
+      ]
+    },
+    "96/best_r/global_mse": {
+      "gain_percent": 1.5443771787401421,
+      "median_task_gain_percent": 1.2524665553694978,
+      "mean_absolute_r_difference": 0.004195768229166667,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.2951385416666667,
+      "rank_r_task_sd": 0.039791641548234405,
+      "baseline_r_task_mean": 0.29094277343749997,
+      "baseline_r_task_sd": 0.04119689500413599,
+      "conditional_sign_test": {
+        "wins": 60,
+        "losses": 4,
+        "ties": 0,
+        "p_two_sided": 7.363044635805283e-14,
+        "win_fraction_non_tied": 0.9375,
+        "p_holm_36": 1.4726089271610565e-12
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 31.0,
+        "p_two_sided": 2.574980159653073e-16,
+        "rank_biserial": 0.9701923076923077,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 3.504697001412912,
+          "df": 1,
+          "p_two_sided": 0.17694566945675996,
+          "gain_ci95_percent": [
+            -3.9438606788779396,
+            7.34618952513813
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 31,
+            "losses": 1,
+            "ties": 0,
+            "p_two_sided": 1.5366822481155396e-08,
+            "win_fraction_non_tied": 0.96875
+          },
+          "signed_rank_sensitivity": {
+            "W": 3.0,
+            "p_two_sided": 2.3283064365386963e-09,
+            "rank_biserial": 0.9886363636363636,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.9893940745659346
+        },
+        "1": {
+          "sign_test": {
+            "wins": 29,
+            "losses": 3,
+            "ties": 0,
+            "p_two_sided": 2.5560148060321808e-06,
+            "win_fraction_non_tied": 0.90625
+          },
+          "signed_rank_sensitivity": {
+            "W": 17.0,
+            "p_two_sided": 9.639188647270203e-08,
+            "rank_biserial": 0.9356060606060606,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.1013020538148182
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/er/100": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.3402966149625397,
+        1.740696837653553
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.9868337564050955,
+        2.130799173243396
+      ]
+    },
+    "96/best_r/global_log_mse": {
+      "gain_percent": 1.534564927584597,
+      "median_task_gain_percent": 1.320069280158514,
+      "mean_absolute_r_difference": 0.0041255208333333335,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.2951385416666667,
+      "rank_r_task_sd": 0.039791641548234405,
+      "baseline_r_task_mean": 0.29101302083333336,
+      "baseline_r_task_sd": 0.04143179287604775,
+      "conditional_sign_test": {
+        "wins": 59,
+        "losses": 5,
+        "ties": 0,
+        "p_two_sided": 9.002816938122327e-13,
+        "win_fraction_non_tied": 0.921875,
+        "p_holm_36": 1.6205070488620188e-11
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 46.0,
+        "p_two_sided": 2.077439782699475e-15,
+        "rank_biserial": 0.9557692307692308,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 3.08612612860216,
+          "df": 1,
+          "p_two_sided": 0.19948803026742687,
+          "gain_ci95_percent": [
+            -4.636298546718693,
+            8.104737105704775
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 2.0368454674166965
+        },
+        "1": {
+          "sign_test": {
+            "wins": 27,
+            "losses": 5,
+            "ties": 0,
+            "p_two_sided": 0.00011307420209050179,
+            "win_fraction_non_tied": 0.84375
+          },
+          "signed_rank_sensitivity": {
+            "W": 37.0,
+            "p_two_sided": 2.6635825634002686e-06,
+            "rank_biserial": 0.8598484848484849,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.0347568842270636
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/er/100": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.329632254511167,
+        1.743961286532055
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.8955673402772726,
+        2.1666685908509944
+      ]
+    },
+    "96/best_r/ea": {
+      "gain_percent": 4.9320997389344825,
+      "median_task_gain_percent": 4.954097647480542,
+      "mean_absolute_r_difference": 0.013215364583333335,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.2951385416666667,
+      "rank_r_task_sd": 0.039791641548234405,
+      "baseline_r_task_mean": 0.28192317708333337,
+      "baseline_r_task_sd": 0.04255311732697471,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 213.96168596122487,
+          "df": 1,
+          "p_two_sided": 0.002975369791896584,
+          "gain_ci95_percent": [
+            4.632526337251548,
+            5.23253084926823
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 4.908491737606139
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 4.955713052871151
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        4.706152930936551,
+        5.155823128887485
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        4.70972609992759,
+        5.164710961099906
+      ]
+    },
+    "96/best_r/pool_random": {
+      "gain_percent": 4.766957034273112,
+      "median_task_gain_percent": 4.588634146149013,
+      "mean_absolute_r_difference": 0.012801432291666668,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.2951385416666667,
+      "rank_r_task_sd": 0.039791641548234405,
+      "baseline_r_task_mean": 0.282337109375,
+      "baseline_r_task_sd": 0.042436239232497085,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 37.053831596101595,
+          "df": 1,
+          "p_two_sided": 0.01717677373853744,
+          "gain_ci95_percent": [
+            3.10724050968871,
+            6.453390004068943
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 4.635371495931994
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 4.898708049676653
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        4.559265612154684,
+        4.968201304797482
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        4.505396721235389,
+        5.050315273813013
+      ]
+    },
+    "96/best_r/hillclimb": {
+      "gain_percent": 1.7311621336598808,
+      "median_task_gain_percent": 1.3201288492799754,
+      "mean_absolute_r_difference": 0.004773046875,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.2951385416666667,
+      "rank_r_task_sd": 0.039791641548234405,
+      "baseline_r_task_mean": 0.2903654947916667,
+      "baseline_r_task_sd": 0.040963955928758955,
+      "conditional_sign_test": {
+        "wins": 61,
+        "losses": 3,
+        "ties": 0,
+        "p_two_sided": 4.742842403537839e-15,
+        "win_fraction_non_tied": 0.953125,
+        "p_holm_36": 9.959969047429462e-14
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 17.0,
+        "p_two_sided": 2.2442984970449942e-17,
+        "rank_biserial": 0.9836538461538461,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 7.793166249977298,
+          "df": 1,
+          "p_two_sided": 0.08124551752873893,
+          "gain_ci95_percent": [
+            -1.076202863802858,
+            4.618197528510703
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 31,
+            "losses": 1,
+            "ties": 0,
+            "p_two_sided": 1.5366822481155396e-08,
+            "win_fraction_non_tied": 0.96875
+          },
+          "signed_rank_sensitivity": {
+            "W": 5.0,
+            "p_two_sided": 4.6566128730773926e-09,
+            "rank_biserial": 0.9810606060606061,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.9554593081959382
+        },
+        "1": {
+          "sign_test": {
+            "wins": 30,
+            "losses": 2,
+            "ties": 0,
+            "p_two_sided": 2.4633482098579407e-07,
+            "win_fraction_non_tied": 0.9375
+          },
+          "signed_rank_sensitivity": {
+            "W": 4.0,
+            "p_two_sided": 3.259629011154175e-09,
+            "rank_biserial": 0.9848484848484849,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.5073584022689597
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.482253018238681,
+        1.9855218043401777
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        1.363908930495735,
+        2.128916549832987
+      ]
+    },
+    "96/best_r/random": {
+      "gain_percent": 5.931610392998622,
+      "median_task_gain_percent": 5.401167242218766,
+      "mean_absolute_r_difference": 0.015822265624999998,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.2951385416666667,
+      "rank_r_task_sd": 0.039791641548234405,
+      "baseline_r_task_mean": 0.27931627604166664,
+      "baseline_r_task_sd": 0.04253993381236429,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 41.66033041443702,
+          "df": 1,
+          "p_two_sided": 0.015278264481028548,
+          "gain_ci95_percent": [
+            4.0861373433165,
+            7.809804137905216
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 6.078233695635359
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 5.785189755811026
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        5.676840356496933,
+        6.182375499185704
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        5.622279564913522,
+        6.266800810010491
+      ]
+    },
+    "96/fresh_r/selected_regression": {
+      "gain_percent": 1.0272148893474073,
+      "median_task_gain_percent": 0.9028762844009592,
+      "mean_absolute_r_difference": 0.0026549235026041684,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29064753417968753,
+      "rank_r_task_sd": 0.03831368617422075,
+      "baseline_r_task_mean": 0.2879926106770833,
+      "baseline_r_task_sd": 0.040106954043589785,
+      "conditional_sign_test": {
+        "wins": 50,
+        "losses": 14,
+        "ties": 0,
+        "p_two_sided": 7.069487542545679e-06,
+        "win_fraction_non_tied": 0.78125,
+        "p_holm_36": 1.4138975085091357e-05
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 188.0,
+        "p_two_sided": 3.551544766828077e-10,
+        "rank_biserial": 0.8192307692307692,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 8.541846805979302,
+          "df": 1,
+          "p_two_sided": 0.07419180699627495,
+          "gain_ci95_percent": [
+            -0.49699845395341136,
+            2.574776536516438
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 27,
+            "losses": 5,
+            "ties": 0,
+            "p_two_sided": 0.00011307420209050179,
+            "win_fraction_non_tied": 0.84375
+          },
+          "signed_rank_sensitivity": {
+            "W": 32.0,
+            "p_two_sided": 1.287553459405899e-06,
+            "rank_biserial": 0.8787878787878788,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.1481595376331606
+        },
+        "1": {
+          "sign_test": {
+            "wins": 23,
+            "losses": 9,
+            "ties": 0,
+            "p_two_sided": 0.020061607006937265,
+            "win_fraction_non_tied": 0.71875
+          },
+          "signed_rank_sensitivity": {
+            "W": 65.0,
+            "p_two_sided": 7.404014468193054e-05,
+            "rank_biserial": 0.7537878787878788,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 0.906414856722639
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "0/er/100": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/ba/50": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "p_two_sided": 1.0,
+          "win_fraction_non_tied": 0.5
+        },
+        "1/er/100": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        0.8365321648316347,
+        1.2229085013634045
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.751818977370127,
+        1.2597389812847275
+      ]
+    },
+    "96/fresh_r/mse": {
+      "gain_percent": 1.2288757384517632,
+      "median_task_gain_percent": 1.0102723254799102,
+      "mean_absolute_r_difference": 0.0032239908854166683,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29064753417968753,
+      "rank_r_task_sd": 0.03831368617422075,
+      "baseline_r_task_mean": 0.2874235432942709,
+      "baseline_r_task_sd": 0.040097469576935225,
+      "conditional_sign_test": {
+        "wins": 56,
+        "losses": 8,
+        "ties": 0,
+        "p_two_sided": 5.562672242319724e-10,
+        "win_fraction_non_tied": 0.875,
+        "p_holm_36": 7.231473915015642e-09
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 76.0,
+        "p_two_sided": 6.026591985869301e-14,
+        "rank_biserial": 0.926923076923077,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 15.311705322168168,
+          "df": 1,
+          "p_two_sided": 0.041518363679048126,
+          "gain_ci95_percent": [
+            0.2080520813277983,
+            2.26009856926786
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 27,
+            "losses": 5,
+            "ties": 0,
+            "p_two_sided": 0.00011307420209050179,
+            "win_fraction_non_tied": 0.84375
+          },
+          "signed_rank_sensitivity": {
+            "W": 32.0,
+            "p_two_sided": 1.287553459405899e-06,
+            "rank_biserial": 0.8787878787878788,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.1481595376331606
+        },
+        "1": {
+          "sign_test": {
+            "wins": 29,
+            "losses": 3,
+            "ties": 0,
+            "p_two_sided": 2.5560148060321808e-06,
+            "win_fraction_non_tied": 0.90625
+          },
+          "signed_rank_sensitivity": {
+            "W": 11.0,
+            "p_two_sided": 2.561137080192566e-08,
+            "rank_biserial": 0.9583333333333334,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.309656350774286
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "0/er/100": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.0625545784409938,
+        1.3970074681724922
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        1.032069873943607,
+        1.430572298059031
+      ]
+    },
+    "96/fresh_r/log_mse": {
+      "gain_percent": 1.2115197131749826,
+      "median_task_gain_percent": 0.9731115096887929,
+      "mean_absolute_r_difference": 0.0031174153645833346,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29064753417968753,
+      "rank_r_task_sd": 0.03831368617422075,
+      "baseline_r_task_mean": 0.28753011881510415,
+      "baseline_r_task_sd": 0.04044893500327021,
+      "conditional_sign_test": {
+        "wins": 49,
+        "losses": 15,
+        "ties": 0,
+        "p_two_sided": 2.436457216293327e-05,
+        "win_fraction_non_tied": 0.765625,
+        "p_holm_36": 2.436457216293327e-05
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 179.0,
+        "p_two_sided": 2.0128709322161237e-10,
+        "rank_biserial": 0.8278846153846153,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 3.988763558733668,
+          "df": 1,
+          "p_two_sided": 0.15638016088757417,
+          "gain_ci95_percent": [
+            -2.5975333482258898,
+            5.1695308628390455
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 26,
+            "losses": 6,
+            "ties": 0,
+            "p_two_sided": 0.0005350527353584766,
+            "win_fraction_non_tied": 0.8125
+          },
+          "signed_rank_sensitivity": {
+            "W": 28.0,
+            "p_two_sided": 6.905756890773773e-07,
+            "rank_biserial": 0.8939393939393939,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.5175470974325507
+        },
+        "1": {
+          "sign_test": {
+            "wins": 23,
+            "losses": 9,
+            "ties": 0,
+            "p_two_sided": 0.020061607006937265,
+            "win_fraction_non_tied": 0.71875
+          },
+          "signed_rank_sensitivity": {
+            "W": 65.0,
+            "p_two_sided": 7.404014468193054e-05,
+            "rank_biserial": 0.7537878787878788,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 0.906414856722639
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "0/er/100": {
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "p_two_sided": 1.0,
+          "win_fraction_non_tied": 0.5
+        },
+        "1/ba/50": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "p_two_sided": 1.0,
+          "win_fraction_non_tied": 0.5
+        },
+        "1/er/100": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.004640487945415,
+        1.4247024971759679
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.754533851516107,
+        1.6406486143413588
+      ]
+    },
+    "96/fresh_r/global_mse": {
+      "gain_percent": 1.4230012564598997,
+      "median_task_gain_percent": 1.0716314111871408,
+      "mean_absolute_r_difference": 0.003767724609375001,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29064753417968753,
+      "rank_r_task_sd": 0.03831368617422075,
+      "baseline_r_task_mean": 0.2868798095703125,
+      "baseline_r_task_sd": 0.03999057812709173,
+      "conditional_sign_test": {
+        "wins": 59,
+        "losses": 5,
+        "ties": 0,
+        "p_two_sided": 9.002816938122327e-13,
+        "win_fraction_non_tied": 0.921875,
+        "p_holm_36": 1.6205070488620188e-11
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 32.0,
+        "p_two_sided": 2.99781900692242e-16,
+        "rank_biserial": 0.9692307692307692,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 3.215663847114581,
+          "df": 1,
+          "p_two_sided": 0.1919392542764522,
+          "gain_ci95_percent": [
+            -4.084414626135007,
+            7.246649684429267
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 31,
+            "losses": 1,
+            "ties": 0,
+            "p_two_sided": 1.5366822481155396e-08,
+            "win_fraction_non_tied": 0.96875
+          },
+          "signed_rank_sensitivity": {
+            "W": 2.0,
+            "p_two_sided": 1.3969838619232178e-09,
+            "rank_biserial": 0.9924242424242424,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.8696372890542576
+        },
+        "1": {
+          "sign_test": {
+            "wins": 28,
+            "losses": 4,
+            "ties": 0,
+            "p_two_sided": 1.9301194697618484e-05,
+            "win_fraction_non_tied": 0.875
+          },
+          "signed_rank_sensitivity": {
+            "W": 21.0,
+            "p_two_sided": 2.0815059542655945e-07,
+            "rank_biserial": 0.9204545454545454,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 0.9783234496030657
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/er/100": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.2210523887215545,
+        1.6258051520253625
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.8692978642213004,
+        2.03300680877959
+      ]
+    },
+    "96/fresh_r/global_log_mse": {
+      "gain_percent": 1.4702752802290504,
+      "median_task_gain_percent": 1.1726689992720658,
+      "mean_absolute_r_difference": 0.0038749755859375,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29064753417968753,
+      "rank_r_task_sd": 0.03831368617422075,
+      "baseline_r_task_mean": 0.28677255859375,
+      "baseline_r_task_sd": 0.04009871183010468,
+      "conditional_sign_test": {
+        "wins": 57,
+        "losses": 7,
+        "ties": 0,
+        "p_two_sided": 7.638141345540223e-11,
+        "win_fraction_non_tied": 0.890625,
+        "p_holm_36": 1.1457212018310334e-09
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 72.0,
+        "p_two_sided": 4.014182649475506e-14,
+        "rank_biserial": 0.9307692307692308,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 3.1215082397432554,
+          "df": 1,
+          "p_two_sided": 0.19736971101863124,
+          "gain_ci95_percent": [
+            -4.382720718457643,
+            7.681549222170875
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 31,
+            "losses": 1,
+            "ties": 0,
+            "p_two_sided": 1.5366822481155396e-08,
+            "win_fraction_non_tied": 0.96875
+          },
+          "signed_rank_sensitivity": {
+            "W": 1.0,
+            "p_two_sided": 9.313225746154785e-10,
+            "rank_biserial": 0.9962121212121212,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.9458464058126796
+        },
+        "1": {
+          "sign_test": {
+            "wins": 26,
+            "losses": 6,
+            "ties": 0,
+            "p_two_sided": 0.0005350527353584766,
+            "win_fraction_non_tied": 0.8125
+          },
+          "signed_rank_sensitivity": {
+            "W": 51.0,
+            "p_two_sided": 1.6032252460718155e-05,
+            "rank_biserial": 0.8068181818181818,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 0.9969226648002005
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "1/er/100": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.228978217896524,
+        1.7198433842712104
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.8260130125679814,
+        2.0952684726406896
+      ]
+    },
+    "96/fresh_r/ea": {
+      "gain_percent": 4.760816451600408,
+      "median_task_gain_percent": 4.882514574718117,
+      "mean_absolute_r_difference": 0.0125708740234375,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29064753417968753,
+      "rank_r_task_sd": 0.03831368617422075,
+      "baseline_r_task_mean": 0.27807666015625,
+      "baseline_r_task_sd": 0.04120205067324401,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 65.26472322768824,
+          "df": 1,
+          "p_two_sided": 0.009753660601244909,
+          "gain_ci95_percent": [
+            3.8165070066006113,
+            5.713715285259361
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 4.686187301569227
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 4.835498803588579
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        4.489815618216162,
+        5.029473081858548
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        4.464489180801642,
+        5.043299616369428
+      ]
+    },
+    "96/fresh_r/pool_random": {
+      "gain_percent": 4.637101934996631,
+      "median_task_gain_percent": 4.465030759251263,
+      "mean_absolute_r_difference": 0.012279728190104167,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29064753417968753,
+      "rank_r_task_sd": 0.03831368617422075,
+      "baseline_r_task_mean": 0.27836780598958333,
+      "baseline_r_task_sd": 0.04100295550490131,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 38.166648554335,
+          "df": 1,
+          "p_two_sided": 0.016676186657918056,
+          "gain_ci95_percent": [
+            3.0699487934169016,
+            6.228083253439877
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 4.512905130061818
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 4.7614463278904315
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        4.38493572068517,
+        4.886288301195861
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        4.339386696353905,
+        4.942437388177287
+      ]
+    },
+    "96/fresh_r/hillclimb": {
+      "gain_percent": 2.589725472161888,
+      "median_task_gain_percent": 2.468547788316762,
+      "mean_absolute_r_difference": 0.0071078369140625,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29064753417968753,
+      "rank_r_task_sd": 0.03831368617422075,
+      "baseline_r_task_mean": 0.283539697265625,
+      "baseline_r_task_sd": 0.039076016329153404,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 10.337907204946081,
+          "df": 1,
+          "p_two_sided": 0.06139010777885705,
+          "gain_ci95_percent": [
+            -0.5840127571827941,
+            5.8647815541755
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 2.843763282419692
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 2.3363151691731767
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        2.306647264027154,
+        2.8688336558546372
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        2.1569544653707826,
+        3.046733379074642
+      ]
+    },
+    "96/fresh_r/random": {
+      "gain_percent": 5.416133634573548,
+      "median_task_gain_percent": 4.904509589581387,
+      "mean_absolute_r_difference": 0.014250870768229167,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29064753417968753,
+      "rank_r_task_sd": 0.03831368617422075,
+      "baseline_r_task_mean": 0.2763966634114583,
+      "baseline_r_task_sd": 0.041291717211728265,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 107.5918087537312,
+          "df": 1,
+          "p_two_sided": 0.00591682070492447,
+          "gain_ci95_percent": [
+            4.761531690008317,
+            6.074825856351377
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 5.467825216132209
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 5.364467387941423
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        5.108169283519038,
+        5.723101314944104
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        5.103911114826295,
+        5.738368834767214
+      ]
+    },
+    "192/best_r/selected_regression": {
+      "gain_percent": 1.1509014862270397,
+      "median_task_gain_percent": 0.7507180751368563,
+      "mean_absolute_r_difference": 0.0030924479166666687,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.30347434895833336,
+      "rank_r_task_sd": 0.037824959297608145,
+      "baseline_r_task_mean": 0.3003819010416666,
+      "baseline_r_task_sd": 0.04006366803992971,
+      "conditional_sign_test": {
+        "wins": 54,
+        "losses": 10,
+        "ties": 0,
+        "p_two_sided": 1.9964982237862146e-08,
+        "win_fraction_non_tied": 0.84375,
+        "p_holm_36": 9.982491118931073e-08
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 121.0,
+        "p_two_sided": 3.267388313035746e-12,
+        "rank_biserial": 0.8836538461538461,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 6.470889568614353,
+          "df": 1,
+          "p_two_sided": 0.09760995544521238,
+          "gain_ci95_percent": [
+            -1.0966122885731233,
+            3.4494885183220365
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 29,
+            "losses": 3,
+            "ties": 0,
+            "p_two_sided": 2.5560148060321808e-06,
+            "win_fraction_non_tied": 0.90625
+          },
+          "signed_rank_sensitivity": {
+            "W": 12.0,
+            "p_two_sided": 3.259629011154175e-08,
+            "rank_biserial": 0.9545454545454546,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.329937639156411
+        },
+        "1": {
+          "sign_test": {
+            "wins": 25,
+            "losses": 7,
+            "ties": 0,
+            "p_two_sided": 0.0021024015732109547,
+            "win_fraction_non_tied": 0.78125
+          },
+          "signed_rank_sensitivity": {
+            "W": 52.0,
+            "p_two_sided": 1.802295446395874e-05,
+            "rank_biserial": 0.803030303030303,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 0.9721816657143513
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "1/er/100": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        0.9793006074229716,
+        1.32607174089809
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.8657723298421898,
+        1.4577120680316749
+      ]
+    },
+    "192/best_r/mse": {
+      "gain_percent": 1.431986797461661,
+      "median_task_gain_percent": 1.0880882676377832,
+      "mean_absolute_r_difference": 0.003886263020833336,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.30347434895833336,
+      "rank_r_task_sd": 0.037824959297608145,
+      "baseline_r_task_mean": 0.29958808593749997,
+      "baseline_r_task_sd": 0.040258240505621434,
+      "conditional_sign_test": {
+        "wins": 60,
+        "losses": 4,
+        "ties": 0,
+        "p_two_sided": 7.363044635805283e-14,
+        "win_fraction_non_tied": 0.9375,
+        "p_holm_36": 1.4726089271610565e-12
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 38.0,
+        "p_two_sided": 7.1579027427493e-16,
+        "rank_biserial": 0.9634615384615385,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 14.125207446253018,
+          "df": 1,
+          "p_two_sided": 0.044994693644278265,
+          "gain_ci95_percent": [
+            0.14293759810434745,
+            2.737628757908451
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 29,
+            "losses": 3,
+            "ties": 0,
+            "p_two_sided": 2.5560148060321808e-06,
+            "win_fraction_non_tied": 0.90625
+          },
+          "signed_rank_sensitivity": {
+            "W": 12.0,
+            "p_two_sided": 3.259629011154175e-08,
+            "rank_biserial": 0.9545454545454546,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.329937639156411
+        },
+        "1": {
+          "sign_test": {
+            "wins": 31,
+            "losses": 1,
+            "ties": 0,
+            "p_two_sided": 1.5366822481155396e-08,
+            "win_fraction_non_tied": 0.96875
+          },
+          "signed_rank_sensitivity": {
+            "W": 7.0,
+            "p_two_sided": 8.847564458847046e-09,
+            "rank_biserial": 0.9734848484848485,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.5341387292507735
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.2594366067354874,
+        1.6110095066929244
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        1.2057213756779421,
+        1.6499876857766982
+      ]
+    },
+    "192/best_r/log_mse": {
+      "gain_percent": 1.3161709889212554,
+      "median_task_gain_percent": 1.0092861361167005,
+      "mean_absolute_r_difference": 0.0035711588541666676,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.30347434895833336,
+      "rank_r_task_sd": 0.037824959297608145,
+      "baseline_r_task_mean": 0.29990319010416666,
+      "baseline_r_task_sd": 0.040116630717862166,
+      "conditional_sign_test": {
+        "wins": 57,
+        "losses": 7,
+        "ties": 0,
+        "p_two_sided": 7.638141345540223e-11,
+        "win_fraction_non_tied": 0.890625,
+        "p_holm_36": 1.1457212018310334e-09
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 84.0,
+        "p_two_sided": 1.3180504864623854e-13,
+        "rank_biserial": 0.9192307692307692,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 3.8447254821410497,
+          "df": 1,
+          "p_two_sided": 0.1619933336463005,
+          "gain_ci95_percent": [
+            -2.9688129299704364,
+            5.790383626327013
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.661332205738145
+        },
+        "1": {
+          "sign_test": {
+            "wins": 25,
+            "losses": 7,
+            "ties": 0,
+            "p_two_sided": 0.0021024015732109547,
+            "win_fraction_non_tied": 0.78125
+          },
+          "signed_rank_sensitivity": {
+            "W": 52.0,
+            "p_two_sided": 1.802295446395874e-05,
+            "rank_biserial": 0.803030303030303,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 0.9721816657143513
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "1/er/100": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.1505332822990342,
+        1.4796369840520658
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.866522552367385,
+        1.7725804514053727
+      ]
+    },
+    "192/best_r/global_mse": {
+      "gain_percent": 1.3587059962426107,
+      "median_task_gain_percent": 1.0773372701998951,
+      "mean_absolute_r_difference": 0.003749283854166668,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.30347434895833336,
+      "rank_r_task_sd": 0.037824959297608145,
+      "baseline_r_task_mean": 0.29972506510416663,
+      "baseline_r_task_sd": 0.03969011298312741,
+      "conditional_sign_test": {
+        "wins": 56,
+        "losses": 8,
+        "ties": 0,
+        "p_two_sided": 5.562672242319724e-10,
+        "win_fraction_non_tied": 0.875,
+        "p_holm_36": 7.231473915015642e-09
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 67.0,
+        "p_two_sided": 2.3778830467169332e-14,
+        "rank_biserial": 0.9355769230769231,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 4.572311241135221,
+          "df": 1,
+          "p_two_sided": 0.13707531342025808,
+          "gain_ci95_percent": [
+            -2.372201312523346,
+            5.232192258275377
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 31,
+            "losses": 1,
+            "ties": 0,
+            "p_two_sided": 1.5366822481155396e-08,
+            "win_fraction_non_tied": 0.96875
+          },
+          "signed_rank_sensitivity": {
+            "W": 1.0,
+            "p_two_sided": 9.313225746154785e-10,
+            "rank_biserial": 0.9962121212121212,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.6583171841681048
+        },
+        "1": {
+          "sign_test": {
+            "wins": 25,
+            "losses": 7,
+            "ties": 0,
+            "p_two_sided": 0.0021024015732109547,
+            "win_fraction_non_tied": 0.78125
+          },
+          "signed_rank_sensitivity": {
+            "W": 54.0,
+            "p_two_sided": 2.2688880562782288e-05,
+            "rank_biserial": 0.7954545454545454,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.059977833596469
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "1/er/100": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.15755309309014,
+        1.567875953902568
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.9341246747966878,
+        1.798358947581056
+      ]
+    },
+    "192/best_r/global_log_mse": {
+      "gain_percent": 1.4424718334396889,
+      "median_task_gain_percent": 1.3939898571436518,
+      "mean_absolute_r_difference": 0.003919205729166667,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.30347434895833336,
+      "rank_r_task_sd": 0.037824959297608145,
+      "baseline_r_task_mean": 0.29955514322916665,
+      "baseline_r_task_sd": 0.040159134330612585,
+      "conditional_sign_test": {
+        "wins": 55,
+        "losses": 9,
+        "ties": 0,
+        "p_two_sided": 3.542223380175076e-09,
+        "win_fraction_non_tied": 0.859375,
+        "p_holm_36": 2.8337787041400608e-08
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 125.0,
+        "p_two_sided": 4.4761323553937915e-12,
+        "rank_biserial": 0.8798076923076923,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 3.762574856089465,
+          "df": 1,
+          "p_two_sided": 0.16537481515482386,
+          "gain_ci95_percent": [
+            -3.34696451218831,
+            6.469238547359277
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.8293330497368463
+        },
+        "1": {
+          "sign_test": {
+            "wins": 23,
+            "losses": 9,
+            "ties": 0,
+            "p_two_sided": 0.020061607006937265,
+            "win_fraction_non_tied": 0.71875
+          },
+          "signed_rank_sensitivity": {
+            "W": 94.0,
+            "p_two_sided": 0.000980085227638483,
+            "rank_biserial": 0.6439393939393939,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.0570803468971377
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "p_two_sided": 1.0,
+          "win_fraction_non_tied": 0.5
+        },
+        "1/er/100": {
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "p_two_sided": 1.0,
+          "win_fraction_non_tied": 0.5
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.2011647664932519,
+        1.686531658117166
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.9030692918498346,
+        2.007357595651798
+      ]
+    },
+    "192/best_r/ea": {
+      "gain_percent": 5.572202801583629,
+      "median_task_gain_percent": 5.620437376882628,
+      "mean_absolute_r_difference": 0.015204427083333333,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.30347434895833336,
+      "rank_r_task_sd": 0.037824959297608145,
+      "baseline_r_task_mean": 0.288269921875,
+      "baseline_r_task_sd": 0.04185604857205359,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 95.0276148786781,
+          "df": 1,
+          "p_two_sided": 0.006699066110516877,
+          "gain_ci95_percent": [
+            4.809525087702045,
+            6.340430366919697
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 5.511978084596394
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 5.6324618939716675
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        5.298360645801077,
+        5.852803468265868
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        5.2928581906087455,
+        5.861037956854396
+      ]
+    },
+    "192/best_r/pool_random": {
+      "gain_percent": 5.688584335754868,
+      "median_task_gain_percent": 5.3776046209694295,
+      "mean_absolute_r_difference": 0.015560677083333335,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.30347434895833336,
+      "rank_r_task_sd": 0.037824959297608145,
+      "baseline_r_task_mean": 0.287913671875,
+      "baseline_r_task_sd": 0.041546815866656026,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 34.94271405063972,
+          "df": 1,
+          "p_two_sided": 0.01821398470851656,
+          "gain_ci95_percent": [
+            3.5835425085030383,
+            7.836405170049401
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 5.521374260821715
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 5.856059373207273
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        5.44040665882961,
+        5.936145312338339
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        5.351718636657891,
+        6.011633477709271
+      ]
+    },
+    "192/best_r/hillclimb": {
+      "gain_percent": 2.0980613694451806,
+      "median_task_gain_percent": 1.7255800198791609,
+      "mean_absolute_r_difference": 0.005942968750000001,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.30347434895833336,
+      "rank_r_task_sd": 0.037824959297608145,
+      "baseline_r_task_mean": 0.29753138020833336,
+      "baseline_r_task_sd": 0.039368660032184116,
+      "conditional_sign_test": {
+        "wins": 62,
+        "losses": 2,
+        "ties": 0,
+        "p_two_sided": 2.2562247209423347e-16,
+        "win_fraction_non_tied": 0.96875,
+        "p_holm_36": 4.9636943860731364e-15
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 15.0,
+        "p_two_sided": 1.485356976305141e-17,
+        "rank_biserial": 0.9855769230769231,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 13.518186042433866,
+          "df": 1,
+          "p_two_sided": 0.047007958623406954,
+          "gain_ci95_percent": [
+            0.12479583741102193,
+            4.1102161379301885
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 31,
+            "losses": 1,
+            "ties": 0,
+            "p_two_sided": 1.5366822481155396e-08,
+            "win_fraction_non_tied": 0.96875
+          },
+          "signed_rank_sensitivity": {
+            "W": 1.0,
+            "p_two_sided": 9.313225746154785e-10,
+            "rank_biserial": 0.9962121212121212,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 2.2550016011634275
+        },
+        "1": {
+          "sign_test": {
+            "wins": 31,
+            "losses": 1,
+            "ties": 0,
+            "p_two_sided": 1.5366822481155396e-08,
+            "win_fraction_non_tied": 0.96875
+          },
+          "signed_rank_sensitivity": {
+            "W": 8.0,
+            "p_two_sided": 1.1641532182693481e-08,
+            "rank_biserial": 0.9696969696969697,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.941362008451554
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.8116933660264127,
+        2.3849435400390484
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        1.7415405187306734,
+        2.4372642468795775
+      ]
+    },
+    "192/best_r/random": {
+      "gain_percent": 8.307485473125215,
+      "median_task_gain_percent": 7.696067548398025,
+      "mean_absolute_r_difference": 0.022244531249999998,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.30347434895833336,
+      "rank_r_task_sd": 0.037824959297608145,
+      "baseline_r_task_mean": 0.28122981770833333,
+      "baseline_r_task_sd": 0.04239801894135418,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 51.732447424210626,
+          "df": 1,
+          "p_two_sided": 0.01230447290248993,
+          "gain_ci95_percent": [
+            6.20522239071532,
+            10.451361481605772
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 8.474692907831374
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 8.14053577896177
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        7.986892163270383,
+        8.634710685906523
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        7.915834239924155,
+        8.70192716484892
+      ]
+    },
+    "192/fresh_r/selected_regression": {
+      "gain_percent": 0.9816834171935808,
+      "median_task_gain_percent": 0.6778610062850721,
+      "mean_absolute_r_difference": 0.0025550944010416642,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29710791015625,
+      "rank_r_task_sd": 0.03628461348963105,
+      "baseline_r_task_mean": 0.29455281575520836,
+      "baseline_r_task_sd": 0.03844948424192906,
+      "conditional_sign_test": {
+        "wins": 51,
+        "losses": 13,
+        "ties": 0,
+        "p_two_sided": 1.8809621564294015e-06,
+        "win_fraction_non_tied": 0.796875,
+        "p_holm_36": 7.523848625717606e-06
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 257.0,
+        "p_two_sided": 1.7270822665559592e-08,
+        "rank_biserial": 0.7528846153846154,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 11.987210130307021,
+          "df": 1,
+          "p_two_sided": 0.052985565301405274,
+          "gain_ci95_percent": [
+            -0.05857721353986909,
+            2.032771812328246
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 28,
+            "losses": 4,
+            "ties": 0,
+            "p_two_sided": 1.9301194697618484e-05,
+            "win_fraction_non_tied": 0.875
+          },
+          "signed_rank_sensitivity": {
+            "W": 52.0,
+            "p_two_sided": 1.802295446395874e-05,
+            "rank_biserial": 0.803030303030303,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.064011857643202
+        },
+        "1": {
+          "sign_test": {
+            "wins": 23,
+            "losses": 9,
+            "ties": 0,
+            "p_two_sided": 0.020061607006937265,
+            "win_fraction_non_tied": 0.71875
+          },
+          "signed_rank_sensitivity": {
+            "W": 83.0,
+            "p_two_sided": 0.0003979005850851536,
+            "rank_biserial": 0.6856060606060606,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 0.8994220428734587
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "p_two_sided": 1.0,
+          "win_fraction_non_tied": 0.5
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "1/er/100": {
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "p_two_sided": 1.0,
+          "win_fraction_non_tied": 0.5
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        0.7596234223789221,
+        1.1973378225172253
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.7386198338879334,
+        1.2402023911171607
+      ]
+    },
+    "192/fresh_r/mse": {
+      "gain_percent": 1.2318305805124095,
+      "median_task_gain_percent": 0.9261378151258558,
+      "mean_absolute_r_difference": 0.0032683268229166647,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29710791015625,
+      "rank_r_task_sd": 0.03628461348963105,
+      "baseline_r_task_mean": 0.2938395833333334,
+      "baseline_r_task_sd": 0.038487783384792154,
+      "conditional_sign_test": {
+        "wins": 56,
+        "losses": 8,
+        "ties": 0,
+        "p_two_sided": 5.562672242319724e-10,
+        "win_fraction_non_tied": 0.875,
+        "p_holm_36": 7.231473915015642e-09
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 143.0,
+        "p_two_sided": 1.7340164677401293e-11,
+        "rank_biserial": 0.8625,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 7.379147205717273,
+          "df": 1,
+          "p_two_sided": 0.08575042576886302,
+          "gain_ci95_percent": [
+            -0.8799401377984448,
+            3.3885929541240674
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 28,
+            "losses": 4,
+            "ties": 0,
+            "p_two_sided": 1.9301194697618484e-05,
+            "win_fraction_non_tied": 0.875
+          },
+          "signed_rank_sensitivity": {
+            "W": 52.0,
+            "p_two_sided": 1.802295446395874e-05,
+            "rank_biserial": 0.803030303030303,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.064011857643202
+        },
+        "1": {
+          "sign_test": {
+            "wins": 28,
+            "losses": 4,
+            "ties": 0,
+            "p_two_sided": 1.9301194697618484e-05,
+            "win_fraction_non_tied": 0.875
+          },
+          "signed_rank_sensitivity": {
+            "W": 24.0,
+            "p_two_sided": 3.548339009284973e-07,
+            "rank_biserial": 0.9090909090909091,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.399927969577702
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "p_two_sided": 1.0,
+          "win_fraction_non_tied": 0.5
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "1/er/100": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.0043218189399923,
+        1.4630137363107958
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.9136184009119114,
+        1.559492977637167
+      ]
+    },
+    "192/fresh_r/log_mse": {
+      "gain_percent": 1.1614380317939637,
+      "median_task_gain_percent": 0.7482830863238101,
+      "mean_absolute_r_difference": 0.003036051432291664,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29710791015625,
+      "rank_r_task_sd": 0.03628461348963105,
+      "baseline_r_task_mean": 0.29407185872395836,
+      "baseline_r_task_sd": 0.038696973979004234,
+      "conditional_sign_test": {
+        "wins": 51,
+        "losses": 13,
+        "ties": 0,
+        "p_two_sided": 1.8809621564294015e-06,
+        "win_fraction_non_tied": 0.796875,
+        "p_holm_36": 7.523848625717606e-06
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 198.0,
+        "p_two_sided": 6.551904303386119e-10,
+        "rank_biserial": 0.8096153846153846,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 4.452565297953482,
+          "df": 1,
+          "p_two_sided": 0.14064446786043247,
+          "gain_ci95_percent": [
+            -2.117783292269253,
+            4.5505188671543095
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 28,
+            "losses": 4,
+            "ties": 0,
+            "p_two_sided": 1.9301194697618484e-05,
+            "win_fraction_non_tied": 0.875
+          },
+          "signed_rank_sensitivity": {
+            "W": 23.0,
+            "p_two_sided": 2.980232238769531e-07,
+            "rank_biserial": 0.9128787878787878,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.4241344247946908
+        },
+        "1": {
+          "sign_test": {
+            "wins": 23,
+            "losses": 9,
+            "ties": 0,
+            "p_two_sided": 0.020061607006937265,
+            "win_fraction_non_tied": 0.71875
+          },
+          "signed_rank_sensitivity": {
+            "W": 83.0,
+            "p_two_sided": 0.0003979005850851536,
+            "rank_biserial": 0.6856060606060606,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 0.8994220428734587
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "0/er/100": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/ba/50": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "1/er/100": {
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "p_two_sided": 1.0,
+          "win_fraction_non_tied": 0.5
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        0.9473230620187192,
+        1.3715631916139728
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.7610102711181301,
+        1.5626568202965385
+      ]
+    },
+    "192/fresh_r/global_mse": {
+      "gain_percent": 1.2668328984247268,
+      "median_task_gain_percent": 1.0822649544062688,
+      "mean_absolute_r_difference": 0.003436075846354165,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29710791015625,
+      "rank_r_task_sd": 0.03628461348963105,
+      "baseline_r_task_mean": 0.29367183430989585,
+      "baseline_r_task_sd": 0.03796047791790189,
+      "conditional_sign_test": {
+        "wins": 56,
+        "losses": 8,
+        "ties": 0,
+        "p_two_sided": 5.562672242319724e-10,
+        "win_fraction_non_tied": 0.875,
+        "p_holm_36": 7.231473915015642e-09
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 72.0,
+        "p_two_sided": 4.014182649475506e-14,
+        "rank_biserial": 0.9307692307692308,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 4.674999909902382,
+          "df": 1,
+          "p_two_sided": 0.13415367956457822,
+          "gain_ci95_percent": [
+            -2.139411478991179,
+            4.791638802334893
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 31,
+            "losses": 1,
+            "ties": 0,
+            "p_two_sided": 1.5366822481155396e-08,
+            "win_fraction_non_tied": 0.96875
+          },
+          "signed_rank_sensitivity": {
+            "W": 4.0,
+            "p_two_sided": 3.259629011154175e-09,
+            "rank_biserial": 0.9848484848484849,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.5398899105946555
+        },
+        "1": {
+          "sign_test": {
+            "wins": 25,
+            "losses": 7,
+            "ties": 0,
+            "p_two_sided": 0.0021024015732109547,
+            "win_fraction_non_tied": 0.78125
+          },
+          "signed_rank_sensitivity": {
+            "W": 45.0,
+            "p_two_sided": 7.71600753068924e-06,
+            "rank_biserial": 0.8295454545454546,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 0.9945101802545335
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 4,
+          "losses": 4,
+          "ties": 0,
+          "p_two_sided": 1.0,
+          "win_fraction_non_tied": 0.5
+        },
+        "1/er/100": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 0,
+          "p_two_sided": 0.2890625,
+          "win_fraction_non_tied": 0.75
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.053240174918045,
+        1.4938353644870068
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.8552450251885948,
+        1.6849765951027904
+      ]
+    },
+    "192/fresh_r/global_log_mse": {
+      "gain_percent": 1.3962020898722347,
+      "median_task_gain_percent": 1.1278223902251647,
+      "mean_absolute_r_difference": 0.003738427734374998,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29710791015625,
+      "rank_r_task_sd": 0.03628461348963105,
+      "baseline_r_task_mean": 0.293369482421875,
+      "baseline_r_task_sd": 0.038386797092890536,
+      "conditional_sign_test": {
+        "wins": 55,
+        "losses": 9,
+        "ties": 0,
+        "p_two_sided": 3.542223380175076e-09,
+        "win_fraction_non_tied": 0.859375,
+        "p_holm_36": 2.8337787041400608e-08
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 97.0,
+        "p_two_sided": 4.362837131496877e-13,
+        "rank_biserial": 0.9067307692307692,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 4.289638280027805,
+          "df": 1,
+          "p_two_sided": 0.14580470833911516,
+          "gain_ci95_percent": [
+            -2.683824752166615,
+            5.6472859940013675
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 30,
+            "losses": 2,
+            "ties": 0,
+            "p_two_sided": 2.4633482098579407e-07,
+            "win_fraction_non_tied": 0.9375
+          },
+          "signed_rank_sensitivity": {
+            "W": 3.0,
+            "p_two_sided": 2.3283064365386963e-09,
+            "rank_biserial": 0.9886363636363636,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.7244765180359105
+        },
+        "1": {
+          "sign_test": {
+            "wins": 25,
+            "losses": 7,
+            "ties": 0,
+            "p_two_sided": 0.0021024015732109547,
+            "win_fraction_non_tied": 0.78125
+          },
+          "signed_rank_sensitivity": {
+            "W": 59.0,
+            "p_two_sided": 3.949552774429321e-05,
+            "rank_biserial": 0.7765151515151515,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 1.0689870340825922
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 7,
+          "losses": 1,
+          "ties": 0,
+          "p_two_sided": 0.0703125,
+          "win_fraction_non_tied": 0.875
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        },
+        "1/er/100": {
+          "wins": 5,
+          "losses": 3,
+          "ties": 0,
+          "p_two_sided": 0.7265625,
+          "win_fraction_non_tied": 0.625
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        1.1301990307827257,
+        1.6716586861095797
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        0.9130360447728023,
+        1.9312102826457498
+      ]
+    },
+    "192/fresh_r/ea": {
+      "gain_percent": 5.276458214481265,
+      "median_task_gain_percent": 4.83200728827217,
+      "mean_absolute_r_difference": 0.014120312499999997,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29710791015625,
+      "rank_r_task_sd": 0.03628461348963105,
+      "baseline_r_task_mean": 0.28298759765625,
+      "baseline_r_task_sd": 0.04027250685771534,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 615.7199022892914,
+          "df": 1,
+          "p_two_sided": 0.0010339428858049827,
+          "gain_ci95_percent": [
+            5.164807231136124,
+            5.388227735029203
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 5.285250367446671
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 5.267666795730324
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        5.020320618451042,
+        5.535151613955975
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        5.0233207686700805,
+        5.53593891641308
+      ]
+    },
+    "192/fresh_r/pool_random": {
+      "gain_percent": 5.278277420817569,
+      "median_task_gain_percent": 5.311000897882923,
+      "mean_absolute_r_difference": 0.014167268880208332,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29710791015625,
+      "rank_r_task_sd": 0.03628461348963105,
+      "baseline_r_task_mean": 0.2829406412760417,
+      "baseline_r_task_sd": 0.040017464028847184,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 19.422446416487087,
+          "df": 1,
+          "p_two_sided": 0.03274861028765518,
+          "gain_ci95_percent": [
+            1.7945906908672566,
+            8.88118535053956
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 4.999835358963814
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 5.557457864608253
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        5.032889414118926,
+        5.525229483339366
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        4.855921636109139,
+        5.723919787990693
+      ]
+    },
+    "192/fresh_r/hillclimb": {
+      "gain_percent": 3.1037392034002003,
+      "median_task_gain_percent": 2.8108345995094917,
+      "mean_absolute_r_difference": 0.008731754557291664,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29710791015625,
+      "rank_r_task_sd": 0.03628461348963105,
+      "baseline_r_task_mean": 0.28837615559895835,
+      "baseline_r_task_sd": 0.036919946422713006,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 259.8315525887371,
+          "df": 1,
+          "p_two_sided": 0.0024501128628550205,
+          "gain_ci95_percent": [
+            2.9497447940859867,
+            3.257963960814328
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 3.1158685995436963
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 3.0916112340230475
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        2.8055731127433847,
+        3.394066273809395
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        2.8065760389819707,
+        3.3857556427961297
+      ]
+    },
+    "192/fresh_r/random": {
+      "gain_percent": 7.4089436578474155,
+      "median_task_gain_percent": 7.117664112228367,
+      "mean_absolute_r_difference": 0.01950890299479166,
+      "task_count": 64,
+      "block_count": 2,
+      "rank_r_task_mean": 0.29710791015625,
+      "rank_r_task_sd": 0.03628461348963105,
+      "baseline_r_task_mean": 0.27759900716145836,
+      "baseline_r_task_sd": 0.04103326469004333,
+      "conditional_sign_test": {
+        "wins": 64,
+        "losses": 0,
+        "ties": 0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "win_fraction_non_tied": 1.0,
+        "p_holm_36": 3.903127820947816e-18
+      },
+      "conditional_signed_rank_sensitivity": {
+        "W": 0.0,
+        "p_two_sided": 1.0842021724855044e-19,
+        "rank_biserial": 1.0,
+        "n_nonzero": 64,
+        "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+      },
+      "offline_block_tests": {
+        "n_blocks": 2,
+        "sign_test": {
+          "wins": 2,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.5,
+          "win_fraction_non_tied": 1.0,
+          "p_holm_36": 1.0
+        },
+        "sign_flip_p_two_sided": 0.5,
+        "sign_flip_assignments": 4,
+        "minimum_possible_exact_two_sided_p": 0.5,
+        "parametric_t_sensitivity": {
+          "t": 750.3356137792697,
+          "df": 1,
+          "p_two_sided": 0.0008484461936209066,
+          "gain_ci95_percent": [
+            7.27902199392067,
+            7.539022665106003
+          ],
+          "assumption": "Independent approximately normal offline-block mean effects; very few blocks cannot validate this"
+        }
+      },
+      "by_block": {
+        "0": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 7.419175390952626
+        },
+        "1": {
+          "sign_test": {
+            "wins": 32,
+            "losses": 0,
+            "ties": 0,
+            "p_two_sided": 4.656612873077393e-10,
+            "win_fraction_non_tied": 1.0
+          },
+          "signed_rank_sensitivity": {
+            "W": 0.0,
+            "p_two_sided": 4.656612873077393e-10,
+            "rank_biserial": 1.0,
+            "n_nonzero": 32,
+            "calibration": "Exact independent fair signs conditional on ranks; symmetry required"
+          },
+          "gain_percent": 7.39871289932018
+        }
+      },
+      "by_stratum_sign_test": {
+        "0/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "0/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/ba/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/50": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        },
+        "1/er/100": {
+          "wins": 8,
+          "losses": 0,
+          "ties": 0,
+          "p_two_sided": 0.0078125,
+          "win_fraction_non_tied": 1.0
+        }
+      },
+      "fixed_models_stratified_ci95_percent": [
+        7.04899097701496,
+        7.778031220959561
+      ],
+      "hierarchical_descriptive_ci95_percent": [
+        7.049969842289813,
+        7.781559946400623
+      ]
+    }
+  },
+  "selections": {
+    "0": "mse",
+    "1": "log_mse"
+  },
+  "scipy": "1.16.1",
+  "numpy": "2.2.6",
+  "primary": "96/best_r/selected_regression",
+  "rounding_for_tests": 12,
+  "bootstrap_seed": 26090817,
+  "bootstrap_replicates": 10000,
+  "primary_comparison_audited": true
+}

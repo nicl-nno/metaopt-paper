@@ -1,0 +1,16 @@
+{
+  "checked_final_networks": 240,
+  "every_attack_curve_exactly_equal": true,
+  "replayed_searches": 16,
+  "same_search_outcomes": true,
+  "additional_oracle_evaluations": 1536,
+  "extra_equivalence_attack_trajectories": 1920,
+  "methods_mean_seconds": {
+    "ranknet": 4.12931760000356,
+    "mse": 3.940336425002897,
+    "ea": 0.7979812250123359,
+    "hillclimb": 0.7104388250154443
+  },
+  "scope": "Serial replay, first task per family/size, first model/search seeds; not a new statistical replicate",
+  "oracle_source_sha256": "8329c658f458b2cf8fcb2f11a72c3c69facfe5c271f9be21c24c4fd860b065b0"
+}

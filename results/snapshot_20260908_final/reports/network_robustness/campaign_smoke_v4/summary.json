@@ -1,0 +1,1583 @@
+{
+  "primary": {
+    "scope": "id",
+    "budget": 8,
+    "field": "best_r",
+    "comparator": "selected_regression"
+  },
+  "regression_selection_by_block": {
+    "0": "global_mse",
+    "1": "global_mse"
+  },
+  "effects": {
+    "extrapolation": {
+      "8": {
+        "best_r": {
+          "selected_regression": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.0,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.0,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.0,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.0,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.0,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "ea": {
+            "gain_percent": -0.9668671750554759,
+            "hierarchical_bootstrap_95_percent": [
+              -1.142894677583883,
+              -0.790526233431868
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -1.142894677583883,
+              "1": -0.790526233431868
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": -0.02298951822469872,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": -0.01587334915629012
+            },
+            "bootstrap_replicates": 10000
+          },
+          "pool_random": {
+            "gain_percent": -0.5730894966477816,
+            "hierarchical_bootstrap_95_percent": [
+              -1.142894677583883,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -1.142894677583883,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": -0.02298951822469872,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "hillclimb": {
+            "gain_percent": -1.9874153213499883,
+            "hierarchical_bootstrap_95_percent": [
+              -3.193509325193997,
+              -0.7662948173615312
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -0.7662948173615312,
+              "1": -3.193509325193997
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": -0.015384918839479456,
+              "1/test_ba_20_00": -0.041195756438267166,
+              "1/test_er_20_00": -0.023716526617316044
+            },
+            "bootstrap_replicates": 10000
+          },
+          "random": {
+            "gain_percent": -0.47341327073454664,
+            "hierarchical_bootstrap_95_percent": [
+              -1.142894677583883,
+              0.2006020070252841
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": -1.142894677583883,
+              "1": 0.2006020070252841
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": -0.02298951822469872,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.004008021397538647
+            },
+            "bootstrap_replicates": 10000
+          }
+        },
+        "fresh_r": {
+          "selected_regression": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.0,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.0,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.0,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.0,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.0,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "ea": {
+            "gain_percent": -2.437313780580091,
+            "hierarchical_bootstrap_95_percent": [
+              -3.2962206135100267,
+              -1.570778280473608
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -3.2962206135100267,
+              "1": -1.570778280473608
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": -0.06703540133615833,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": -0.03166491464396892
+            },
+            "bootstrap_replicates": 10000
+          },
+          "pool_random": {
+            "gain_percent": -1.661920200519487,
+            "hierarchical_bootstrap_95_percent": [
+              -3.2962206135100267,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -3.2962206135100267,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": -0.06703540133615833,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "hillclimb": {
+            "gain_percent": -2.606560309062039,
+            "hierarchical_bootstrap_95_percent": [
+              -2.6876319798096318,
+              -2.5254210968915882
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -2.6876319798096318,
+              "1": -2.5254210968915882
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": -0.0544881852840698,
+              "1/test_ba_20_00": -0.04580953603129422,
+              "1/test_er_20_00": -0.005347606326595353
+            },
+            "bootstrap_replicates": 10000
+          },
+          "random": {
+            "gain_percent": -1.4578757393912187,
+            "hierarchical_bootstrap_95_percent": [
+              -3.41657383921803,
+              0.5405444783886103
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": -3.41657383921803,
+              "1": 0.5405444783886103
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": -0.06952606264861033,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.010781775603288194
+            },
+            "bootstrap_replicates": 10000
+          }
+        }
+      },
+      "12": {
+        "best_r": {
+          "selected_regression": {
+            "gain_percent": 1.2226059392567112,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              2.4601595313404805
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 2.4601595313404805,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.04860769906537701,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "mse": {
+            "gain_percent": 1.5155832602194264,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              3.054136446625426
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 3.054136446625426,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.06016852146645291,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "log_mse": {
+            "gain_percent": 1.5155832602194264,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              3.054136446625426
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 3.054136446625426,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.06016852146645291,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_mse": {
+            "gain_percent": 1.2226059392567112,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              2.4601595313404805
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 2.4601595313404805,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.04860769906537701,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_log_mse": {
+            "gain_percent": 1.2226059392567112,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              2.4601595313404805
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 2.4601595313404805,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.04860769906537701,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "ea": {
+            "gain_percent": 0.17716256279158224,
+            "hierarchical_bootstrap_95_percent": [
+              -1.6965678031788243,
+              2.0866075056175584
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 2,
+            "block_gain_percent": {
+              "0": 2.0866075056175584,
+              "1": -1.6965678031788243
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.004123717183862156,
+              "0/test_er_20_00": 0.03717900324175403,
+              "1/test_ba_20_00": -0.01834913866819654,
+              "1/test_er_20_00": -0.01587334915629012
+            },
+            "bootstrap_replicates": 10000
+          },
+          "pool_random": {
+            "gain_percent": 1.0649964907184195,
+            "hierarchical_bootstrap_95_percent": [
+              0.4662029934705692,
+              1.6673588861794295
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 2,
+            "block_gain_percent": {
+              "0": 1.6673588861794295,
+              "1": 0.4662029934705692
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": -0.004106781952653359,
+              "0/test_er_20_00": 0.03717900324175403,
+              "1/test_ba_20_00": 0.00930239266231363,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "hillclimb": {
+            "gain_percent": -1.2297686558760899,
+            "hierarchical_bootstrap_95_percent": [
+              -4.07711657901967,
+              1.7020991430915817
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 2,
+            "block_gain_percent": {
+              "0": 1.7020991430915817,
+              "1": -4.07711657901967
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.004123717183862156,
+              "0/test_er_20_00": 0.02963179760637115,
+              "1/test_ba_20_00": -0.03636764417087483,
+              "1/test_er_20_00": -0.0468835858988505
+            },
+            "bootstrap_replicates": 10000
+          },
+          "random": {
+            "gain_percent": 1.3746915339715404,
+            "hierarchical_bootstrap_95_percent": [
+              0.6677402130575674,
+              2.0866075056175584
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 4,
+            "block_gain_percent": {
+              "0": 2.0866075056175584,
+              "1": 0.6677402130575673
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.004123717183862156,
+              "0/test_er_20_00": 0.03717900324175403,
+              "1/test_ba_20_00": 0.00930239266231363,
+              "1/test_er_20_00": 0.004008021397538647
+            },
+            "bootstrap_replicates": 10000
+          }
+        },
+        "fresh_r": {
+          "selected_regression": {
+            "gain_percent": 1.8793438034459837,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              3.7940069382074753
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 3.7940069382074753,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.07447609290148303,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "mse": {
+            "gain_percent": 1.9658124406271034,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              3.9702690667714506
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 3.9702690667714506,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": -0.030685810703443898,
+              "0/test_er_20_00": 0.10855540655434573,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "log_mse": {
+            "gain_percent": 1.9658124406271034,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              3.9702690667714506
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 3.9702690667714506,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": -0.030685810703443898,
+              "0/test_er_20_00": 0.10855540655434573,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_mse": {
+            "gain_percent": 1.8793438034459837,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              3.7940069382074753
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 3.7940069382074753,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.07447609290148303,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_log_mse": {
+            "gain_percent": 1.8793438034459837,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              3.7940069382074753
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 3.7940069382074753,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": 0.0,
+              "0/test_er_20_00": 0.07447609290148303,
+              "1/test_ba_20_00": 0.0,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "ea": {
+            "gain_percent": -1.1956771597674098,
+            "hierarchical_bootstrap_95_percent": [
+              -2.7711795496273894,
+              0.4053547774938106
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 0.4053547774938106,
+              "1": -2.7711795496273894
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": -0.03342929664919471,
+              "0/test_er_20_00": 0.04152000521818726,
+              "1/test_ba_20_00": -0.024541108916117774,
+              "1/test_er_20_00": -0.03166491464396892
+            },
+            "bootstrap_replicates": 10000
+          },
+          "pool_random": {
+            "gain_percent": 0.7053404012233433,
+            "hierarchical_bootstrap_95_percent": [
+              0.3120132386943905,
+              1.100209814294262
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 2,
+            "block_gain_percent": {
+              "0": 1.100209814294262,
+              "1": 0.3120132386943905
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": -0.019635974516858848,
+              "0/test_er_20_00": 0.04152000521818726,
+              "1/test_ba_20_00": 0.006230549750635942,
+              "1/test_er_20_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "hillclimb": {
+            "gain_percent": -1.2671621682305438,
+            "hierarchical_bootstrap_95_percent": [
+              -2.670004891191537,
+              0.15590009448450498
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 0.15590009448450498,
+              "1": -2.670004891191537
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": -0.03342929664919471,
+              "0/test_er_20_00": 0.036544870578073346,
+              "1/test_ba_20_00": -0.05144856183604188,
+              "1/test_er_20_00": -0.002677377770716626
+            },
+            "bootstrap_replicates": 10000
+          },
+          "random": {
+            "gain_percent": 0.5669102036065505,
+            "hierarchical_bootstrap_95_percent": [
+              0.2803947355751607,
+              0.854244287416605
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 3,
+            "block_gain_percent": {
+              "0": 0.2803947355751607,
+              "1": 0.854244287416605
+            },
+            "task_log_ratios": {
+              "0/test_ba_20_00": -0.03342929664919471,
+              "0/test_er_20_00": 0.03902934390573529,
+              "1/test_ba_20_00": 0.006230549750635942,
+              "1/test_er_20_00": 0.010781775603288194
+            },
+            "bootstrap_replicates": 10000
+          }
+        }
+      }
+    },
+    "id": {
+      "8": {
+        "best_r": {
+          "selected_regression": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "ea": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "pool_random": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "hillclimb": {
+            "gain_percent": -2.738577357523192,
+            "hierarchical_bootstrap_95_percent": [
+              -4.401093398531872,
+              -1.0471492746840192
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -4.401093398531872,
+              "1": -1.0471492746840192
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": -0.03174869831458019,
+              "0/test_er_12_00": -0.05826890812397588,
+              "1/test_ba_12_00": -0.021053409197832267,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "random": {
+            "gain_percent": -1.4955568383978404,
+            "hierarchical_bootstrap_95_percent": [
+              -1.9419324309079826,
+              -1.0471492746840192
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -1.9419324309079826,
+              "1": -1.0471492746840192
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": -0.03922071315328127,
+              "1/test_ba_12_00": -0.021053409197832267,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          }
+        },
+        "fresh_r": {
+          "selected_regression": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "ea": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "pool_random": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "hillclimb": {
+            "gain_percent": -2.8095096923684606,
+            "hierarchical_bootstrap_95_percent": [
+              -4.867764897508269,
+              -0.7067226365376542
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -4.867764897508269,
+              "1": -0.7067226365376542
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": -0.03484673133016819,
+              "0/test_er_12_00": -0.06495789627477248,
+              "1/test_ba_12_00": -0.014184634991956525,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "random": {
+            "gain_percent": -2.0154872057956643,
+            "hierarchical_bootstrap_95_percent": [
+              -2.076350681306763,
+              -1.9545859011934623
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -1.9545859011934623,
+              "1": -2.076350681306763
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": -0.03947881097378746,
+              "1/test_ba_12_00": -0.04196419909903219,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          }
+        }
+      },
+      "12": {
+        "best_r": {
+          "selected_regression": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "ea": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "pool_random": {
+            "gain_percent": -0.5076371461554198,
+            "hierarchical_bootstrap_95_percent": [
+              -1.0126973375892712,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -1.0126973375892712,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": -0.010695289116747919,
+              "0/test_er_12_00": -0.009661910911736859,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "hillclimb": {
+            "gain_percent": -2.27069764020755,
+            "hierarchical_bootstrap_95_percent": [
+              -3.479116875121887,
+              -1.0471492746840192
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -3.479116875121887,
+              "1": -1.0471492746840192
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": -0.04211148535012685,
+              "0/test_er_12_00": -0.028710105882431367,
+              "1/test_ba_12_00": -0.021053409197832267,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "random": {
+            "gain_percent": -0.7649423130426212,
+            "hierarchical_bootstrap_95_percent": [
+              -1.0471492746840192,
+              -0.4819305158799104
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -0.4819305158799104,
+              "1": -1.0471492746840192
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": -0.009661910911736859,
+              "1/test_ba_12_00": -0.021053409197832267,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          }
+        },
+        "fresh_r": {
+          "selected_regression": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "global_log_mse": {
+            "gain_percent": 0.0,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              0.0
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": 0.0,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.0,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "ea": {
+            "gain_percent": 0.8177295533440189,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              1.64214592291216
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 1.64214592291216,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.03257617043461267,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "pool_random": {
+            "gain_percent": 0.8639509505497306,
+            "hierarchical_bootstrap_95_percent": [
+              0.0,
+              1.7353660135490188
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 2,
+            "block_gain_percent": {
+              "0": 1.7353660135490188,
+              "1": 0.0
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.021506205220963682,
+              "0/test_er_12_00": 0.012903404835907782,
+              "1/test_ba_12_00": 0.0,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "hillclimb": {
+            "gain_percent": -1.6875870216257738,
+            "hierarchical_bootstrap_95_percent": [
+              -2.6587619799220614,
+              -0.7067226365376542
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 0,
+            "block_gain_percent": {
+              "0": -2.6587619799220614,
+              "1": -0.7067226365376542
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": -0.03484673133016819,
+              "0/test_er_12_00": -0.019048194970694588,
+              "1/test_ba_12_00": -0.014184634991956525,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          },
+          "random": {
+            "gain_percent": -0.884398701791451,
+            "hierarchical_bootstrap_95_percent": [
+              -2.076350681306763,
+              0.3220620254202079
+            ],
+            "blocks": 2,
+            "source_tasks": 4,
+            "source_tasks_better": 1,
+            "block_gain_percent": {
+              "0": 0.3220620254202079,
+              "1": -2.076350681306763
+            },
+            "task_log_ratios": {
+              "0/test_ba_12_00": 0.0,
+              "0/test_er_12_00": 0.006430890330290553,
+              "1/test_ba_12_00": -0.04196419909903219,
+              "1/test_er_12_00": 0.0
+            },
+            "bootstrap_replicates": 10000
+          }
+        }
+      }
+    }
+  },
+  "counts": {
+    "verified_searches": 72,
+    "verified_endpoints": 144,
+    "offline_evaluations": 128,
+    "online_evaluations": 864,
+    "fresh_attack_trajectories": 432,
+    "reference_attack_trajectories": 448,
+    "audit_production_attack_trajectories": 864
+  },
+  "offline_blocks": 2,
+  "all_blocks_audited": true,
+  "inference": "Hierarchical bootstrap of offline blocks and source tasks within family/size strata; 2 top-level blocks limit precision.",
+  "validation_pair_accuracy_by_block": {
+    "0": {
+      "mse": 0.6470502760825342,
+      "log_mse": 0.6470502760825342,
+      "global_mse": 0.6990700377797152,
+      "global_log_mse": 0.7080790467887241,
+      "ranknet": 0.7027027027027026
+    },
+    "1": {
+      "mse": 0.4470696276506929,
+      "log_mse": 0.4470696276506929,
+      "global_mse": 0.4986642177325096,
+      "global_log_mse": 0.4986642177325096,
+      "ranknet": 0.5004591751544498
+    }
+  },
+  "wall_time_is_an_endpoint": false
+}

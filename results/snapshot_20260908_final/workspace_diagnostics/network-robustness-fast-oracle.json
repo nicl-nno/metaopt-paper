@@ -1,0 +1,176 @@
+{
+  "all_exactly_equal": true,
+  "checked_graphs": 24,
+  "attack_trajectories": 96,
+  "measurements": [
+    {
+      "n": 12,
+      "family": "er",
+      "sample": 0,
+      "pilot_seconds": 0.0008762000361457467,
+      "union_find_seconds": 0.00038379995385184884
+    },
+    {
+      "n": 12,
+      "family": "er",
+      "sample": 1,
+      "pilot_seconds": 0.0008386000408791006,
+      "union_find_seconds": 0.0003738000523298979
+    },
+    {
+      "n": 12,
+      "family": "er",
+      "sample": 2,
+      "pilot_seconds": 0.0008052000193856657,
+      "union_find_seconds": 0.0003711999743245542
+    },
+    {
+      "n": 12,
+      "family": "ba",
+      "sample": 0,
+      "pilot_seconds": 0.000831899989861995,
+      "union_find_seconds": 0.00037430005613714457
+    },
+    {
+      "n": 12,
+      "family": "ba",
+      "sample": 1,
+      "pilot_seconds": 0.0008046000148169696,
+      "union_find_seconds": 0.0003645999822765589
+    },
+    {
+      "n": 12,
+      "family": "ba",
+      "sample": 2,
+      "pilot_seconds": 0.0008062999695539474,
+      "union_find_seconds": 0.0003581999917514622
+    },
+    {
+      "n": 50,
+      "family": "er",
+      "sample": 0,
+      "pilot_seconds": 0.005305800004862249,
+      "union_find_seconds": 0.0018406999879516661
+    },
+    {
+      "n": 50,
+      "family": "er",
+      "sample": 1,
+      "pilot_seconds": 0.005287500040140003,
+      "union_find_seconds": 0.0018282000091858208
+    },
+    {
+      "n": 50,
+      "family": "er",
+      "sample": 2,
+      "pilot_seconds": 0.005902899953071028,
+      "union_find_seconds": 0.001975800027139485
+    },
+    {
+      "n": 50,
+      "family": "ba",
+      "sample": 0,
+      "pilot_seconds": 0.006183299992699176,
+      "union_find_seconds": 0.0019470000406727195
+    },
+    {
+      "n": 50,
+      "family": "ba",
+      "sample": 1,
+      "pilot_seconds": 0.006122999999206513,
+      "union_find_seconds": 0.001991499972064048
+    },
+    {
+      "n": 50,
+      "family": "ba",
+      "sample": 2,
+      "pilot_seconds": 0.006188799976371229,
+      "union_find_seconds": 0.0019694000366143882
+    },
+    {
+      "n": 100,
+      "family": "er",
+      "sample": 0,
+      "pilot_seconds": 0.016239099961239845,
+      "union_find_seconds": 0.003723000001627952
+    },
+    {
+      "n": 100,
+      "family": "er",
+      "sample": 1,
+      "pilot_seconds": 0.016284499957691878,
+      "union_find_seconds": 0.0037655000342056155
+    },
+    {
+      "n": 100,
+      "family": "er",
+      "sample": 2,
+      "pilot_seconds": 0.01631089998409152,
+      "union_find_seconds": 0.004622299980837852
+    },
+    {
+      "n": 100,
+      "family": "ba",
+      "sample": 0,
+      "pilot_seconds": 0.017907100031152368,
+      "union_find_seconds": 0.003832199960015714
+    },
+    {
+      "n": 100,
+      "family": "ba",
+      "sample": 1,
+      "pilot_seconds": 0.017431499960366637,
+      "union_find_seconds": 0.003780400031246245
+    },
+    {
+      "n": 100,
+      "family": "ba",
+      "sample": 2,
+      "pilot_seconds": 0.01729779999004677,
+      "union_find_seconds": 0.003804999985732138
+    },
+    {
+      "n": 200,
+      "family": "er",
+      "sample": 0,
+      "pilot_seconds": 0.05725949996849522,
+      "union_find_seconds": 0.009678200003691018
+    },
+    {
+      "n": 200,
+      "family": "er",
+      "sample": 1,
+      "pilot_seconds": 0.05595280003035441,
+      "union_find_seconds": 0.008551599981728941
+    },
+    {
+      "n": 200,
+      "family": "er",
+      "sample": 2,
+      "pilot_seconds": 0.05880659999093041,
+      "union_find_seconds": 0.008421100035775453
+    },
+    {
+      "n": 200,
+      "family": "ba",
+      "sample": 0,
+      "pilot_seconds": 0.0644105999963358,
+      "union_find_seconds": 0.007783399953041226
+    },
+    {
+      "n": 200,
+      "family": "ba",
+      "sample": 1,
+      "pilot_seconds": 0.05862740002339706,
+      "union_find_seconds": 0.007727899996098131
+    },
+    {
+      "n": 200,
+      "family": "ba",
+      "sample": 2,
+      "pilot_seconds": 0.05815709999296814,
+      "union_find_seconds": 0.007775000005494803
+    }
+  ],
+  "scope": "New calibration graphs only, no selection or alteration of pilot results"
+}

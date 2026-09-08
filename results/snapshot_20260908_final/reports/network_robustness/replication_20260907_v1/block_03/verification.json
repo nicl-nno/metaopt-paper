@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "verified_searches": 1680,
+  "verified_endpoints": 3360,
+  "offline_evaluations": 5632,
+  "online_evaluations": 322560,
+  "fresh_attack_trajectories": 107520,
+  "reference_attack_trajectories": 16976,
+  "audit_production_attack_trajectories": 124320,
+  "max_absolute_reference_discrepancy": 0,
+  "source_hashes_match": true,
+  "equal_initial_hashes": true,
+  "equal_evaluation_budgets": true
+}

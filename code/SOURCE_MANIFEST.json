@@ -1,5 +1,5 @@
 {
-  "captured_utc": "2026-09-08T08:56:16.616603+00:00",
+  "captured_utc": "2026-09-08T09:39:42.795871+00:00",
   "upstream_url": "https://github.com/ITMO-NSS-team/GAMLET",
   "upstream_commit": "237fa706b9218009d766c368facc7f44074bfb4a",
   "source_files": [
@@ -745,6 +745,24 @@
       "path": "code/GAMLET/examples/knowledge_base_loading.py",
       "sha256": "bb8e0b6dad087696aa4ded58dd64b999e66dccda44c8e9c7a0007b0dd304e228",
       "bytes": 1480,
+      "origin": "upstream 237fa706b9218009d766c368facc7f44074bfb4a"
+    },
+    {
+      "path": "code/GAMLET/experiment_logs/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "origin": "upstream 237fa706b9218009d766c368facc7f44074bfb4a"
+    },
+    {
+      "path": "code/GAMLET/experiment_logs/fedot_warm_start/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "origin": "upstream 237fa706b9218009d766c368facc7f44074bfb4a"
+    },
+    {
+      "path": "code/GAMLET/experiment_logs/fedot_warm_start/run.py",
+      "sha256": "5c8df0f449f55bd793153f998d515801c87e10c36712179b3e69a33f5db0696c",
+      "bytes": 24134,
       "origin": "upstream 237fa706b9218009d766c368facc7f44074bfb4a"
     },
     {
@@ -2018,24 +2036,6 @@
       "sha256": "466d683ea256092ab01fb13ea07330987b304368b02a84b788499a0835e04667",
       "bytes": 4298,
       "origin": "local diagnostic helper"
-    },
-    {
-      "path": "code/GAMLET/experiment_logs/__init__.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0,
-      "origin": "upstream 237fa706b9218009d766c368facc7f44074bfb4a"
-    },
-    {
-      "path": "code/GAMLET/experiment_logs/fedot_warm_start/__init__.py",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0,
-      "origin": "upstream 237fa706b9218009d766c368facc7f44074bfb4a"
-    },
-    {
-      "path": "code/GAMLET/experiment_logs/fedot_warm_start/run.py",
-      "sha256": "5c8df0f449f55bd793153f998d515801c87e10c36712179b3e69a33f5db0696c",
-      "bytes": 24134,
-      "origin": "upstream 237fa706b9218009d766c368facc7f44074bfb4a"
     }
   ],
   "excluded_legacy_assets": [

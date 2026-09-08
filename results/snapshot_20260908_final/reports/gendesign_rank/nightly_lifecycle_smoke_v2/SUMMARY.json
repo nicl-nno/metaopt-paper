@@ -1,0 +1,7 @@
+{
+  "state": "time_limit",
+  "main_runs": [],
+  "effects": {},
+  "mechanism_runs": [],
+  "note": "Partial results if the queue is running/stopped. Seeds are not independent task replicates."
+}

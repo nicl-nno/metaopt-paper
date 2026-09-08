@@ -1,0 +1,20 @@
+{
+  "status": "time_limit",
+  "pid": 42712,
+  "started_utc": "2026-09-06T12:04:19.902939+00:00",
+  "deadline_utc": "2026-09-06T12:04:30.702939+00:00",
+  "maximum_hours": 0.003,
+  "finished_jobs": [],
+  "active_job": null,
+  "child_pid": null,
+  "threads": 2,
+  "stop_instructions": "Create the file D:\\agents\\gamlet\\GAMLET\\experiments\\gendesign_rank\\results\\nightly_lifecycle_smoke_v2\\STOP to stop the queue and current child.",
+  "updated_utc": "2026-09-06T12:04:30.758808+00:00",
+  "elapsed_hours": 0.0030122222222174365,
+  "terminated_worker_pids": [
+    14320,
+    23884,
+    2392
+  ],
+  "ended_utc": "2026-09-06T12:04:30.833995+00:00"
+}

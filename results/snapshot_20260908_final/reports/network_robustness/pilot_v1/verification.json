@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "verified_searches": 240,
+  "offline_candidates": 1536,
+  "max_absolute_r_discrepancy": 0.0,
+  "max_fresh_reference_discrepancy": 0.0,
+  "independent_reference_attack_trajectories": 1200,
+  "whole_source_graphs_separated": true,
+  "equal_initial_candidate_hashes": true,
+  "equal_true_evaluation_budgets": true,
+  "source_snapshot_hashes_match": true
+}

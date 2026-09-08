@@ -1,0 +1,111 @@
+{
+  "primary_baseline": "mse",
+  "effects": {
+    "mse": {
+      "baseline": "mse",
+      "delta_percent": -3.5521263187788144,
+      "task_bootstrap_95_percent": [
+        -5.068059291202265,
+        -1.8600062554945285
+      ],
+      "task_count": 6,
+      "paired_runs": 36,
+      "tasks_ranknet_better": 6,
+      "task_log_ratios": {
+        "test_000": -0.012495328380358509,
+        "test_001": -0.05513878408663209,
+        "test_002": -0.05779678981736414,
+        "test_003": -0.024879377451068777,
+        "test_004": -0.05822402359179263,
+        "test_005": -0.008470652834130808
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    },
+    "log_mse": {
+      "baseline": "log_mse",
+      "delta_percent": -1.8305797162373016,
+      "task_bootstrap_95_percent": [
+        -3.3963373042890654,
+        -0.12422271427842135
+      ],
+      "task_count": 6,
+      "paired_runs": 36,
+      "tasks_ranknet_better": 5,
+      "task_log_ratios": {
+        "test_000": -0.004911100227071317,
+        "test_001": -0.014285574443024395,
+        "test_002": -0.03565528979142206,
+        "test_003": 0.018158653828931386,
+        "test_004": -0.04511721548669075,
+        "test_005": -0.029042003055584072
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    },
+    "ea": {
+      "baseline": "ea",
+      "delta_percent": -18.470810757931034,
+      "task_bootstrap_95_percent": [
+        -19.222857100188406,
+        -17.745969132262797
+      ],
+      "task_count": 6,
+      "paired_runs": 36,
+      "tasks_ranknet_better": 6,
+      "task_log_ratios": {
+        "test_000": -0.18581972292564555,
+        "test_001": -0.2003434351883352,
+        "test_002": -0.21802313043233248,
+        "test_003": -0.2002069670739006,
+        "test_004": -0.20004668009932228,
+        "test_005": -0.22081454219436045
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    },
+    "random": {
+      "baseline": "random",
+      "delta_percent": -23.766552951012276,
+      "task_bootstrap_95_percent": [
+        -24.54982207983821,
+        -22.917173997418917
+      ],
+      "task_count": 6,
+      "paired_runs": 36,
+      "tasks_ranknet_better": 6,
+      "task_log_ratios": {
+        "test_000": -0.2554185586091143,
+        "test_001": -0.2837520006617052,
+        "test_002": -0.28653216597487136,
+        "test_003": -0.2668404776878202,
+        "test_004": -0.2528990437841003,
+        "test_005": -0.28277704498049056
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    }
+  },
+  "methods": {
+    "ranknet": {
+      "mean_seconds": 0.280859191665109,
+      "mean_improvement_percent": 32.901979120974886
+    },
+    "mse": {
+      "mean_seconds": 0.28377728888800546,
+      "mean_improvement_percent": 30.429624894048896
+    },
+    "log_mse": {
+      "mean_seconds": 0.2825033000004219,
+      "mean_improvement_percent": 31.655354642808124
+    },
+    "ea": {
+      "mean_seconds": 0.01863230000081886,
+      "mean_improvement_percent": 17.72797486451413
+    },
+    "random": {
+      "mean_seconds": 0.014484544441479051,
+      "mean_improvement_percent": 11.981178279165414
+    }
+  },
+  "test_tasks": 6,
+  "true_evaluations_per_search": 96,
+  "global_optimum_known": false,
+  "confirmatory": false
+}

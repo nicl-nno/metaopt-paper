@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "searches_verified": 144,
+  "independent_final_mechanical_checks": 144,
+  "max_relative_compliance_discrepancy": 4.7098598794386184e-14,
+  "max_absolute_volume_error_m3": 2.0816681711721685e-17,
+  "distinct_offline_genotypes": 4096,
+  "recorded_source_hashes_match": true,
+  "equal_initial_populations": true,
+  "exact_evaluation_budgets": true,
+  "checkpoint_and_baseline_selection_validation_only": true,
+  "note": "Post-run independent checks are not search queries and did not select candidates or models."
+}

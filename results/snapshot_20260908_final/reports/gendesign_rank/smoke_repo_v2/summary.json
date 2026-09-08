@@ -1,0 +1,91 @@
+{
+  "primary_baseline": "mse",
+  "effects": {
+    "mse": {
+      "baseline": "mse",
+      "delta_percent": 0.0,
+      "task_bootstrap_95_percent": [
+        0.0,
+        0.0
+      ],
+      "task_count": 1,
+      "paired_runs": 1,
+      "tasks_ranknet_better": 0,
+      "task_log_ratios": {
+        "test_000": 0.0
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    },
+    "log_mse": {
+      "baseline": "log_mse",
+      "delta_percent": 0.0,
+      "task_bootstrap_95_percent": [
+        0.0,
+        0.0
+      ],
+      "task_count": 1,
+      "paired_runs": 1,
+      "tasks_ranknet_better": 0,
+      "task_log_ratios": {
+        "test_000": 0.0
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    },
+    "ea": {
+      "baseline": "ea",
+      "delta_percent": -3.0700351413176397,
+      "task_bootstrap_95_percent": [
+        -3.0700351413176397,
+        -3.0700351413176397
+      ],
+      "task_count": 1,
+      "paired_runs": 1,
+      "tasks_ranknet_better": 1,
+      "task_log_ratios": {
+        "test_000": -0.03118148002689481
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    },
+    "random": {
+      "baseline": "random",
+      "delta_percent": -0.5164708688361941,
+      "task_bootstrap_95_percent": [
+        -0.5164708688361941,
+        -0.5164708688361941
+      ],
+      "task_count": 1,
+      "paired_runs": 1,
+      "tasks_ranknet_better": 1,
+      "task_log_ratios": {
+        "test_000": -0.005178091896414432
+      },
+      "interpretation": "negative delta favors RankNet; bootstrap across tasks only; exploratory"
+    }
+  },
+  "methods": {
+    "ranknet": {
+      "mean_seconds": 0.021521299990126863,
+      "mean_improvement_percent": 11.219096788658788
+    },
+    "mse": {
+      "mean_seconds": 0.021452999993925914,
+      "mean_improvement_percent": 11.219096788658788
+    },
+    "log_mse": {
+      "mean_seconds": 0.021188100014114752,
+      "mean_improvement_percent": 11.219096788658788
+    },
+    "ea": {
+      "mean_seconds": 0.004141499986872077,
+      "mean_improvement_percent": 8.407164553522694
+    },
+    "random": {
+      "mean_seconds": 0.003068699996219948,
+      "mean_improvement_percent": 10.758188831149873
+    }
+  },
+  "test_tasks": 1,
+  "true_evaluations_per_search": 24,
+  "global_optimum_known": false,
+  "confirmatory": false
+}
