@@ -1,0 +1,55 @@
+{
+  "sizes": [
+    50,
+    100
+  ],
+  "tasks_per_cell": {
+    "train": 8,
+    "validation": 3,
+    "test": 8
+  },
+  "extrapolation_sizes": [
+    200
+  ],
+  "extrapolation_tasks_per_cell": 4,
+  "oracle": "union_find",
+  "max_changed_fraction": 0.2,
+  "attack_scenarios": 4,
+  "fresh_scenarios": 32,
+  "designs_per_task": 128,
+  "epochs": 80,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "hidden": 32,
+  "layers": 3,
+  "model_seeds": [
+    17,
+    23
+  ],
+  "search_seeds": [
+    101,
+    202
+  ],
+  "losses": [
+    "mse",
+    "log_mse",
+    "global_mse",
+    "global_log_mse",
+    "ranknet"
+  ],
+  "budget": 192,
+  "primary_budget": 96,
+  "evaluation_checkpoints": [
+    96,
+    192
+  ],
+  "initial_evaluations": 16,
+  "population": 16,
+  "batch_evaluations": 4,
+  "proposal_pool": 48,
+  "random_exploration": 1,
+  "threads": 1,
+  "training_heartbeat": true,
+  "seed": 26090801,
+  "name": "network_robustness_replication_20260907_v1_block_00"
+}

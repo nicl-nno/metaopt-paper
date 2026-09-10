@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "searches": 4,
+  "independent_endpoints": 4,
+  "fresh_endpoint_checks": 0,
+  "input_source_hashes_verified": true,
+  "matched_initial_populations": true,
+  "validation_only_selection_verified": true,
+  "selected_model_hashes": {
+    "listmle_17.joblib": "8f10cce91605c625ed29c7de39db27538e31f6c38b2a39fa9f27a5f3665a935a",
+    "huber_17.joblib": "51cec61e0005ba4cdbdbdb8b61d2394f5f8583c5409c681fb3a4b4a113d21f69",
+    "rf_17.joblib": "bf4b17e85b1ad3bb35d99913d96f9cdddfbfad13e6577673405217820f5b859e",
+    "rff_gp_17.joblib": "dec9112915211d98832c25e591458150ae472b06656961f583344a585d850482"
+  },
+  "smoke": true
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "benchmark": "coverage",
+  "block": 0,
+  "model_seed": 17,
+  "search_seed": 101,
+  "objective": 0.7126785962532038,
+  "evaluations": 96,
+  "note": "Exact archived RankNet endpoint replay; technical validation, excluded from scientific sample."
+}

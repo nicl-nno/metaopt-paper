@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "benchmark": "truss",
+  "block": 0,
+  "model_seed": 17,
+  "search_seed": 1001,
+  "objective": 757.069862332656,
+  "evaluations": 256,
+  "note": "Exact archived RankNet endpoint replay; technical validation, excluded from scientific sample."
+}

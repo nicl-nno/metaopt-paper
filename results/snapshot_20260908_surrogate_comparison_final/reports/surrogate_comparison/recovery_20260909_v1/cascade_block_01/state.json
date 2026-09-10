@@ -1,0 +1,10 @@
+{
+  "epoch": 26,
+  "epochs": 80,
+  "validation_log_regret": 0.8946864149258631,
+  "phase": "training",
+  "method": "listmle",
+  "recipe": 0,
+  "model_seed": 23,
+  "updated": 1788891498.7914026
+}

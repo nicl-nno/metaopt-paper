@@ -1,0 +1,10 @@
+{
+  "epoch": 42,
+  "epochs": 80,
+  "validation_log_regret": 0.27588083746818715,
+  "phase": "training",
+  "method": "huber",
+  "recipe": 0,
+  "model_seed": 23,
+  "updated": 1788964404.3026607
+}

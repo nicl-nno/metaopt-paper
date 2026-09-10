@@ -1,0 +1,2937 @@
+{
+  "listmle": {
+    "method": "listmle",
+    "selected_recipe": {
+      "method": "listmle",
+      "transform": "raw"
+    },
+    "mean_validation_log_regret": 0.0024185439349205732,
+    "records": [
+      {
+        "recipe": {
+          "method": "listmle",
+          "transform": "raw"
+        },
+        "model_seed": 17,
+        "initial_weights_sha256": "b95ea2dff3403e151b714b0a4e8e943aa198e4f80ef0541f4ba1c2ea690b46f1",
+        "optimizer_steps": 15360,
+        "parameters": 8769,
+        "validation_log_regret": 0.0026998696652072644,
+        "selected_epoch": 68,
+        "history": [
+          {
+            "epoch": 1,
+            "validation_log_regret": 0.14161780247065137
+          },
+          {
+            "epoch": 2,
+            "validation_log_regret": 0.09343707990011668
+          },
+          {
+            "epoch": 3,
+            "validation_log_regret": 0.03682869412846221
+          },
+          {
+            "epoch": 4,
+            "validation_log_regret": 0.023789132027183177
+          },
+          {
+            "epoch": 5,
+            "validation_log_regret": 0.03432377213928679
+          },
+          {
+            "epoch": 6,
+            "validation_log_regret": 0.031236275238814195
+          },
+          {
+            "epoch": 7,
+            "validation_log_regret": 0.0326764362388551
+          },
+          {
+            "epoch": 8,
+            "validation_log_regret": 0.05802207535921654
+          },
+          {
+            "epoch": 9,
+            "validation_log_regret": 0.04686530879053616
+          },
+          {
+            "epoch": 10,
+            "validation_log_regret": 0.03890572720039824
+          },
+          {
+            "epoch": 11,
+            "validation_log_regret": 0.03783133882264522
+          },
+          {
+            "epoch": 12,
+            "validation_log_regret": 0.017947618046617174
+          },
+          {
+            "epoch": 13,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 14,
+            "validation_log_regret": 0.04272887884980309
+          },
+          {
+            "epoch": 15,
+            "validation_log_regret": 0.03410335042676449
+          },
+          {
+            "epoch": 16,
+            "validation_log_regret": 0.028686672054341035
+          },
+          {
+            "epoch": 17,
+            "validation_log_regret": 0.06056055492591858
+          },
+          {
+            "epoch": 18,
+            "validation_log_regret": 0.02960186983330542
+          },
+          {
+            "epoch": 19,
+            "validation_log_regret": 0.027517120423063906
+          },
+          {
+            "epoch": 20,
+            "validation_log_regret": 0.019213421263665702
+          },
+          {
+            "epoch": 21,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 22,
+            "validation_log_regret": 0.03709177876485733
+          },
+          {
+            "epoch": 23,
+            "validation_log_regret": 0.044875017218473014
+          },
+          {
+            "epoch": 24,
+            "validation_log_regret": 0.017696601460432015
+          },
+          {
+            "epoch": 25,
+            "validation_log_regret": 0.03367908093303811
+          },
+          {
+            "epoch": 26,
+            "validation_log_regret": 0.017040136605958267
+          },
+          {
+            "epoch": 27,
+            "validation_log_regret": 0.03219423873769947
+          },
+          {
+            "epoch": 28,
+            "validation_log_regret": 0.035922227133580203
+          },
+          {
+            "epoch": 29,
+            "validation_log_regret": 0.029213620350048722
+          },
+          {
+            "epoch": 30,
+            "validation_log_regret": 0.02161584736947574
+          },
+          {
+            "epoch": 31,
+            "validation_log_regret": 0.003931998402477323
+          },
+          {
+            "epoch": 32,
+            "validation_log_regret": 0.023789132027183177
+          },
+          {
+            "epoch": 33,
+            "validation_log_regret": 0.022882634070643646
+          },
+          {
+            "epoch": 34,
+            "validation_log_regret": 0.03219423873769947
+          },
+          {
+            "epoch": 35,
+            "validation_log_regret": 0.026494848931295452
+          },
+          {
+            "epoch": 36,
+            "validation_log_regret": 0.02958275516123423
+          },
+          {
+            "epoch": 37,
+            "validation_log_regret": 0.02276711329237975
+          },
+          {
+            "epoch": 38,
+            "validation_log_regret": 0.003931998402477323
+          },
+          {
+            "epoch": 39,
+            "validation_log_regret": 0.029426232112128928
+          },
+          {
+            "epoch": 40,
+            "validation_log_regret": 0.003931998402477323
+          },
+          {
+            "epoch": 41,
+            "validation_log_regret": 0.02857890710557385
+          },
+          {
+            "epoch": 42,
+            "validation_log_regret": 0.02007465119531429
+          },
+          {
+            "epoch": 43,
+            "validation_log_regret": 0.003931998402477323
+          },
+          {
+            "epoch": 44,
+            "validation_log_regret": 0.019213421263665702
+          },
+          {
+            "epoch": 45,
+            "validation_log_regret": 0.010416820855059817
+          },
+          {
+            "epoch": 46,
+            "validation_log_regret": 0.025698243716248195
+          },
+          {
+            "epoch": 47,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 48,
+            "validation_log_regret": 0.007659986798358055
+          },
+          {
+            "epoch": 49,
+            "validation_log_regret": 0.025698243716248195
+          },
+          {
+            "epoch": 50,
+            "validation_log_regret": 0.025698243716248195
+          },
+          {
+            "epoch": 51,
+            "validation_log_regret": 0.033589247118631066
+          },
+          {
+            "epoch": 52,
+            "validation_log_regret": 0.003931998402477323
+          },
+          {
+            "epoch": 53,
+            "validation_log_regret": 0.017696601460432015
+          },
+          {
+            "epoch": 54,
+            "validation_log_regret": 0.010416820855059817
+          },
+          {
+            "epoch": 55,
+            "validation_log_regret": 0.029426232112128928
+          },
+          {
+            "epoch": 56,
+            "validation_log_regret": 0.019213421263665702
+          },
+          {
+            "epoch": 57,
+            "validation_log_regret": 0.025698243716248195
+          },
+          {
+            "epoch": 58,
+            "validation_log_regret": 0.017696601460432015
+          },
+          {
+            "epoch": 59,
+            "validation_log_regret": 0.03134651637006273
+          },
+          {
+            "epoch": 60,
+            "validation_log_regret": 0.01408603366203776
+          },
+          {
+            "epoch": 61,
+            "validation_log_regret": 0.012498751236613127
+          },
+          {
+            "epoch": 62,
+            "validation_log_regret": 0.019109077749285983
+          },
+          {
+            "epoch": 63,
+            "validation_log_regret": 0.029426232112128928
+          },
+          {
+            "epoch": 64,
+            "validation_log_regret": 0.019213421263665702
+          },
+          {
+            "epoch": 65,
+            "validation_log_regret": 0.02070934941293621
+          },
+          {
+            "epoch": 66,
+            "validation_log_regret": 0.02136581426740996
+          },
+          {
+            "epoch": 67,
+            "validation_log_regret": 0.01801239477614303
+          },
+          {
+            "epoch": 68,
+            "validation_log_regret": 0.0026998696652072644
+          },
+          {
+            "epoch": 69,
+            "validation_log_regret": 0.012920346214791958
+          },
+          {
+            "epoch": 70,
+            "validation_log_regret": 0.003931998402477323
+          },
+          {
+            "epoch": 71,
+            "validation_log_regret": 0.0076012112094552674
+          },
+          {
+            "epoch": 72,
+            "validation_log_regret": 0.012498751236613127
+          },
+          {
+            "epoch": 73,
+            "validation_log_regret": 0.03216548842900316
+          },
+          {
+            "epoch": 74,
+            "validation_log_regret": 0.003931998402477323
+          },
+          {
+            "epoch": 75,
+            "validation_log_regret": 0.022882634070643646
+          },
+          {
+            "epoch": 76,
+            "validation_log_regret": 0.022882634070643646
+          },
+          {
+            "epoch": 77,
+            "validation_log_regret": 0.012498751236613127
+          },
+          {
+            "epoch": 78,
+            "validation_log_regret": 0.048780332234995366
+          },
+          {
+            "epoch": 79,
+            "validation_log_regret": 0.04313205958118083
+          },
+          {
+            "epoch": 80,
+            "validation_log_regret": 0.012142596578800407
+          }
+        ],
+        "seconds": 293.32967591285706
+      },
+      {
+        "recipe": {
+          "method": "listmle",
+          "transform": "raw"
+        },
+        "model_seed": 23,
+        "initial_weights_sha256": "96f0525f761999daf4a7b4ea75c890ee216665530f6dc5b4e4e803eb58478d32",
+        "optimizer_steps": 15360,
+        "parameters": 8769,
+        "validation_log_regret": 0.002137218204633882,
+        "selected_epoch": 39,
+        "history": [
+          {
+            "epoch": 1,
+            "validation_log_regret": 0.1588146708592325
+          },
+          {
+            "epoch": 2,
+            "validation_log_regret": 0.035471857561841166
+          },
+          {
+            "epoch": 3,
+            "validation_log_regret": 0.04648652446871668
+          },
+          {
+            "epoch": 4,
+            "validation_log_regret": 0.03783133882264522
+          },
+          {
+            "epoch": 5,
+            "validation_log_regret": 0.019213421263665702
+          },
+          {
+            "epoch": 6,
+            "validation_log_regret": 0.04172623415562006
+          },
+          {
+            "epoch": 7,
+            "validation_log_regret": 0.013509954407345034
+          },
+          {
+            "epoch": 8,
+            "validation_log_regret": 0.033447185566127496
+          },
+          {
+            "epoch": 9,
+            "validation_log_regret": 0.03848678714578893
+          },
+          {
+            "epoch": 10,
+            "validation_log_regret": 0.028686672054341035
+          },
+          {
+            "epoch": 11,
+            "validation_log_regret": 0.02589151913973299
+          },
+          {
+            "epoch": 12,
+            "validation_log_regret": 0.027517120423063906
+          },
+          {
+            "epoch": 13,
+            "validation_log_regret": 0.03438991139684465
+          },
+          {
+            "epoch": 14,
+            "validation_log_regret": 0.009915421621117398
+          },
+          {
+            "epoch": 15,
+            "validation_log_regret": 0.059506966716186604
+          },
+          {
+            "epoch": 16,
+            "validation_log_regret": 0.028686672054341035
+          },
+          {
+            "epoch": 17,
+            "validation_log_regret": 0.04376196565401362
+          },
+          {
+            "epoch": 18,
+            "validation_log_regret": 0.032631515241799615
+          },
+          {
+            "epoch": 19,
+            "validation_log_regret": 0.03432377213928679
+          },
+          {
+            "epoch": 20,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 21,
+            "validation_log_regret": 0.04003397725813289
+          },
+          {
+            "epoch": 22,
+            "validation_log_regret": 0.039107827193937274
+          },
+          {
+            "epoch": 23,
+            "validation_log_regret": 0.01993018117092338
+          },
+          {
+            "epoch": 24,
+            "validation_log_regret": 0.030595783743406057
+          },
+          {
+            "epoch": 25,
+            "validation_log_regret": 0.025698243716248195
+          },
+          {
+            "epoch": 26,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 27,
+            "validation_log_regret": 0.029913151643506608
+          },
+          {
+            "epoch": 28,
+            "validation_log_regret": 0.030595783743406057
+          },
+          {
+            "epoch": 29,
+            "validation_log_regret": 0.0416608780636291
+          },
+          {
+            "epoch": 30,
+            "validation_log_regret": 0.03091579633768963
+          },
+          {
+            "epoch": 31,
+            "validation_log_regret": 0.025698243716248195
+          },
+          {
+            "epoch": 32,
+            "validation_log_regret": 0.03978285936848646
+          },
+          {
+            "epoch": 33,
+            "validation_log_regret": 0.017613149600015473
+          },
+          {
+            "epoch": 34,
+            "validation_log_regret": 0.017613149600015473
+          },
+          {
+            "epoch": 35,
+            "validation_log_regret": 0.02444445188614399
+          },
+          {
+            "epoch": 36,
+            "validation_log_regret": 0.017613149600015473
+          },
+          {
+            "epoch": 37,
+            "validation_log_regret": 0.005017881593959536
+          },
+          {
+            "epoch": 38,
+            "validation_log_regret": 0.0037374898682841122
+          },
+          {
+            "epoch": 39,
+            "validation_log_regret": 0.002137218204633882
+          },
+          {
+            "epoch": 40,
+            "validation_log_regret": 0.002137218204633882
+          },
+          {
+            "epoch": 41,
+            "validation_log_regret": 0.015686106776590315
+          },
+          {
+            "epoch": 42,
+            "validation_log_regret": 0.025257680827467523
+          },
+          {
+            "epoch": 43,
+            "validation_log_regret": 0.017706835138430178
+          },
+          {
+            "epoch": 44,
+            "validation_log_regret": 0.030919648061697284
+          },
+          {
+            "epoch": 45,
+            "validation_log_regret": 0.002137218204633882
+          },
+          {
+            "epoch": 46,
+            "validation_log_regret": 0.002137218204633882
+          },
+          {
+            "epoch": 47,
+            "validation_log_regret": 0.009355859564878945
+          },
+          {
+            "epoch": 48,
+            "validation_log_regret": 0.017739049867496075
+          },
+          {
+            "epoch": 49,
+            "validation_log_regret": 0.017613149600015473
+          },
+          {
+            "epoch": 50,
+            "validation_log_regret": 0.037852948833523456
+          },
+          {
+            "epoch": 51,
+            "validation_log_regret": 0.02061971325682173
+          },
+          {
+            "epoch": 52,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 53,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 54,
+            "validation_log_regret": 0.002137218204633882
+          },
+          {
+            "epoch": 55,
+            "validation_log_regret": 0.006618153257609767
+          },
+          {
+            "epoch": 56,
+            "validation_log_regret": 0.019213421263665702
+          },
+          {
+            "epoch": 57,
+            "validation_log_regret": 0.010407194578030616
+          },
+          {
+            "epoch": 58,
+            "validation_log_regret": 0.0037374898682841122
+          },
+          {
+            "epoch": 59,
+            "validation_log_regret": 0.002137218204633882
+          },
+          {
+            "epoch": 60,
+            "validation_log_regret": 0.002137218204633882
+          },
+          {
+            "epoch": 61,
+            "validation_log_regret": 0.029386261978434254
+          },
+          {
+            "epoch": 62,
+            "validation_log_regret": 0.002137218204633882
+          },
+          {
+            "epoch": 63,
+            "validation_log_regret": 0.008738314647667776
+          },
+          {
+            "epoch": 64,
+            "validation_log_regret": 0.005143781861440138
+          },
+          {
+            "epoch": 65,
+            "validation_log_regret": 0.010473677411948247
+          },
+          {
+            "epoch": 66,
+            "validation_log_regret": 0.031377752657970166
+          },
+          {
+            "epoch": 67,
+            "validation_log_regret": 0.031377752657970166
+          },
+          {
+            "epoch": 68,
+            "validation_log_regret": 0.0037374898682841122
+          },
+          {
+            "epoch": 69,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 70,
+            "validation_log_regret": 0.02038275631556446
+          },
+          {
+            "epoch": 71,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 72,
+            "validation_log_regret": 0.009193285686272824
+          },
+          {
+            "epoch": 73,
+            "validation_log_regret": 0.00855557557025163
+          },
+          {
+            "epoch": 74,
+            "validation_log_regret": 0.019213421263665702
+          },
+          {
+            "epoch": 75,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 76,
+            "validation_log_regret": 0.010950212873051963
+          },
+          {
+            "epoch": 77,
+            "validation_log_regret": 0.022094084652991355
+          },
+          {
+            "epoch": 78,
+            "validation_log_regret": 0.022094084652991355
+          },
+          {
+            "epoch": 79,
+            "validation_log_regret": 0.022094084652991355
+          },
+          {
+            "epoch": 80,
+            "validation_log_regret": 0.009208796101686683
+          }
+        ],
+        "seconds": 273.5993130207062
+      }
+    ]
+  },
+  "huber": {
+    "method": "huber",
+    "selected_recipe": {
+      "method": "huber",
+      "transform": "log"
+    },
+    "mean_validation_log_regret": 0.009875183902324678,
+    "records": [
+      {
+        "recipe": {
+          "method": "huber",
+          "transform": "raw"
+        },
+        "model_seed": 17,
+        "initial_weights_sha256": "b95ea2dff3403e151b714b0a4e8e943aa198e4f80ef0541f4ba1c2ea690b46f1",
+        "optimizer_steps": 15360,
+        "parameters": 8769,
+        "validation_log_regret": 0.026494848931295452,
+        "selected_epoch": 17,
+        "history": [
+          {
+            "epoch": 1,
+            "validation_log_regret": 0.20749258210407318
+          },
+          {
+            "epoch": 2,
+            "validation_log_regret": 0.22878566288555174
+          },
+          {
+            "epoch": 3,
+            "validation_log_regret": 0.23489599331223718
+          },
+          {
+            "epoch": 4,
+            "validation_log_regret": 0.23489599331223718
+          },
+          {
+            "epoch": 5,
+            "validation_log_regret": 0.15450182023621487
+          },
+          {
+            "epoch": 6,
+            "validation_log_regret": 0.12195417040610324
+          },
+          {
+            "epoch": 7,
+            "validation_log_regret": 0.06283012444449164
+          },
+          {
+            "epoch": 8,
+            "validation_log_regret": 0.09698497316971005
+          },
+          {
+            "epoch": 9,
+            "validation_log_regret": 0.10602487652534603
+          },
+          {
+            "epoch": 10,
+            "validation_log_regret": 0.07759701553238997
+          },
+          {
+            "epoch": 11,
+            "validation_log_regret": 0.042201010107026926
+          },
+          {
+            "epoch": 12,
+            "validation_log_regret": 0.03022283732717618
+          },
+          {
+            "epoch": 13,
+            "validation_log_regret": 0.042201010107026926
+          },
+          {
+            "epoch": 14,
+            "validation_log_regret": 0.03479854809069365
+          },
+          {
+            "epoch": 15,
+            "validation_log_regret": 0.042201010107026926
+          },
+          {
+            "epoch": 16,
+            "validation_log_regret": 0.03524141170303757
+          },
+          {
+            "epoch": 17,
+            "validation_log_regret": 0.026494848931295452
+          },
+          {
+            "epoch": 18,
+            "validation_log_regret": 0.03524141170303757
+          },
+          {
+            "epoch": 19,
+            "validation_log_regret": 0.07759701553238997
+          },
+          {
+            "epoch": 20,
+            "validation_log_regret": 0.03981712246655504
+          },
+          {
+            "epoch": 21,
+            "validation_log_regret": 0.03608913407067431
+          },
+          {
+            "epoch": 22,
+            "validation_log_regret": 0.03107055969481292
+          },
+          {
+            "epoch": 23,
+            "validation_log_regret": 0.06646656512017596
+          },
+          {
+            "epoch": 24,
+            "validation_log_regret": 0.06408267747970407
+          },
+          {
+            "epoch": 25,
+            "validation_log_regret": 0.06408267747970407
+          },
+          {
+            "epoch": 26,
+            "validation_log_regret": 0.03241466045022177
+          },
+          {
+            "epoch": 27,
+            "validation_log_regret": 0.07708226944728844
+          },
+          {
+            "epoch": 28,
+            "validation_log_regret": 0.028686672054341035
+          },
+          {
+            "epoch": 29,
+            "validation_log_regret": 0.028686672054341035
+          },
+          {
+            "epoch": 30,
+            "validation_log_regret": 0.06967980743095516
+          },
+          {
+            "epoch": 31,
+            "validation_log_regret": 0.03428380200559211
+          },
+          {
+            "epoch": 32,
+            "validation_log_regret": 0.07708226944728844
+          },
+          {
+            "epoch": 33,
+            "validation_log_regret": 0.07808491414147145
+          },
+          {
+            "epoch": 34,
+            "validation_log_regret": 0.06967980743095516
+          },
+          {
+            "epoch": 35,
+            "validation_log_regret": 0.06967980743095516
+          },
+          {
+            "epoch": 36,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 37,
+            "validation_log_regret": 0.059506966716186604
+          },
+          {
+            "epoch": 38,
+            "validation_log_regret": 0.03428380200559211
+          },
+          {
+            "epoch": 39,
+            "validation_log_regret": 0.03428380200559211
+          },
+          {
+            "epoch": 40,
+            "validation_log_regret": 0.032516068001339854
+          },
+          {
+            "epoch": 41,
+            "validation_log_regret": 0.06967980743095516
+          },
+          {
+            "epoch": 42,
+            "validation_log_regret": 0.07808491414147145
+          },
+          {
+            "epoch": 43,
+            "validation_log_regret": 0.027838949686704296
+          },
+          {
+            "epoch": 44,
+            "validation_log_regret": 0.059506966716186604
+          },
+          {
+            "epoch": 45,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 46,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 47,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 48,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 49,
+            "validation_log_regret": 0.028686672054341035
+          },
+          {
+            "epoch": 50,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 51,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 52,
+            "validation_log_regret": 0.032516068001339854
+          },
+          {
+            "epoch": 53,
+            "validation_log_regret": 0.03723395180454567
+          },
+          {
+            "epoch": 54,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 55,
+            "validation_log_regret": 0.032516068001339854
+          },
+          {
+            "epoch": 56,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 57,
+            "validation_log_regret": 0.0312839392640698
+          },
+          {
+            "epoch": 58,
+            "validation_log_regret": 0.032516068001339854
+          },
+          {
+            "epoch": 59,
+            "validation_log_regret": 0.032516068001339854
+          },
+          {
+            "epoch": 60,
+            "validation_log_regret": 0.032516068001339854
+          },
+          {
+            "epoch": 61,
+            "validation_log_regret": 0.032516068001339854
+          },
+          {
+            "epoch": 62,
+            "validation_log_regret": 0.032516068001339854
+          },
+          {
+            "epoch": 63,
+            "validation_log_regret": 0.032516068001339854
+          },
+          {
+            "epoch": 64,
+            "validation_log_regret": 0.03709177876485733
+          },
+          {
+            "epoch": 65,
+            "validation_log_regret": 0.03709177876485733
+          },
+          {
+            "epoch": 66,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 67,
+            "validation_log_regret": 0.03709177876485733
+          },
+          {
+            "epoch": 68,
+            "validation_log_regret": 0.0312839392640698
+          },
+          {
+            "epoch": 69,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 70,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 71,
+            "validation_log_regret": 0.03709177876485733
+          },
+          {
+            "epoch": 72,
+            "validation_log_regret": 0.042688908716108406
+          },
+          {
+            "epoch": 73,
+            "validation_log_regret": 0.032516068001339854
+          },
+          {
+            "epoch": 74,
+            "validation_log_regret": 0.0312839392640698
+          },
+          {
+            "epoch": 75,
+            "validation_log_regret": 0.04595884179565417
+          },
+          {
+            "epoch": 76,
+            "validation_log_regret": 0.03709177876485733
+          },
+          {
+            "epoch": 77,
+            "validation_log_regret": 0.03709177876485733
+          },
+          {
+            "epoch": 78,
+            "validation_log_regret": 0.03219423873769947
+          },
+          {
+            "epoch": 79,
+            "validation_log_regret": 0.027618527974181996
+          },
+          {
+            "epoch": 80,
+            "validation_log_regret": 0.027618527974181996
+          }
+        ],
+        "seconds": 304.38745880126953
+      },
+      {
+        "recipe": {
+          "method": "huber",
+          "transform": "raw"
+        },
+        "model_seed": 23,
+        "initial_weights_sha256": "96f0525f761999daf4a7b4ea75c890ee216665530f6dc5b4e4e803eb58478d32",
+        "optimizer_steps": 15360,
+        "parameters": 8769,
+        "validation_log_regret": 0.010212686043837405,
+        "selected_epoch": 80,
+        "history": [
+          {
+            "epoch": 1,
+            "validation_log_regret": 0.18595035628947595
+          },
+          {
+            "epoch": 2,
+            "validation_log_regret": 0.2042132546839725
+          },
+          {
+            "epoch": 3,
+            "validation_log_regret": 0.21045650013054923
+          },
+          {
+            "epoch": 4,
+            "validation_log_regret": 0.14899781158045117
+          },
+          {
+            "epoch": 5,
+            "validation_log_regret": 0.14934396717618223
+          },
+          {
+            "epoch": 6,
+            "validation_log_regret": 0.16275491049311697
+          },
+          {
+            "epoch": 7,
+            "validation_log_regret": 0.029598805195140222
+          },
+          {
+            "epoch": 8,
+            "validation_log_regret": 0.029598805195140222
+          },
+          {
+            "epoch": 9,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 10,
+            "validation_log_regret": 0.08379971114524154
+          },
+          {
+            "epoch": 11,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 12,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 13,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 14,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 15,
+            "validation_log_regret": 0.040274908873587326
+          },
+          {
+            "epoch": 16,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 17,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 18,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 19,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 20,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 21,
+            "validation_log_regret": 0.06323495511206734
+          },
+          {
+            "epoch": 22,
+            "validation_log_regret": 0.040274908873587326
+          },
+          {
+            "epoch": 23,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 24,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 25,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 26,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 27,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 28,
+            "validation_log_regret": 0.07579168346730777
+          },
+          {
+            "epoch": 29,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 30,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 31,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 32,
+            "validation_log_regret": 0.07579168346730777
+          },
+          {
+            "epoch": 33,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 34,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 35,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 36,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 37,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 38,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 39,
+            "validation_log_regret": 0.07340779582683589
+          },
+          {
+            "epoch": 40,
+            "validation_log_regret": 0.040274908873587326
+          },
+          {
+            "epoch": 41,
+            "validation_log_regret": 0.038011790401472845
+          },
+          {
+            "epoch": 42,
+            "validation_log_regret": 0.02080419145491255
+          },
+          {
+            "epoch": 43,
+            "validation_log_regret": 0.040274908873587326
+          },
+          {
+            "epoch": 44,
+            "validation_log_regret": 0.040274908873587326
+          },
+          {
+            "epoch": 45,
+            "validation_log_regret": 0.06851025579967802
+          },
+          {
+            "epoch": 46,
+            "validation_log_regret": 0.08227485885763272
+          },
+          {
+            "epoch": 47,
+            "validation_log_regret": 0.039589446549868276
+          },
+          {
+            "epoch": 48,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 49,
+            "validation_log_regret": 0.06851025579967802
+          },
+          {
+            "epoch": 50,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 51,
+            "validation_log_regret": 0.03311425037431498
+          },
+          {
+            "epoch": 52,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 53,
+            "validation_log_regret": 0.03311425037431498
+          },
+          {
+            "epoch": 54,
+            "validation_log_regret": 0.03311425037431498
+          },
+          {
+            "epoch": 55,
+            "validation_log_regret": 0.03311425037431498
+          },
+          {
+            "epoch": 56,
+            "validation_log_regret": 0.029386261978434254
+          },
+          {
+            "epoch": 57,
+            "validation_log_regret": 0.03311425037431498
+          },
+          {
+            "epoch": 58,
+            "validation_log_regret": 0.03311425037431498
+          },
+          {
+            "epoch": 59,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 60,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 61,
+            "validation_log_regret": 0.03311425037431498
+          },
+          {
+            "epoch": 62,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 63,
+            "validation_log_regret": 0.025688617439218995
+          },
+          {
+            "epoch": 64,
+            "validation_log_regret": 0.019213421263665702
+          },
+          {
+            "epoch": 65,
+            "validation_log_regret": 0.019213421263665702
+          },
+          {
+            "epoch": 66,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 67,
+            "validation_log_regret": 0.024088345775568766
+          },
+          {
+            "epoch": 68,
+            "validation_log_regret": 0.019213421263665702
+          },
+          {
+            "epoch": 69,
+            "validation_log_regret": 0.029386261978434254
+          },
+          {
+            "epoch": 70,
+            "validation_log_regret": 0.03134651637006273
+          },
+          {
+            "epoch": 71,
+            "validation_log_regret": 0.025688617439218995
+          },
+          {
+            "epoch": 72,
+            "validation_log_regret": 0.025688617439218995
+          },
+          {
+            "epoch": 73,
+            "validation_log_regret": 0.03945322049717369
+          },
+          {
+            "epoch": 74,
+            "validation_log_regret": 0.029416605835099724
+          },
+          {
+            "epoch": 75,
+            "validation_log_regret": 0.03134651637006273
+          },
+          {
+            "epoch": 76,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 77,
+            "validation_log_regret": 0.03134651637006273
+          },
+          {
+            "epoch": 78,
+            "validation_log_regret": 0.03945322049717369
+          },
+          {
+            "epoch": 79,
+            "validation_log_regret": 0.022941409659546434
+          },
+          {
+            "epoch": 80,
+            "validation_log_regret": 0.010212686043837405
+          }
+        ],
+        "seconds": 272.6380424499512
+      },
+      {
+        "recipe": {
+          "method": "huber",
+          "transform": "log"
+        },
+        "model_seed": 17,
+        "initial_weights_sha256": "b95ea2dff3403e151b714b0a4e8e943aa198e4f80ef0541f4ba1c2ea690b46f1",
+        "optimizer_steps": 15360,
+        "parameters": 8769,
+        "validation_log_regret": 0.017613149600015473,
+        "selected_epoch": 67,
+        "history": [
+          {
+            "epoch": 1,
+            "validation_log_regret": 0.21136109541308412
+          },
+          {
+            "epoch": 2,
+            "validation_log_regret": 0.22878566288555174
+          },
+          {
+            "epoch": 3,
+            "validation_log_regret": 0.20036166261702687
+          },
+          {
+            "epoch": 4,
+            "validation_log_regret": 0.1821332244392999
+          },
+          {
+            "epoch": 5,
+            "validation_log_regret": 0.19039657877550592
+          },
+          {
+            "epoch": 6,
+            "validation_log_regret": 0.20316832621007247
+          },
+          {
+            "epoch": 7,
+            "validation_log_regret": 0.16445776213172775
+          },
+          {
+            "epoch": 8,
+            "validation_log_regret": 0.09652017102736477
+          },
+          {
+            "epoch": 9,
+            "validation_log_regret": 0.09546209251128332
+          },
+          {
+            "epoch": 10,
+            "validation_log_regret": 0.10323378188640647
+          },
+          {
+            "epoch": 11,
+            "validation_log_regret": 0.06861309121304146
+          },
+          {
+            "epoch": 12,
+            "validation_log_regret": 0.09432997819432432
+          },
+          {
+            "epoch": 13,
+            "validation_log_regret": 0.09002606015743975
+          },
+          {
+            "epoch": 14,
+            "validation_log_regret": 0.08126213949232397
+          },
+          {
+            "epoch": 15,
+            "validation_log_regret": 0.0563975008829244
+          },
+          {
+            "epoch": 16,
+            "validation_log_regret": 0.05651787831731604
+          },
+          {
+            "epoch": 17,
+            "validation_log_regret": 0.036999071036164094
+          },
+          {
+            "epoch": 18,
+            "validation_log_regret": 0.036999071036164094
+          },
+          {
+            "epoch": 19,
+            "validation_log_regret": 0.04765081528651921
+          },
+          {
+            "epoch": 20,
+            "validation_log_regret": 0.027838949686704296
+          },
+          {
+            "epoch": 21,
+            "validation_log_regret": 0.03150816249368224
+          },
+          {
+            "epoch": 22,
+            "validation_log_regret": 0.03150816249368224
+          },
+          {
+            "epoch": 23,
+            "validation_log_regret": 0.027838949686704296
+          },
+          {
+            "epoch": 24,
+            "validation_log_regret": 0.027838949686704296
+          },
+          {
+            "epoch": 25,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 26,
+            "validation_log_regret": 0.03150816249368224
+          },
+          {
+            "epoch": 27,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 28,
+            "validation_log_regret": 0.027780174097801508
+          },
+          {
+            "epoch": 29,
+            "validation_log_regret": 0.027780174097801508
+          },
+          {
+            "epoch": 30,
+            "validation_log_regret": 0.027780174097801508
+          },
+          {
+            "epoch": 31,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 32,
+            "validation_log_regret": 0.03022283732717618
+          },
+          {
+            "epoch": 33,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 34,
+            "validation_log_regret": 0.027838949686704296
+          },
+          {
+            "epoch": 35,
+            "validation_log_regret": 0.027838949686704296
+          },
+          {
+            "epoch": 36,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 37,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 38,
+            "validation_log_regret": 0.027838949686704296
+          },
+          {
+            "epoch": 39,
+            "validation_log_regret": 0.027838949686704296
+          },
+          {
+            "epoch": 40,
+            "validation_log_regret": 0.027838949686704296
+          },
+          {
+            "epoch": 41,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 42,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 43,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 44,
+            "validation_log_regret": 0.027838949686704296
+          },
+          {
+            "epoch": 45,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 46,
+            "validation_log_regret": 0.026238678023054067
+          },
+          {
+            "epoch": 47,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 48,
+            "validation_log_regret": 0.038011790401472845
+          },
+          {
+            "epoch": 49,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 50,
+            "validation_log_regret": 0.026238678023054067
+          },
+          {
+            "epoch": 51,
+            "validation_log_regret": 0.026238678023054067
+          },
+          {
+            "epoch": 52,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 53,
+            "validation_log_regret": 0.03091579633768963
+          },
+          {
+            "epoch": 54,
+            "validation_log_regret": 0.026238678023054067
+          },
+          {
+            "epoch": 55,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 56,
+            "validation_log_regret": 0.034643784733570354
+          },
+          {
+            "epoch": 57,
+            "validation_log_regret": 0.026238678023054067
+          },
+          {
+            "epoch": 58,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 59,
+            "validation_log_regret": 0.028501796495168548
+          },
+          {
+            "epoch": 60,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 61,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 62,
+            "validation_log_regret": 0.026238678023054067
+          },
+          {
+            "epoch": 63,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 64,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 65,
+            "validation_log_regret": 0.026238678023054067
+          },
+          {
+            "epoch": 66,
+            "validation_log_regret": 0.026238678023054067
+          },
+          {
+            "epoch": 67,
+            "validation_log_regret": 0.017613149600015473
+          },
+          {
+            "epoch": 68,
+            "validation_log_regret": 0.026238678023054067
+          },
+          {
+            "epoch": 69,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 70,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 71,
+            "validation_log_regret": 0.026238678023054067
+          },
+          {
+            "epoch": 72,
+            "validation_log_regret": 0.03091579633768963
+          },
+          {
+            "epoch": 73,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 74,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 75,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 76,
+            "validation_log_regret": 0.03625045084614813
+          },
+          {
+            "epoch": 77,
+            "validation_log_regret": 0.026238678023054067
+          },
+          {
+            "epoch": 78,
+            "validation_log_regret": 0.031377752657970166
+          },
+          {
+            "epoch": 79,
+            "validation_log_regret": 0.0351057410538509
+          },
+          {
+            "epoch": 80,
+            "validation_log_regret": 0.031377752657970166
+          }
+        ],
+        "seconds": 273.42296504974365
+      },
+      {
+        "recipe": {
+          "method": "huber",
+          "transform": "log"
+        },
+        "model_seed": 23,
+        "initial_weights_sha256": "96f0525f761999daf4a7b4ea75c890ee216665530f6dc5b4e4e803eb58478d32",
+        "optimizer_steps": 15360,
+        "parameters": 8769,
+        "validation_log_regret": 0.002137218204633882,
+        "selected_epoch": 72,
+        "history": [
+          {
+            "epoch": 1,
+            "validation_log_regret": 0.2162312715658361
+          },
+          {
+            "epoch": 2,
+            "validation_log_regret": 0.21792555724012808
+          },
+          {
+            "epoch": 3,
+            "validation_log_regret": 0.1835991864437749
+          },
+          {
+            "epoch": 4,
+            "validation_log_regret": 0.15719262025956982
+          },
+          {
+            "epoch": 5,
+            "validation_log_regret": 0.17375475866941853
+          },
+          {
+            "epoch": 6,
+            "validation_log_regret": 0.1439036698121272
+          },
+          {
+            "epoch": 7,
+            "validation_log_regret": 0.1305284398750835
+          },
+          {
+            "epoch": 8,
+            "validation_log_regret": 0.0687122058505899
+          },
+          {
+            "epoch": 9,
+            "validation_log_regret": 0.05450130634894766
+          },
+          {
+            "epoch": 10,
+            "validation_log_regret": 0.059746028182244615
+          },
+          {
+            "epoch": 11,
+            "validation_log_regret": 0.059746028182244615
+          },
+          {
+            "epoch": 12,
+            "validation_log_regret": 0.059746028182244615
+          },
+          {
+            "epoch": 13,
+            "validation_log_regret": 0.059746028182244615
+          },
+          {
+            "epoch": 14,
+            "validation_log_regret": 0.03883108103687227
+          },
+          {
+            "epoch": 15,
+            "validation_log_regret": 0.04348633527353299
+          },
+          {
+            "epoch": 16,
+            "validation_log_regret": 0.03241466045022177
+          },
+          {
+            "epoch": 17,
+            "validation_log_regret": 0.046397696931186505
+          },
+          {
+            "epoch": 18,
+            "validation_log_regret": 0.03715987777485921
+          },
+          {
+            "epoch": 19,
+            "validation_log_regret": 0.04495619710147114
+          },
+          {
+            "epoch": 20,
+            "validation_log_regret": 0.041222947892115815
+          },
+          {
+            "epoch": 21,
+            "validation_log_regret": 0.037553735085137874
+          },
+          {
+            "epoch": 22,
+            "validation_log_regret": 0.045052343839114634
+          },
+          {
+            "epoch": 23,
+            "validation_log_regret": 0.036706012717501124
+          },
+          {
+            "epoch": 24,
+            "validation_log_regret": 0.044108474733834405
+          },
+          {
+            "epoch": 25,
+            "validation_log_regret": 0.044028931260691156
+          },
+          {
+            "epoch": 26,
+            "validation_log_regret": 0.036706012717501124
+          },
+          {
+            "epoch": 27,
+            "validation_log_regret": 0.045052343839114634
+          },
+          {
+            "epoch": 28,
+            "validation_log_regret": 0.047698144067669104
+          },
+          {
+            "epoch": 29,
+            "validation_log_regret": 0.043150865036388944
+          },
+          {
+            "epoch": 30,
+            "validation_log_regret": 0.04682007784336689
+          },
+          {
+            "epoch": 31,
+            "validation_log_regret": 0.047698144067669104
+          },
+          {
+            "epoch": 32,
+            "validation_log_regret": 0.050548066239247624
+          },
+          {
+            "epoch": 33,
+            "validation_log_regret": 0.03504696546494811
+          },
+          {
+            "epoch": 34,
+            "validation_log_regret": 0.03664723712859834
+          },
+          {
+            "epoch": 35,
+            "validation_log_regret": 0.047698144067669104
+          },
+          {
+            "epoch": 36,
+            "validation_log_regret": 0.03504696546494811
+          },
+          {
+            "epoch": 37,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 38,
+            "validation_log_regret": 0.03664723712859834
+          },
+          {
+            "epoch": 39,
+            "validation_log_regret": 0.05329527401892018
+          },
+          {
+            "epoch": 40,
+            "validation_log_regret": 0.03664723712859834
+          },
+          {
+            "epoch": 41,
+            "validation_log_regret": 0.047698144067669104
+          },
+          {
+            "epoch": 42,
+            "validation_log_regret": 0.037852948833523456
+          },
+          {
+            "epoch": 43,
+            "validation_log_regret": 0.044028931260691156
+          },
+          {
+            "epoch": 44,
+            "validation_log_regret": 0.03878021467430344
+          },
+          {
+            "epoch": 45,
+            "validation_log_regret": 0.044028931260691156
+          },
+          {
+            "epoch": 46,
+            "validation_log_regret": 0.03878021467430344
+          },
+          {
+            "epoch": 47,
+            "validation_log_regret": 0.03664723712859834
+          },
+          {
+            "epoch": 48,
+            "validation_log_regret": 0.028985885802726624
+          },
+          {
+            "epoch": 49,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 50,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 51,
+            "validation_log_regret": 0.031377752657970166
+          },
+          {
+            "epoch": 52,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 53,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 54,
+            "validation_log_regret": 0.037553735085137874
+          },
+          {
+            "epoch": 55,
+            "validation_log_regret": 0.022510689627173334
+          },
+          {
+            "epoch": 56,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 57,
+            "validation_log_regret": 0.031377752657970166
+          },
+          {
+            "epoch": 58,
+            "validation_log_regret": 0.03504696546494811
+          },
+          {
+            "epoch": 59,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 60,
+            "validation_log_regret": 0.03945322049717369
+          },
+          {
+            "epoch": 61,
+            "validation_log_regret": 0.024831790960260537
+          },
+          {
+            "epoch": 62,
+            "validation_log_regret": 0.03664723712859834
+          },
+          {
+            "epoch": 63,
+            "validation_log_regret": 0.03792762885427377
+          },
+          {
+            "epoch": 64,
+            "validation_log_regret": 0.04440282502982706
+          },
+          {
+            "epoch": 65,
+            "validation_log_regret": 0.031377752657970166
+          },
+          {
+            "epoch": 66,
+            "validation_log_regret": 0.03425841604729582
+          },
+          {
+            "epoch": 67,
+            "validation_log_regret": 0.025257680827467523
+          },
+          {
+            "epoch": 68,
+            "validation_log_regret": 0.024110961290823563
+          },
+          {
+            "epoch": 69,
+            "validation_log_regret": 0.031377752657970166
+          },
+          {
+            "epoch": 70,
+            "validation_log_regret": 0.031377752657970166
+          },
+          {
+            "epoch": 71,
+            "validation_log_regret": 0.031377752657970166
+          },
+          {
+            "epoch": 72,
+            "validation_log_regret": 0.002137218204633882
+          },
+          {
+            "epoch": 73,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 74,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 75,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 76,
+            "validation_log_regret": 0.03297802432162039
+          },
+          {
+            "epoch": 77,
+            "validation_log_regret": 0.03585868771094605
+          },
+          {
+            "epoch": 78,
+            "validation_log_regret": 0.002137218204633882
+          },
+          {
+            "epoch": 79,
+            "validation_log_regret": 0.03585868771094605
+          },
+          {
+            "epoch": 80,
+            "validation_log_regret": 0.01878248465191423
+          }
+        ],
+        "seconds": 282.22577953338623
+      }
+    ]
+  },
+  "rf": {
+    "method": "rf",
+    "selected_recipe": {
+      "method": "rf",
+      "transform": "log",
+      "normalization": "pooled",
+      "leaf": 5
+    },
+    "mean_validation_log_regret": 0.142694552236191,
+    "records": [
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "raw",
+          "normalization": "task",
+          "leaf": 1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.19763566051986,
+        "seconds": 79.53789281845093,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "raw",
+          "normalization": "task",
+          "leaf": 1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.19755467127647902,
+        "seconds": 77.02466893196106,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "raw",
+          "normalization": "task",
+          "leaf": 5
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.17162841174493998,
+        "seconds": 51.20120620727539,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "raw",
+          "normalization": "task",
+          "leaf": 5
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.19728273780213285,
+        "seconds": 50.965763330459595,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "raw",
+          "normalization": "pooled",
+          "leaf": 1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.2130424805931968,
+        "seconds": 68.70777487754822,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "raw",
+          "normalization": "pooled",
+          "leaf": 1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.178520199309047,
+        "seconds": 68.89552187919617,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "raw",
+          "normalization": "pooled",
+          "leaf": 5
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.22435671157558348,
+        "seconds": 47.8374559879303,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "raw",
+          "normalization": "pooled",
+          "leaf": 5
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.13144669671410492,
+        "seconds": 48.1254620552063,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "log",
+          "normalization": "task",
+          "leaf": 1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.1836192989583161,
+        "seconds": 74.56552529335022,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "log",
+          "normalization": "task",
+          "leaf": 1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.20547336741128916,
+        "seconds": 74.61088824272156,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "log",
+          "normalization": "task",
+          "leaf": 5
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.15972686718571483,
+        "seconds": 50.463239669799805,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "log",
+          "normalization": "task",
+          "leaf": 5
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.18451353079709865,
+        "seconds": 50.89051866531372,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "log",
+          "normalization": "pooled",
+          "leaf": 1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.1569738639619412,
+        "seconds": 63.168243646621704,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "log",
+          "normalization": "pooled",
+          "leaf": 1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.1293643757801381,
+        "seconds": 63.475722312927246,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "log",
+          "normalization": "pooled",
+          "leaf": 5
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.1278559203488951,
+        "seconds": 42.779316902160645,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "log",
+          "normalization": "pooled",
+          "leaf": 5
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.15753318412348694,
+        "seconds": 42.83808946609497,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      }
+    ]
+  },
+  "rff_gp": {
+    "method": "rff_gp",
+    "selected_recipe": {
+      "method": "rff_gp",
+      "transform": "log",
+      "normalization": "task",
+      "length": 2.0,
+      "noise": 0.1
+    },
+    "mean_validation_log_regret": 0.12318493351098406,
+    "records": [
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 0.5,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.22194670727893034,
+        "seconds": 0.3170013427734375,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 0.5,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.37404414234955663,
+        "seconds": 0.2776210308074951,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 0.5,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.22194670727893034,
+        "seconds": 0.2793912887573242,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 0.5,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.3468210882706817,
+        "seconds": 0.28165650367736816,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 1.0,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.1510500313515443,
+        "seconds": 0.2802009582519531,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 1.0,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.1733058389509181,
+        "seconds": 0.26558804512023926,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 1.0,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.14589465043754918,
+        "seconds": 0.30004072189331055,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 1.0,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.1550846143064447,
+        "seconds": 0.3152916431427002,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 2.0,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.15646280022110642,
+        "seconds": 0.29359889030456543,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 2.0,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.14957145279748707,
+        "seconds": 0.300264835357666,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 2.0,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.14008637342905722,
+        "seconds": 0.3305816650390625,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 2.0,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.12742978580268044,
+        "seconds": 0.2919578552246094,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 0.5,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.38338000184913745,
+        "seconds": 0.3009967803955078,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 0.5,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.5505465109735019,
+        "seconds": 0.29659414291381836,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 0.5,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.38338000184913745,
+        "seconds": 0.3177223205566406,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 0.5,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.5505465109735019,
+        "seconds": 0.29540300369262695,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 1.0,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.2800210223302438,
+        "seconds": 0.289107084274292,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 1.0,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.43430102876516924,
+        "seconds": 0.30944275856018066,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 1.0,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.17229536263695983,
+        "seconds": 0.2913963794708252,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 1.0,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.5929956398866272,
+        "seconds": 0.2935030460357666,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 2.0,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.22937121227306478,
+        "seconds": 0.29615259170532227,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 2.0,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.21107142920662045,
+        "seconds": 0.3047599792480469,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 2.0,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.22322734431680386,
+        "seconds": 0.28407931327819824,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "pooled",
+          "length": 2.0,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.2558557681645061,
+        "seconds": 0.307253360748291,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 0.5,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.21789335727577297,
+        "seconds": 0.2817096710205078,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 0.5,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.3391349241435704,
+        "seconds": 0.27848100662231445,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 0.5,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.20467852638117134,
+        "seconds": 0.28385400772094727,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 0.5,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.3391349241435704,
+        "seconds": 0.3033139705657959,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 1.0,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.16480084874991086,
+        "seconds": 0.29927515983581543,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 1.0,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.1871392487441904,
+        "seconds": 0.2972242832183838,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 1.0,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.14170436996662455,
+        "seconds": 0.28456878662109375,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 1.0,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.18154211879293936,
+        "seconds": 0.29646730422973633,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 2.0,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.1529317265364818,
+        "seconds": 0.26657819747924805,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 2.0,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.13881633477564628,
+        "seconds": 0.3124520778656006,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 2.0,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.11894008121928767,
+        "seconds": 0.30100178718566895,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "task",
+          "length": 2.0,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.12742978580268044,
+        "seconds": 0.29620933532714844,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 0.5,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.32084162988830967,
+        "seconds": 0.28760838508605957,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 0.5,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.5093661828538902,
+        "seconds": 0.3018481731414795,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 0.5,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.32084162988830967,
+        "seconds": 0.29300665855407715,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 0.5,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.5093661828538902,
+        "seconds": 0.27288055419921875,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 1.0,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.2988028507441037,
+        "seconds": 0.28646397590637207,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 1.0,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.4625295099662975,
+        "seconds": 0.3060019016265869,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 1.0,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.23791449034866968,
+        "seconds": 0.28333091735839844,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 1.0,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.5116007302195514,
+        "seconds": 0.30976009368896484,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 2.0,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.1885301131414975,
+        "seconds": 0.29713988304138184,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 2.0,
+          "noise": 0.01
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.2092579894260031,
+        "seconds": 0.28046584129333496,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 2.0,
+          "noise": 0.1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.14791021742930593,
+        "seconds": 0.3008754253387451,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      },
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "log",
+          "normalization": "pooled",
+          "length": 2.0,
+          "noise": 0.1
+        },
+        "model_seed": 23,
+        "validation_log_regret": 0.21303949421754254,
+        "seconds": 0.3060264587402344,
+        "descriptor_dimension": 229,
+        "training_designs": 12288
+      }
+    ]
+  }
+}

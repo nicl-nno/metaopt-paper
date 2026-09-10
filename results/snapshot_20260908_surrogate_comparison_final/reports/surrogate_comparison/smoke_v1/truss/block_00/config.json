@@ -1,0 +1,34 @@
+{
+  "name": "overnight_main_00",
+  "purpose": "Frozen extended experiment after repository-GNN pilot; fresh train/validation/test tasks",
+  "seed": 260907,
+  "nx": 4,
+  "ny": 3,
+  "volume": 0.03,
+  "young": 210000000000.0,
+  "train_tasks": 24,
+  "validation_tasks": 8,
+  "test_tasks": 24,
+  "train_designs_per_task": 512,
+  "validation_designs_per_task": 512,
+  "epochs": 2,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "hidden": 32,
+  "layers": 3,
+  "model_seeds": [
+    17
+  ],
+  "search_seeds": [
+    1001
+  ],
+  "budget": 256,
+  "initial_evaluations": 16,
+  "population": 16,
+  "batch_evaluations": 4,
+  "proposal_pool": 48,
+  "random_exploration": 1,
+  "threads": 1,
+  "architecture": "repo_gnn"
+}

@@ -1,5 +1,5 @@
 {
-  "captured_utc": "2026-09-08T18:13:40.606711+00:00",
+  "captured_utc": "2026-09-10T14:55:11.638605+00:00",
   "upstream_url": "https://github.com/ITMO-NSS-team/GAMLET",
   "upstream_commit": "237fa706b9218009d766c368facc7f44074bfb4a",
   "source_files": [
@@ -2117,92 +2117,110 @@
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/analyze.py",
-      "bytes": 7989,
       "sha256": "c95e8948c0e49f27891923ea270a3f98c17f25e2e4dad3c215c181d5596c67a1",
+      "bytes": 7989,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/audit.py",
-      "bytes": 8495,
       "sha256": "d8a4765edf97448ddc40581cfc9669e6688fac6a2a0df680cb0a85f5fe9d2b58",
+      "bytes": 8495,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/data.py",
-      "bytes": 4420,
       "sha256": "83030148bd7239255e2d6d10f660d61b018598c52c79647b3a594b27b40d4ac7",
+      "bytes": 4420,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/LITERATURE.md",
-      "bytes": 3166,
       "sha256": "eec7d7b108992c2111fa1a3aaaec6ed9e558fbbbb1c7c5b29b0873d1fcb1e4a3",
+      "bytes": 3166,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/models.py",
-      "bytes": 6925,
       "sha256": "fd140a974403c257d6342b29684e96200bd06248ab4b1e545d0cfd50e2d2a148",
+      "bytes": 6925,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/PROTOCOL.md",
-      "bytes": 5123,
       "sha256": "19ccb8b0302cd3dcefab3eddf4781f260754382d940eed5fc992a4b40f3e24b6",
+      "bytes": 5123,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/replay.py",
-      "bytes": 2245,
       "sha256": "66bb0595cbb07abc8362c10aa51ee2ec5d5055b07ed7139e5d4aeb364b943443",
+      "bytes": 2245,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/REPRODUCIBILITY.md",
-      "bytes": 5530,
       "sha256": "49e629380b86d8c7ac9f8f8b8c74312d1e2a2b383b265dc0351bb033846be72e",
+      "bytes": 5530,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/requirements-lock.txt",
-      "bytes": 861,
       "sha256": "838c4caaff9eae28215c88570842244775871100a1d6e8b8d59e3992c3951b18",
+      "bytes": 861,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/schedule.py",
-      "bytes": 2479,
       "sha256": "2ff1a16864de5208238f7a97bc851ed61884c3074ee089f37b328a9008c3068a",
+      "bytes": 2479,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/status.py",
-      "bytes": 1300,
-      "sha256": "acf7bb1db0dae1b960f2b1ded4902b0ae325c1670637463afb7d3df5e84a9725",
+      "sha256": "02589e07a8802fabce4860664b19d29fdd4566ca5eb8be64fd709eb83c570833",
+      "bytes": 1870,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/test_analysis.py",
-      "bytes": 818,
       "sha256": "a1181453097de4138c1ea226af4de31b4bfd79908c805469bc25f3fa6cee0171",
+      "bytes": 818,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/test_models.py",
-      "bytes": 1707,
       "sha256": "8854331ce75ff27634c11f634a91eaf9eb9f59670a417ec09b61ff3a5ae7930d",
+      "bytes": 1707,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/worker.py",
-      "bytes": 6831,
       "sha256": "1620a383a977324675283187e24e814c304090e33b6d4186dca1845732d38fb0",
+      "bytes": 6831,
       "origin": "four-family frozen surrogate comparison"
     },
     {
       "path": "code/GAMLET/experiments/surrogate_comparison/__init__.py",
-      "bytes": 74,
       "sha256": "09864e85b58ef810a78d086e6bb275e8cee4521006b356facd3a4e2ae34d2c5d",
+      "bytes": 74,
+      "origin": "four-family frozen surrogate comparison"
+    },
+    {
+      "path": "code/GAMLET/experiments/surrogate_comparison/OPERATIONAL_RECOVERY.md",
+      "sha256": "453fb8eb100cc61500fcc2f6698ba8b7fa052dbf92f594dd5f44523d69f2de04",
+      "bytes": 3121,
+      "origin": "four-family frozen surrogate comparison"
+    },
+    {
+      "path": "code/GAMLET/experiments/surrogate_comparison/resilient.py",
+      "sha256": "e998c36260595307a2b6d34b0e650c1db4f1c6e8b846e910585a58259264a21c",
+      "bytes": 4540,
+      "origin": "four-family frozen surrogate comparison"
+    },
+    {
+      "path": "code/GAMLET/experiments/surrogate_comparison/test_resilient.py",
+      "sha256": "b7c966c10239c50a76c986524cd6cb7b5740762de44cda8917177d886568e0f5",
+      "bytes": 1616,
       "origin": "four-family frozen surrogate comparison"
     }
   ],

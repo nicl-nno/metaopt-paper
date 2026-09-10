@@ -1,0 +1,27 @@
+{
+  "block_seeds": [
+    26090871,
+    26090872,
+    26090873
+  ],
+  "train_tasks": 12,
+  "validation_tasks": 4,
+  "test_tasks": 12,
+  "designs_per_task": 128,
+  "epochs": 80,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "hidden": 32,
+  "layers": 3,
+  "model_seeds": [
+    17,
+    23
+  ],
+  "search_seeds": [
+    101,
+    202
+  ],
+  "budget": 96,
+  "training_heartbeat": true,
+  "threads": 1
+}

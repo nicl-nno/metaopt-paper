@@ -1,0 +1,120 @@
+{
+  "listmle": {
+    "method": "listmle",
+    "selected_recipe": {
+      "method": "listmle",
+      "transform": "raw"
+    },
+    "mean_validation_log_regret": 0.14528380546213523,
+    "records": [
+      {
+        "recipe": {
+          "method": "listmle",
+          "transform": "raw"
+        },
+        "model_seed": 17,
+        "initial_weights_sha256": "b95ea2dff3403e151b714b0a4e8e943aa198e4f80ef0541f4ba1c2ea690b46f1",
+        "optimizer_steps": 32,
+        "parameters": 8769,
+        "validation_log_regret": 0.14528380546213523,
+        "selected_epoch": 1,
+        "history": [
+          {
+            "epoch": 1,
+            "validation_log_regret": 0.14528380546213523
+          },
+          {
+            "epoch": 2,
+            "validation_log_regret": 0.14528380546213523
+          }
+        ],
+        "seconds": 0.6828145980834961
+      }
+    ]
+  },
+  "huber": {
+    "method": "huber",
+    "selected_recipe": {
+      "method": "huber",
+      "transform": "raw"
+    },
+    "mean_validation_log_regret": 0.29224358523935756,
+    "records": [
+      {
+        "recipe": {
+          "method": "huber",
+          "transform": "raw"
+        },
+        "model_seed": 17,
+        "initial_weights_sha256": "b95ea2dff3403e151b714b0a4e8e943aa198e4f80ef0541f4ba1c2ea690b46f1",
+        "optimizer_steps": 32,
+        "parameters": 8769,
+        "validation_log_regret": 0.29224358523935756,
+        "selected_epoch": 2,
+        "history": [
+          {
+            "epoch": 1,
+            "validation_log_regret": 0.4655055610014078
+          },
+          {
+            "epoch": 2,
+            "validation_log_regret": 0.29224358523935756
+          }
+        ],
+        "seconds": 0.5255365371704102
+      }
+    ]
+  },
+  "rf": {
+    "method": "rf",
+    "selected_recipe": {
+      "method": "rf",
+      "transform": "raw",
+      "normalization": "task",
+      "leaf": 1
+    },
+    "mean_validation_log_regret": 0.438275820197911,
+    "records": [
+      {
+        "recipe": {
+          "method": "rf",
+          "transform": "raw",
+          "normalization": "task",
+          "leaf": 1
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.438275820197911,
+        "seconds": 3.8917648792266846,
+        "descriptor_dimension": 229,
+        "training_designs": 1024
+      }
+    ]
+  },
+  "rff_gp": {
+    "method": "rff_gp",
+    "selected_recipe": {
+      "method": "rff_gp",
+      "transform": "raw",
+      "normalization": "task",
+      "length": 0.5,
+      "noise": 0.01
+    },
+    "mean_validation_log_regret": 0.46403200356726254,
+    "records": [
+      {
+        "recipe": {
+          "method": "rff_gp",
+          "transform": "raw",
+          "normalization": "task",
+          "length": 0.5,
+          "noise": 0.01
+        },
+        "model_seed": 17,
+        "validation_log_regret": 0.46403200356726254,
+        "seconds": 0.03000020980834961,
+        "descriptor_dimension": 229,
+        "training_designs": 1024
+      }
+    ]
+  }
+}
